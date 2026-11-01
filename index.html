@@ -224,7 +224,7 @@ function applyMode(s) {
   $('#clonesBtn').style.display = 'none';
   const note = $('#modeNote');
   note.style.display = 'block';
-  note.innerHTML = `只读快照 · 由本地监控进程定期发布 · 快照生成于 <b>${s.generatedAt ? fmt(s.generatedAt) : '—'}</b>`;
+  note.innerHTML = `只读快照 · 由 GitHub Actions 定时更新 · 快照生成于 <b>${s.generatedAt ? fmt(s.generatedAt) : '—'}</b>`;
 }
 
 function updateCountdown() {
