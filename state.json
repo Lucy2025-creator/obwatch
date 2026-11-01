@@ -78,7 +78,7 @@
         "rust-refractor": "5ec408cec0df95d8ba3c6534336e48bc9f6dd378",
         "seek1177/worker-clock-domain": "8c110db3c69bfcab08fe9b95ff48fd08da40682a",
         "seek-763-having-sqlancer-mismatch": "7ed3a295d5acfe3b6d9f04bb32ca6d0434ce0f25",
-        "windows-mysqltest-fix": "34296f078e809bd3f01098fba960db32f2b56e81"
+        "windows-mysqltest-fix": "dc5b3cb7c0e20ca0ad76248dbca388d97cc05816"
       },
       "tags": {
         "v1.4.0": "de5be277d4398b0cad018a666a54be0d99470543",
