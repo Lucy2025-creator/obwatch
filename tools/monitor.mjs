@@ -284,6 +284,7 @@ const data = {
   stats: { repos: pageRepos.length, events: state.events.length },
 };
 
+state.initialized = true;
 fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2), 'utf8');
 fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf8');
 console.log(`baseline=${baseline} fresh=${fresh.length} totalEvents=${state.events.length}`);
