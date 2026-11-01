@@ -48,7 +48,7 @@
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
         "feature/optimize-wasm": "b763d1f0600dd06fad2da05800c63079af52a98a",
-        "feature/plugin": "390fa03ab2c3766176ef4cad6fb8abd9387c921c",
+        "feature/plugin": "ee9266891827394547d1371f3a5c3205ed580a0c",
         "feature/rust": "8357e72516c8aa32468e91f1978ce73ca92d2069",
         "feature/webassembly": "25419a1dab57130da2fc53fcd500d89ea2b5db1a",
         "fix/SEEK-725-sleep-timeout": "ab29d7e18683536c33d463c5c85a729ded33b837",
@@ -78,7 +78,7 @@
         "rust-refractor": "5ec408cec0df95d8ba3c6534336e48bc9f6dd378",
         "seek1177/worker-clock-domain": "8c110db3c69bfcab08fe9b95ff48fd08da40682a",
         "seek-763-having-sqlancer-mismatch": "7ed3a295d5acfe3b6d9f04bb32ca6d0434ce0f25",
-        "windows-mysqltest-fix": "a96fd77789217b947cce8135a9e2b9ce66a81bb4"
+        "windows-mysqltest-fix": "34296f078e809bd3f01098fba960db32f2b56e81"
       },
       "tags": {
         "v1.4.0": "de5be277d4398b0cad018a666a54be0d99470543",
