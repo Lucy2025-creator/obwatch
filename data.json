@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1793677064332,
-  "lastCheckAt": 1793677064332,
-  "nextCheckAt": 1793677964332,
+  "generatedAt": 1793704950722,
+  "lastCheckAt": 1793704950722,
+  "nextCheckAt": 1793705850722,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 72,
+      "branchCount": 73,
       "tagCount": 8,
       "branches": [
         {
@@ -46,8 +46,8 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 47,
-      "tagCount": 33,
+      "branchCount": 43,
+      "tagCount": 34,
       "branches": [
         {
           "name": "2026-competition",
