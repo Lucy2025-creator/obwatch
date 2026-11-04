@@ -6,6 +6,7 @@
       "branches": {
         "2025-final-competition": "12cd8fd431b11759f485bf8cd4e9477c548cbcb1",
         "2026-competition": "5bce9e06d1281347ad61344e4b01fab9158c58a2",
+        "2026-competition-round2": "c50c1d806e4ca9852c40f3d6cb38b25142972c89",
         "agent/seek-798-database-charset": "cc0e3ea9e6add6d57961def968ec59516bb14879",
         "agent/wangyunlai-dev-cursor/42e0dfb9": "f613d45acdfb244e5bb2ffa5e4683bf95d3dbf48",
         "agent/wangyunlai-dev-cursor/91241344": "642e5f5eaabd1bd116a513f83cc74cfe77c0e60f",
@@ -44,7 +45,7 @@
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
-        "feat/embedded-mode": "d248c8ece53fc775e8ae9a4a5ccbe3fb1fe8efd3",
+        "feat/embedded-mode": "deb2a5daf02aa1f084ee3a86bdf719a09b2791d0",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
         "feature/optimize-wasm": "bfdb5900d4f73792f45358885e752b2803a9cd02",
@@ -54,7 +55,6 @@
         "fix_ob_deploy_version_master": "7cc2bbeaae46c69bf80bf9ff7e4d087d0c5c1a33",
         "fix_ob_deploy_version": "e2bcec5953d9a4539dab655a0891610a81c427ab",
         "fix/seek634-multivalue-index-stats": "11758cc2568de1c139bf99ce75688bbc9514bc66",
-        "fix/seek1165-conditional-capture-bounds": "5a081fcb6ebd2835597aa18ce9c1a29f0f625195",
         "fix/seek1176-posix-unicode": "ddca813a30b1fc225112d817c6df8a8aa888b054",
         "fix/seek-762-binding-retry": "601e78298dbda040b4087bde9faed4ff816d5eef",
         "fix/seek-794-cascade-drop-schema-updates": "2ddd6e2b8d5aca99a0a7411cc5ef215942f55f1e",
@@ -68,8 +68,8 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "761dec64dce3c0e058d6c9038ca6fc2497b728b6",
-        "peg-parser-mvp": "1af563ebc1ec8cb8d68247b3ce9069d64a77c876",
+        "master": "16cd4f958f5ca52e160d54fd5abe125f9c1edbc4",
+        "peg-parser-mvp": "b177a34d5c18f4708584d19ff66ebd9bbd595501",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
         "release/1.4.0": "bf450b4c8deb3c45d85efb1bd5f43e282d101914",
@@ -96,7 +96,7 @@
         "2026-competition-ecosystem": "d647275c308e09b7b623f322a26f5c4e85734fb0",
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
-        "codex/desktop-local-server-2117": "b14e5e55eba7bd10314b105b9dadeee147a9f591",
+        "codex/desktop-local-server-2117": "5f783f29c390e8b0045f55621fd33a48e888dc19",
         "codex/fix-2160-check-arithmetic": "c4fc8ab7c3e8eb669c23dee6b4d0820583493620",
         "codex/fix-2323-quoted-stopword-recall": "2f2b871a7a71c5c196523f1f7b80d56f31ed0773",
         "codex/fix-2331-codex-memory-kind-guidance": "007f5f8bed86c1cda9fe55093e7beac6b2cee756",
@@ -105,6 +105,7 @@
         "codex/fix-2373-dsh-recall-query": "f0b814112ab91751c1783cbd57cd47ecd98ee207",
         "codex/fix-2374-dsh-profile-templates": "9623c4c968f20945f55ea99c4b2312ca3d09344d",
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
+        "codex/gateway-protocol-correctness": "3a78736e3fda4b2dbaad92ae9b6b5e70d5923b79",
         "codex/pr-2342-temporal-evidence-retention": "319862a19576ca3cecf281ccfca7a8f0ded8b05f",
         "codex/pr-live-prompt-scope-cleanup": "019d5628faffc00a3cd44774320d5029d8d2b5ce",
         "codex/profile-default-prompt": "a228418bdb306e5afbb9d9ac59a30c2c39a2777e",
@@ -113,6 +114,7 @@
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
         "codex/subscription-inference": "9afea59f4b8034defe03795c6fe413ee79e801c8",
+        "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
         "copilot/fix-acceptance-oceanbase-job": "270a5545feba02d05cb60505c1b280e6ab642648",
         "demo-2026": "0bac963f1e92e0ea570d4ee7a3b9d7dad4546bb2",
@@ -122,7 +124,7 @@
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "e5b768cf4a91c162bb5a6c8dd3dd4b88d0a5c6dd",
+        "master": "2853ed98a6ab767f6bbfe35098024d5f9cec9a2b",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "9660a8b7febca4d12868bad3fc7a327554c7f628",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -461,7 +463,8 @@
       "obdeploy",
       "obproxy",
       "obclient",
-      "obconnector-c"
+      "obconnector-c",
+      "seekdb-deps"
     ]
   },
   "userRepos": {
@@ -511,6 +514,46 @@
       "rediscover-flask"
     ]
   },
-  "events": [],
-  "seen": []
+  "events": [
+    {
+      "id": "d1db850137d0",
+      "ts": "2026-11-04T11:25:57.213Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "2026-competition-round2",
+      "sha": "c50c1d806e4ca9852c40f3d6cb38b25142972c89",
+      "title": "oceanbase/seekdb 新分支 2026-competition-round2",
+      "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-round2",
+      "topic": {
+        "score": 10,
+        "strong": true,
+        "hits": [
+          "competition",
+          "2026",
+          "分支名含赛事词"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "1e1e8c4d2dc3",
+      "ts": "2026-11-04T11:26:01.610Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/seekdb-deps",
+      "title": "oceanbase 新建仓库 seekdb-deps",
+      "url": "https://github.com/oceanbase/seekdb-deps",
+      "created": "2026-11-04T09:45:07Z",
+      "desc": "",
+      "topic": {
+        "score": 0,
+        "strong": false,
+        "hits": []
+      },
+      "readme": "# seekdb-deps This repository contains third-party dependency sources and build files maintained for SeekDB. ## Scope Use this repository for dependency sources, build configuration, and patches maintained for SeekDB. For each dependency, r"
+    }
+  ],
+  "seen": [
+    "d1db850137d0",
+    "1e1e8c4d2dc3"
+  ]
 }

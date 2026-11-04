@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1793762456750,
-  "lastCheckAt": 1793762456750,
-  "nextCheckAt": 1793763356750,
+  "generatedAt": 1793791563595,
+  "lastCheckAt": 1793791563595,
+  "nextCheckAt": 1793792463595,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -37,6 +37,11 @@
           "url": "https://github.com/oceanbase/seekdb/tree/2026-competition"
         },
         {
+          "name": "2026-competition-round2",
+          "sha": "c50c1d806e4ca9852c40f3d6cb38b25142972c89",
+          "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-round2"
+        },
+        {
           "name": "harness/issue/2026052000116213423",
           "sha": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
           "url": "https://github.com/oceanbase/seekdb/tree/harness/issue/2026052000116213423"
@@ -46,7 +51,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 40,
+      "branchCount": 42,
       "tagCount": 34,
       "branches": [
         {
@@ -120,10 +125,35 @@
       "branches": []
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "ts": "2026-11-04T11:26:01.610Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/seekdb-deps",
+      "branch": null,
+      "sha": null,
+      "title": "oceanbase 新建仓库 seekdb-deps",
+      "url": "https://github.com/oceanbase/seekdb-deps",
+      "strong": false,
+      "score": 0,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-04T11:25:57.213Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "2026-competition-round2",
+      "sha": "c50c1d806e4ca9852c40f3d6cb38b25142972c89",
+      "title": "oceanbase/seekdb 新分支 2026-competition-round2",
+      "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-round2",
+      "strong": true,
+      "score": 10,
+      "clone": null
+    }
+  ],
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 0
+    "events": 2
   }
 }
