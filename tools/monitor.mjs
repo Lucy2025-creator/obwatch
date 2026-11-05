@@ -285,6 +285,22 @@ const data = {
 };
 
 state.initialized = true;
-fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2), 'utf8');
-fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf8');
+
+// 只有内容变化、或者距上次发布超过 1 小时才写快照，避免每 15 分钟都提交/部署
+const contentHash = ssha(JSON.stringify({ refs: state.refs, orgs: state.orgRepos, users: state.userRepos, events: state.events }));
+const now = Date.now();
+const due = now - (state.lastPublishAt || 0) >= 60 * 60 * 1000;
+const changed = contentHash !== (state.lastPublishHash || '');
+const publish = baseline || changed || due || !fs.existsSync(DATA_FILE);
+
+if (publish) {
+  state.lastPublishAt = now;
+  state.lastPublishHash = contentHash;
+  fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2), 'utf8');
+  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf8');
+  console.log(`published (baseline=${baseline} changed=${changed} due=${due})`);
+} else {
+  console.log('no publish: no change and last publish < 1h');
+}
 console.log(`baseline=${baseline} fresh=${fresh.length} totalEvents=${state.events.length}`);
+
