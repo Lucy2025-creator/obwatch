@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1793837513894,
-  "lastCheckAt": 1793837513894,
-  "nextCheckAt": 1793838413894,
+  "generatedAt": 1793861617540,
+  "lastCheckAt": 1793861617540,
+  "nextCheckAt": 1793862517540,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 74,
+      "branchCount": 77,
       "tagCount": 8,
       "branches": [
         {
@@ -51,7 +51,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 45,
+      "branchCount": 46,
       "tagCount": 34,
       "branches": [
         {
