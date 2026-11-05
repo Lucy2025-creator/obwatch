@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1793899058102,
-  "lastCheckAt": 1793899058102,
-  "nextCheckAt": 1793899958102,
+  "generatedAt": 1793914159912,
+  "lastCheckAt": 1793914159912,
+  "nextCheckAt": 1793915059912,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -51,7 +51,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 50,
+      "branchCount": 51,
       "tagCount": 34,
       "branches": [
         {
