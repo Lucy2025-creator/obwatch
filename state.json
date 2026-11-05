@@ -105,7 +105,7 @@
         "codex/desktop-local-server-2117": "3f46b0b5ee968e6600af682e741c46fc7645ff5f",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
-        "codex/desktop-release-publication-2112": "42f9e1ea4a8c6900d34d409b7fe1eb28cbc0fccf",
+        "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
         "codex/docs-harbor-evaluation-harness": "9f58c50a336bff8090a7ab245c89d0778a852257",
         "codex/fix-2160-check-arithmetic": "c4fc8ab7c3e8eb669c23dee6b4d0820583493620",
@@ -134,7 +134,7 @@
         "demo-2026": "0bac963f1e92e0ea570d4ee7a3b9d7dad4546bb2",
         "dependabot/github_actions/actions/upload-artifact-7.0.2": "aee334c87dd65412e8b46cb357dffce068b229a5",
         "dependabot/github_actions/astral-sh/setup-uv-10.3.3": "0b805df5623f1f284f43898e7c395ea0b4098f4b",
-        "dependabot/github_actions/jdx/mise-action-5.2.4": "5194a2fb6464265b4e93132b8b7d441638440230",
+        "dependabot/github_actions/jdx/mise-action-5.2.4": "1e17cf1d4f588fa5998e81b0880162e2f11fc08f",
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
@@ -569,5 +569,7 @@
   "seen": [
     "d1db850137d0",
     "1e1e8c4d2dc3"
-  ]
+  ],
+  "lastPublishAt": 1793899058103,
+  "lastPublishHash": "d7d1910c898c"
 }
