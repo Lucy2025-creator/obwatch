@@ -111,7 +111,7 @@
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
-        "codex/docs-harbor-evaluation-harness": "e4ede39ab1dd4f9ee2144fc60b781427c55a6b85",
+        "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/fix-2160-check-arithmetic": "c4fc8ab7c3e8eb669c23dee6b4d0820583493620",
         "codex/fix-2323-quoted-stopword-recall": "2f2b871a7a71c5c196523f1f7b80d56f31ed0773",
         "codex/fix-2331-codex-memory-kind-guidance": "007f5f8bed86c1cda9fe55093e7beac6b2cee756",
@@ -121,10 +121,10 @@
         "codex/fix-2374-dsh-profile-templates": "9623c4c968f20945f55ea99c4b2312ca3d09344d",
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
         "codex/fix-memory-protocol-diagnostics": "42a6d9128f58603e435ca6000f2658392d306415",
-        "codex/fix-seekdb-ci-diagnostics": "94d99fd991ae404882970888b93e51a7d4b0c524",
-        "codex/gateway-protocol-correctness": "35ec28045b56c2e26cc5558e0edd642d0ddc45e3",
+        "codex/fix-seekdb-ci-diagnostics": "a7f24f8d4476bb74858fe9f1058c681ad4361609",
+        "codex/gateway-protocol-correctness": "dbb11ad2ba03a6dbbf52b9664bf66852df05a59f",
         "codex/oceanbase-ci-reliability": "d8492f56aae3ffd092c8ac81946ad314dc83d9b0",
-        "codex/powercontext-ci-fix-upstream": "637d4a37dba26c6f604f3cb4c12de03d8703c8e5",
+        "codex/powercontext-ci-fix-upstream": "4857ba9f2f7a30d58d0d83ceab85bcf0ceeb562d",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
         "codex/powercontext-linux-ci": "b6bc64f8e50925437b44423a14ee54649b8e27b8",
@@ -136,7 +136,7 @@
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
         "codex/scope-oceanbase-ci": "101733202483d9a31768ec52c2e2d5651149bba2",
-        "codex/subscription-inference": "4740176cf9df3df5b2a6096d21e35575104f5cca",
+        "codex/subscription-inference": "3736c1f287197dd8167255e0e9ca7c66307fd78a",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
         "copilot/fix-acceptance-oceanbase-job": "270a5545feba02d05cb60505c1b280e6ab642648",
@@ -578,6 +578,6 @@
     "d1db850137d0",
     "1e1e8c4d2dc3"
   ],
-  "lastPublishAt": 1793983409294,
-  "lastPublishHash": "ac3d3356b4b9"
+  "lastPublishAt": 1794001596429,
+  "lastPublishHash": "48c37f3fb31c"
 }
