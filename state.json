@@ -104,7 +104,7 @@
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
         "codex/desktop-local-server-2117": "3f46b0b5ee968e6600af682e741c46fc7645ff5f",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
-        "codex/desktop-product-resources": "5d0bdf7fdec6cedb4b07368b088c7286a7edd0e7",
+        "codex/desktop-product-resources": "1ee81fb78632af296af6063bc5ec96981a3b2aee",
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
@@ -192,7 +192,7 @@
         "3.1": "b0a9152274a1fbe67e8722b682bd8bf0ef7a3fed",
         "4.0": "7152da3374055a221d2eeb282f69fa53d7b2f313",
         "4.1": "0d246e51c330328aeb138bed0296b4d02314b150",
-        "4.2.x": "f912b707f24c920352762f0518d3a81fbe07dcc2",
+        "4.2.x": "14ef3fcec4156f6a9fcf0042a13b12d5323d81b9",
         "4.2.0": "eef858ef5f705d8f53afec6222a77bc1de4ef3f5",
         "4.2.1": "5b28a8200d3ed78376df5eafbf39b796725b380a",
         "4.2.2": "63e1e105c07c0ca642273374d0166a0b876859a7",
@@ -202,7 +202,7 @@
         "4.3.1": "12516b2cb17a28066751a56f1258dd2c012e878f",
         "4.3.2": "6738383028eda16fb214a87ecd78ee853843236a",
         "4.3.3": "b3fc6289e40a997e616b89f6a92fac7238380c0e",
-        "4.3.5": "b8dfb6b79e56eb487b726911001703a7e4500702",
+        "4.3.5": "8dc6a132cdbd96c29f6b2c48d47fb56cb3d0d003",
         "4.4.x": "9bdfa9e22b618cc4ad0a724010b1bb9567629399",
         "4.6.0": "7a1cad03905fa4c8155a3e240f972e05a3efcf53",
         "2024-final-competition": "d76c1fcad7de96739f12ceb412b0ee48753791d7",
@@ -571,6 +571,6 @@
     "d1db850137d0",
     "1e1e8c4d2dc3"
   ],
-  "lastPublishAt": 1793914159913,
-  "lastPublishHash": "7c19ca1be66c"
+  "lastPublishAt": 1793929597968,
+  "lastPublishHash": "a5a5e423e102"
 }
