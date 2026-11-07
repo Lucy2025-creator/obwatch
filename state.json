@@ -31,7 +31,7 @@
         "codex/palf-log-buffer-redesign": "c7545f7d1015c3f339e92a0b80c666a72254b023",
         "codex/px-provider-condition-lifetime": "ecf317de615eb159d755ae2bea2bd0f3cd8c0e17",
         "codex/remove-obd-mysqltest": "891cf39306fbe254949169c3bbc708d78152ee12",
-        "codex/rust-xml": "ce942c9cd6739690332937d702ba1fb2cb474eef",
+        "codex/rust-xml": "4dc328f783b9a42db9f720d959a497a25562d738",
         "codex/seek589-product-kernel": "275a85972b9220391e12e54d8009eabb25c413a7",
         "codex/seek589-product-kernel-cms-v2": "60aa7d4c88de12f0b89a2bdc02f69a4affa6a193",
         "codex/seek589-sindi-buffer-experiment": "94c216d989f8d76e78f27aa01d2d93a5153a7a8c",
@@ -113,7 +113,7 @@
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
-        "codex/dsh-plugin-ui-handoff-rfc": "7f47daad8565f71e4d1e8e0f49029ea60ceed03b",
+        "codex/dsh-plugin-ui-handoff-rfc": "62bab8cdc12fae9e287694b016b39d8494c09882",
         "codex/fix-2160-check-arithmetic": "c4fc8ab7c3e8eb669c23dee6b4d0820583493620",
         "codex/fix-2323-quoted-stopword-recall": "2f2b871a7a71c5c196523f1f7b80d56f31ed0773",
         "codex/fix-2331-codex-memory-kind-guidance": "007f5f8bed86c1cda9fe55093e7beac6b2cee756",
@@ -123,12 +123,12 @@
         "codex/fix-2374-dsh-profile-templates": "9623c4c968f20945f55ea99c4b2312ca3d09344d",
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
         "codex/fix-memory-protocol-diagnostics": "42a6d9128f58603e435ca6000f2658392d306415",
-        "codex/fix-seekdb-ci-diagnostics": "a7f24f8d4476bb74858fe9f1058c681ad4361609",
+        "codex/fix-seekdb-ci-diagnostics": "0b300cf429ca1ce7742eaf6ef64d0af8c82f1cf2",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
-        "codex/gateway-protocol-correctness": "dbb11ad2ba03a6dbbf52b9664bf66852df05a59f",
+        "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
         "codex/harness-absolute-entrypoint": "aee629a0f08592c04ea42fbebd5bda4149f0857e",
-        "codex/oceanbase-ci-reliability": "08a34940faf7343cc41fbe4fa694e3709fdba806",
+        "codex/oceanbase-ci-reliability": "60335cf696b22303ba3a7531cbca46cb8f3b7ec3",
         "codex/powercontext-ci-fix-upstream": "413e2d2637f80fb53cd1f9e21d82a61e669ab3d6",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
@@ -140,8 +140,8 @@
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/scope-oceanbase-ci": "342cf9ada94c6dbd9458118d0b689aa7b2a66dd1",
-        "codex/subscription-inference": "3736c1f287197dd8167255e0e9ca7c66307fd78a",
+        "codex/scope-oceanbase-ci": "105e7a94cee3bced7b9a60e08b78dd046899bc72",
+        "codex/subscription-inference": "0d41a00fd68c6848d575c2555437253009dc7845",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
         "copilot/fix-acceptance-oceanbase-job": "270a5545feba02d05cb60505c1b280e6ab642648",
@@ -538,7 +538,8 @@
       "TiDB-A-Raft-based-HTAP-Database",
       "meco",
       "emo",
-      "rediscover-flask"
+      "rediscover-flask",
+      "anylings"
     ]
   },
   "events": [
@@ -577,12 +578,31 @@
         "hits": []
       },
       "readme": "# seekdb-deps This repository contains third-party dependency sources and build files maintained for SeekDB. ## Scope Use this repository for dependency sources, build configuration, and patches maintained for SeekDB. For each dependency, r"
+    },
+    {
+      "id": "0444fa92605b",
+      "ts": "2026-11-07T19:05:24.691Z",
+      "kind": "user_repo_new",
+      "repo": "PsiACE/anylings",
+      "title": "PsiACE 新建仓库 anylings",
+      "url": "https://github.com/PsiACE/anylings",
+      "created": "2026-11-07T18:35:39Z",
+      "desc": "",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "benchmark"
+        ]
+      },
+      "readme": "> **Anylings** was forked from [ajaykumar4/cluster-template](https://github.com/ajaykumar4/cluster-template) at commit [`83e79b8bee6280fe36c7fae38b0718722f46335f`](https://github.com/ajaykumar4/cluster-template/commit/83e79b8bee6280fe36c7fa"
     }
   ],
   "seen": [
     "d1db850137d0",
-    "1e1e8c4d2dc3"
+    "1e1e8c4d2dc3",
+    "0444fa92605b"
   ],
-  "lastPublishAt": 1794062670222,
-  "lastPublishHash": "78e2deabbb4f"
+  "lastPublishAt": 1794078324692,
+  "lastPublishHash": "a2da9282c60f"
 }

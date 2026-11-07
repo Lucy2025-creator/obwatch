@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794062670221,
-  "lastCheckAt": 1794062670221,
-  "nextCheckAt": 1794063570221,
+  "generatedAt": 1794078324692,
+  "lastCheckAt": 1794078324692,
+  "nextCheckAt": 1794079224692,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -127,6 +127,18 @@
   ],
   "events": [
     {
+      "ts": "2026-11-07T19:05:24.691Z",
+      "kind": "user_repo_new",
+      "repo": "PsiACE/anylings",
+      "branch": null,
+      "sha": null,
+      "title": "PsiACE 新建仓库 anylings",
+      "url": "https://github.com/PsiACE/anylings",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
       "ts": "2026-11-04T11:26:01.610Z",
       "kind": "repo_new",
       "repo": "oceanbase/seekdb-deps",
@@ -154,6 +166,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 2
+    "events": 3
   }
 }
