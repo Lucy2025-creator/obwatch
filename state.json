@@ -112,6 +112,7 @@
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
+        "codex/dsh-plugin-ui-handoff-rfc": "3a580ff230fec482379b58596f02afa8a20ef8c9",
         "codex/fix-2160-check-arithmetic": "c4fc8ab7c3e8eb669c23dee6b4d0820583493620",
         "codex/fix-2323-quoted-stopword-recall": "2f2b871a7a71c5c196523f1f7b80d56f31ed0773",
         "codex/fix-2331-codex-memory-kind-guidance": "007f5f8bed86c1cda9fe55093e7beac6b2cee756",
@@ -124,7 +125,7 @@
         "codex/fix-seekdb-ci-diagnostics": "a7f24f8d4476bb74858fe9f1058c681ad4361609",
         "codex/gateway-protocol-correctness": "dbb11ad2ba03a6dbbf52b9664bf66852df05a59f",
         "codex/oceanbase-ci-reliability": "d8492f56aae3ffd092c8ac81946ad314dc83d9b0",
-        "codex/powercontext-ci-fix-upstream": "4857ba9f2f7a30d58d0d83ceab85bcf0ceeb562d",
+        "codex/powercontext-ci-fix-upstream": "413e2d2637f80fb53cd1f9e21d82a61e669ab3d6",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
         "codex/powercontext-linux-ci": "b6bc64f8e50925437b44423a14ee54649b8e27b8",
@@ -146,7 +147,7 @@
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "9a424e77d5c5f04ae0147a9278570edc5927d50d",
+        "master": "b8b189091e7a412300cf1292531208a8ead0e325",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -578,6 +579,6 @@
     "d1db850137d0",
     "1e1e8c4d2dc3"
   ],
-  "lastPublishAt": 1794015697496,
-  "lastPublishHash": "71c5ac4e70df"
+  "lastPublishAt": 1794037753483,
+  "lastPublishHash": "691d1078a5ee"
 }
