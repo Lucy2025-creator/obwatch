@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794001596429,
-  "lastCheckAt": 1794001596429,
-  "nextCheckAt": 1794002496429,
+  "generatedAt": 1794015697495,
+  "lastCheckAt": 1794015697495,
+  "nextCheckAt": 1794016597495,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
