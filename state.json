@@ -44,7 +44,7 @@
         "codex/seek-1295-callback-diagnostic": "3047f84a207cc98cc814222ad4158ee4749ce48b",
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
-        "codex/zstd-sys-migration-20261104": "46f041e87659793aa2c108bdd016392513d5cb76",
+        "codex/zstd-sys-migration-20261104": "0d057d63b6d3e011265aa9a00c9369a7c0146656",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
         "copilot/patch-820-release-1-3-0": "429c04175812283b9a5ac00add90d91de1eeedbf",
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
@@ -614,14 +614,34 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "49cecbb6b154",
+      "ts": "2026-11-08T20:15:13.864Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/zstd-sys-migration-20261104",
+      "sha": "0d057d63b6d3e011265aa9a00c9369a7c0146656",
+      "prevSha": "46f041e87659793aa2c108bdd016392513d5cb76",
+      "title": "oceanbase/seekdb 分支 codex/zstd-sys-migration-20261104 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/46f041e87659793aa2c108bdd016392513d5cb76...0d057d63b6d3e011265aa9a00c9369a7c0146656",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
     "d1db850137d0",
     "1e1e8c4d2dc3",
     "0444fa92605b",
-    "4bb5caabe336"
+    "4bb5caabe336",
+    "49cecbb6b154"
   ],
-  "lastPublishAt": 1794153296165,
-  "lastPublishHash": "9c6a9485af7d"
+  "lastPublishAt": 1794168919460,
+  "lastPublishHash": "aaad7cb46e45"
 }

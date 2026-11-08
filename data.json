@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794153296165,
-  "lastCheckAt": 1794153296165,
-  "nextCheckAt": 1794154196165,
+  "generatedAt": 1794168919459,
+  "lastCheckAt": 1794168919459,
+  "nextCheckAt": 1794169819459,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -43,7 +43,7 @@
         },
         {
           "name": "codex/zstd-sys-migration-20261104",
-          "sha": "46f041e87659793aa2c108bdd016392513d5cb76",
+          "sha": "0d057d63b6d3e011265aa9a00c9369a7c0146656",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/zstd-sys-migration-20261104"
         },
         {
@@ -132,6 +132,18 @@
   ],
   "events": [
     {
+      "ts": "2026-11-08T20:15:13.864Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/zstd-sys-migration-20261104",
+      "sha": "0d057d63b6d3e011265aa9a00c9369a7c0146656",
+      "title": "oceanbase/seekdb 分支 codex/zstd-sys-migration-20261104 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/46f041e87659793aa2c108bdd016392513d5cb76...0d057d63b6d3e011265aa9a00c9369a7c0146656",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
       "ts": "2026-11-08T15:54:50.367Z",
       "kind": "branch_new",
       "repo": "oceanbase/seekdb",
@@ -183,6 +195,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 4
+    "events": 5
   }
 }
