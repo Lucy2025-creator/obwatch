@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794103579216,
-  "lastCheckAt": 1794103579216,
-  "nextCheckAt": 1794104479216,
+  "generatedAt": 1794128411570,
+  "lastCheckAt": 1794128411570,
+  "nextCheckAt": 1794129311570,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 84,
+      "branchCount": 83,
       "tagCount": 8,
       "branches": [
         {

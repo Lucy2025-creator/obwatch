@@ -31,7 +31,6 @@
         "codex/palf-log-buffer-redesign": "c7545f7d1015c3f339e92a0b80c666a72254b023",
         "codex/px-provider-condition-lifetime": "ecf317de615eb159d755ae2bea2bd0f3cd8c0e17",
         "codex/remove-obd-mysqltest": "891cf39306fbe254949169c3bbc708d78152ee12",
-        "codex/rust-xml": "4dc328f783b9a42db9f720d959a497a25562d738",
         "codex/seek589-product-kernel": "275a85972b9220391e12e54d8009eabb25c413a7",
         "codex/seek589-product-kernel-cms-v2": "60aa7d4c88de12f0b89a2bdc02f69a4affa6a193",
         "codex/seek589-sindi-buffer-experiment": "94c216d989f8d76e78f27aa01d2d93a5153a7a8c",
@@ -76,7 +75,7 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "16cd4f958f5ca52e160d54fd5abe125f9c1edbc4",
+        "master": "c26bc2ba79beddf1f49f3b2be168f085d42f60e0",
         "peg-parser-mvp": "b177a34d5c18f4708584d19ff66ebd9bbd595501",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
@@ -128,7 +127,7 @@
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
         "codex/harness-absolute-entrypoint": "aee629a0f08592c04ea42fbebd5bda4149f0857e",
-        "codex/oceanbase-ci-reliability": "60335cf696b22303ba3a7531cbca46cb8f3b7ec3",
+        "codex/oceanbase-ci-reliability": "e717431fd9abe6be953d7cbcc91a210ead3e17dc",
         "codex/powercontext-ci-fix-upstream": "413e2d2637f80fb53cd1f9e21d82a61e669ab3d6",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
@@ -140,7 +139,7 @@
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/scope-oceanbase-ci": "105e7a94cee3bced7b9a60e08b78dd046899bc72",
+        "codex/scope-oceanbase-ci": "4e2762f7770e5f046a3a168d222be9147d343587",
         "codex/subscription-inference": "0d41a00fd68c6848d575c2555437253009dc7845",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
@@ -603,6 +602,6 @@
     "1e1e8c4d2dc3",
     "0444fa92605b"
   ],
-  "lastPublishAt": 1794103579216,
-  "lastPublishHash": "a2da9282c60f"
+  "lastPublishAt": 1794128411571,
+  "lastPublishHash": "a8d408fef70e"
 }
