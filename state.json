@@ -44,6 +44,7 @@
         "codex/seek-1295-callback-diagnostic": "3047f84a207cc98cc814222ad4158ee4749ce48b",
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
+        "codex/zstd-sys-migration-20261104": "46f041e87659793aa2c108bdd016392513d5cb76",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
         "copilot/patch-820-release-1-3-0": "429c04175812283b9a5ac00add90d91de1eeedbf",
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
@@ -121,13 +122,13 @@
         "codex/fix-2373-dsh-recall-query": "f0b814112ab91751c1783cbd57cd47ecd98ee207",
         "codex/fix-2374-dsh-profile-templates": "9623c4c968f20945f55ea99c4b2312ca3d09344d",
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
-        "codex/fix-memory-protocol-diagnostics": "42a6d9128f58603e435ca6000f2658392d306415",
-        "codex/fix-seekdb-ci-diagnostics": "0b300cf429ca1ce7742eaf6ef64d0af8c82f1cf2",
+        "codex/fix-memory-protocol-diagnostics": "4477db71970e0ba3e41a19b11b8b96d92b603ba4",
+        "codex/fix-seekdb-ci-diagnostics": "6d7708a03432e1ce732bb8531a68a478ee89d6fb",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
         "codex/harness-absolute-entrypoint": "aee629a0f08592c04ea42fbebd5bda4149f0857e",
-        "codex/oceanbase-ci-reliability": "e717431fd9abe6be953d7cbcc91a210ead3e17dc",
+        "codex/oceanbase-ci-reliability": "e542560b46c7b704101da8cc57fe9be13c7f29ad",
         "codex/powercontext-ci-fix-upstream": "413e2d2637f80fb53cd1f9e21d82a61e669ab3d6",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
@@ -139,8 +140,8 @@
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/scope-oceanbase-ci": "4e2762f7770e5f046a3a168d222be9147d343587",
-        "codex/subscription-inference": "0d41a00fd68c6848d575c2555437253009dc7845",
+        "codex/scope-oceanbase-ci": "acce1dde1a3d1031831990c95232d50ac98740f5",
+        "codex/subscription-inference": "ce26bd2607ce90483a4adeddc5ef2a1423c343ab",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
         "copilot/fix-acceptance-oceanbase-job": "270a5545feba02d05cb60505c1b280e6ab642648",
@@ -150,7 +151,7 @@
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "ed8902b234c4111b6f54e66694806430e25be3a9",
+        "master": "ee3c1ee39050ec6375e669a59bdbd9d9e44b04aa",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -595,13 +596,32 @@
         ]
       },
       "readme": "> **Anylings** was forked from [ajaykumar4/cluster-template](https://github.com/ajaykumar4/cluster-template) at commit [`83e79b8bee6280fe36c7fae38b0718722f46335f`](https://github.com/ajaykumar4/cluster-template/commit/83e79b8bee6280fe36c7fa"
+    },
+    {
+      "id": "4bb5caabe336",
+      "ts": "2026-11-08T15:54:50.367Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/zstd-sys-migration-20261104",
+      "sha": "46f041e87659793aa2c108bdd016392513d5cb76",
+      "title": "oceanbase/seekdb 新分支 codex/zstd-sys-migration-20261104",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/zstd-sys-migration-20261104",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
     "d1db850137d0",
     "1e1e8c4d2dc3",
-    "0444fa92605b"
+    "0444fa92605b",
+    "4bb5caabe336"
   ],
-  "lastPublishAt": 1794128411571,
-  "lastPublishHash": "a8d408fef70e"
+  "lastPublishAt": 1794153296165,
+  "lastPublishHash": "9c6a9485af7d"
 }

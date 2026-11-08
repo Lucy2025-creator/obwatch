@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794128411570,
-  "lastCheckAt": 1794128411570,
-  "nextCheckAt": 1794129311570,
+  "generatedAt": 1794153296165,
+  "lastCheckAt": 1794153296165,
+  "nextCheckAt": 1794154196165,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 83,
+      "branchCount": 84,
       "tagCount": 8,
       "branches": [
         {
@@ -40,6 +40,11 @@
           "name": "2026-competition-round2",
           "sha": "c50c1d806e4ca9852c40f3d6cb38b25142972c89",
           "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-round2"
+        },
+        {
+          "name": "codex/zstd-sys-migration-20261104",
+          "sha": "46f041e87659793aa2c108bdd016392513d5cb76",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/zstd-sys-migration-20261104"
         },
         {
           "name": "harness/issue/2026052000116213423",
@@ -127,6 +132,18 @@
   ],
   "events": [
     {
+      "ts": "2026-11-08T15:54:50.367Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/zstd-sys-migration-20261104",
+      "sha": "46f041e87659793aa2c108bdd016392513d5cb76",
+      "title": "oceanbase/seekdb 新分支 codex/zstd-sys-migration-20261104",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/zstd-sys-migration-20261104",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
       "ts": "2026-11-07T19:05:24.691Z",
       "kind": "user_repo_new",
       "repo": "PsiACE/anylings",
@@ -166,6 +183,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 3
+    "events": 4
   }
 }
