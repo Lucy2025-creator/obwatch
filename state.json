@@ -6,7 +6,7 @@
       "branches": {
         "2025-final-competition": "12cd8fd431b11759f485bf8cd4e9477c548cbcb1",
         "2026-competition": "5bce9e06d1281347ad61344e4b01fab9158c58a2",
-        "2026-competition-round2": "c842a368c3394748d0499386c18f6b465242e141",
+        "2026-competition-round2": "9f6df2ba5acf871376e22b64a3d0724e4b575044",
         "SEEK-1176-CUT-rebased": "e0ac5e7ae6cf4bc5f5fbd2a541272bcc4ac2ee1b",
         "agent/seek-798-database-charset": "cc0e3ea9e6add6d57961def968ec59516bb14879",
         "agent/wangyunlai-dev-cursor/42e0dfb9": "f613d45acdfb244e5bb2ffa5e4683bf95d3dbf48",
@@ -35,6 +35,7 @@
         "codex/seek589-sindi-buffer-experiment": "94c216d989f8d76e78f27aa01d2d93a5153a7a8c",
         "codex/seek589-stream-dump-diagnostic": "115f87a3c8be65aa54f8c355266b1168f979fe94",
         "codex/seek589-stream-rescan-4005": "a89a2c156089eebda8f01d311d69a1166d8f438a",
+        "codex/seek1243-diagnostic-20261105": "8a10868b2f222a9605dd9415afb7aa6becf8c54a",
         "codex/seek-635-sqlancer-regression": "19cdd3e042c8a5fc34b2bff038cc743d41129c9a",
         "codex/seek-683-window-dist-timeout": "b7e793b57bf2fd464f1c7b4df59bac40d5cbe44e",
         "codex/seek-755-having-order-pushdown": "1b2b3a8d5eaf1b859e4f3fd06788a88bfc82d618",
@@ -42,6 +43,7 @@
         "codex/seek-930-json-search-index": "ad59b218eb57acbce0368e51bfcf20cd5c236831",
         "codex/seek-1295-callback-diagnostic": "3047f84a207cc98cc814222ad4158ee4749ce48b",
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
+        "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
         "copilot/patch-820-release-1-3-0": "429c04175812283b9a5ac00add90d91de1eeedbf",
@@ -49,7 +51,7 @@
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
-        "feat/embedded-mode": "22fb74e3e51726bace980b3dc4f318dd026ac2a0",
+        "feat/embedded-mode": "1e35eed7a0eb25ec87837d5cf091b55cc87283a8",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
         "feature/optimize-wasm": "bfdb5900d4f73792f45358885e752b2803a9cd02",
@@ -74,7 +76,7 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "c031dfa07711f909f5c3416bd84b131f3268fd3d",
+        "master": "a8b56bbc69e669dc2ac277c3ec885b8c6d8abfaa",
         "peg-parser-mvp": "b177a34d5c18f4708584d19ff66ebd9bbd595501",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
@@ -122,12 +124,14 @@
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
         "codex/fix-atomic-scoring-test-run-sync": "dc6347b99a64fb8ddea88fb238cd9512494f735a",
         "codex/fix-memory-protocol-diagnostics": "4477db71970e0ba3e41a19b11b8b96d92b603ba4",
-        "codex/fix-seekdb-ci-diagnostics": "2840a52c9c0f5ee25de9438dd3dd2521d57aa2ed",
+        "codex/fix-seekdb-ci-diagnostics": "716ff07136962e17f6713e111d735c05968af525",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
         "codex/harness-absolute-entrypoint": "aee629a0f08592c04ea42fbebd5bda4149f0857e",
-        "codex/oceanbase-ci-reliability": "1742c5fbcdf5fc1f57a1c5785d4ee9a5402d81c6",
+        "codex/oauth-subscriptions-gateway": "fb3367f6e4f7c79f7c99d6acf04be4b278071f55",
+        "codex/oauth-subscriptions-python": "058e85eaf5e141728f7e75f08b348a2adbe91295",
+        "codex/oceanbase-ci-reliability": "b9b9bf9fec32f10aafb010616f3befda6615a8f3",
         "codex/powercontext-ci-fix-upstream": "1d152b076ee316aa123958bfc56575d48e7eea92",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
@@ -139,7 +143,7 @@
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/scope-oceanbase-ci": "74906306cc47f9b0b178946c0ddc748b4837a7c2",
+        "codex/scope-oceanbase-ci": "f93e570ffb03eb282afc1256064a9cbf0e5ae0dd",
         "codex/subscription-inference": "8c83d2cac122e87899bcb9fba5cffe777ab690db",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
@@ -149,11 +153,10 @@
         "dependabot/github_actions/actions/upload-artifact-7.0.2": "aee334c87dd65412e8b46cb357dffce068b229a5",
         "dependabot/github_actions/astral-sh/setup-uv-10.3.3": "0b805df5623f1f284f43898e7c395ea0b4098f4b",
         "dependabot/github_actions/jdx/mise-action-5.2.7": "98492eb016e84835f6f146687dbb7838db100ba2",
-        "dependabot/github_actions/softprops/action-gh-release-3.0.4": "73852579ed012932d25037c01ce50f7353f53fe2",
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "7fef43d6f5ff91976dd569949ea31a229e9aae96",
+        "master": "2291237a7809410ea0dc8f19f2de149573af8378",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -187,6 +190,7 @@
         "v0.1.0": "55616dca56eee0eced97ce0a6315be6bf8c4f95c",
         "v0.0.2": "17f0369aa720f92a95b8777bf272974c56234ea8",
         "v0.0.1": "ce14647fbb1c65dca5d1c290bfb9d6af9ef8053d",
+        "powercontext-v1.5.1": "2291237a7809410ea0dc8f19f2de149573af8378",
         "powercontext-v1.5.0": "729dc4c5548f915785a06c318f8cb7ed6cbea45b",
         "powercontext-v1.4.1": "8ef4f645e66622e223cd49720d5f009f63ecff85",
         "powercontext-v1.4.0": "cab054dbf6d86e2311b079388e5158178257def2",
@@ -666,6 +670,45 @@
       "title": "oceanbase/seekdb 比赛相关分支被删除：codex/zstd-sys-migration-20261104",
       "url": "https://github.com/oceanbase/seekdb/branches",
       "readme": ""
+    },
+    {
+      "id": "b81aa838fffc",
+      "ts": "2026-11-09T13:55:25.522Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "2026-competition-round2",
+      "sha": "9f6df2ba5acf871376e22b64a3d0724e4b575044",
+      "prevSha": "c842a368c3394748d0499386c18f6b465242e141",
+      "title": "oceanbase/seekdb 分支 2026-competition-round2 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/c842a368c3394748d0499386c18f6b465242e141...9f6df2ba5acf871376e22b64a3d0724e4b575044",
+      "topic": {
+        "score": 10,
+        "strong": true,
+        "hits": [
+          "competition",
+          "2026",
+          "分支名含赛事词"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "d08344012b30",
+      "ts": "2026-11-09T13:55:25.522Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-diagnostic-20261105",
+      "sha": "8a10868b2f222a9605dd9415afb7aa6becf8c54a",
+      "title": "oceanbase/seekdb 新分支 codex/seek1243-diagnostic-20261105",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-diagnostic-20261105",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -675,8 +718,10 @@
     "4bb5caabe336",
     "49cecbb6b154",
     "040f68d8969b",
-    "3b2d3baa08f0"
+    "3b2d3baa08f0",
+    "b81aa838fffc",
+    "d08344012b30"
   ],
-  "lastPublishAt": 1794200820919,
-  "lastPublishHash": "9a4adac61fad"
+  "lastPublishAt": 1794232533689,
+  "lastPublishHash": "85c66a5fdaba"
 }
