@@ -35,7 +35,7 @@
         "codex/seek589-sindi-buffer-experiment": "94c216d989f8d76e78f27aa01d2d93a5153a7a8c",
         "codex/seek589-stream-dump-diagnostic": "115f87a3c8be65aa54f8c355266b1168f979fe94",
         "codex/seek589-stream-rescan-4005": "a89a2c156089eebda8f01d311d69a1166d8f438a",
-        "codex/seek1243-diagnostic-20261105": "8a10868b2f222a9605dd9415afb7aa6becf8c54a",
+        "codex/seek1243-diagnostic-20261105": "f222109a7e275e74d7e66d4be9d43ee6b0ef0605",
         "codex/seek-635-sqlancer-regression": "19cdd3e042c8a5fc34b2bff038cc743d41129c9a",
         "codex/seek-683-window-dist-timeout": "b7e793b57bf2fd464f1c7b4df59bac40d5cbe44e",
         "codex/seek-755-having-order-pushdown": "1b2b3a8d5eaf1b859e4f3fd06788a88bfc82d618",
@@ -51,7 +51,7 @@
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
-        "feat/embedded-mode": "1e35eed7a0eb25ec87837d5cf091b55cc87283a8",
+        "feat/embedded-mode": "ffd843b2dfd0ba7bc6ed9dca07d6425da7fe36ab",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
         "feature/optimize-wasm": "bfdb5900d4f73792f45358885e752b2803a9cd02",
@@ -106,14 +106,15 @@
         "2026-competition-ecosystem": "d647275c308e09b7b623f322a26f5c4e85734fb0",
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
-        "codex/desktop-local-server-2117": "d24ecaa0afe2b187c2fea0852b244824964753dd",
+        "codex/desktop-local-server-2117": "b117068a8fd861c85e5dd983878fcc43d7126506",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
-        "codex/desktop-product-resources": "143688da0ef31b3225dd3babc20d9dd5d5aa2974",
+        "codex/desktop-product-resources": "a365ba3b91b9846929651c8c876f06d2279d1e80",
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/dsh-plugin-ui-handoff-rfc": "62bab8cdc12fae9e287694b016b39d8494c09882",
+        "codex/dsh-plugin-ui-status": "10dd3e0e0a9d8ac95e0629dea693e0944806348c",
         "codex/fix-2160-check-arithmetic": "c4fc8ab7c3e8eb669c23dee6b4d0820583493620",
         "codex/fix-2323-quoted-stopword-recall": "2f2b871a7a71c5c196523f1f7b80d56f31ed0773",
         "codex/fix-2331-codex-memory-kind-guidance": "007f5f8bed86c1cda9fe55093e7beac6b2cee756",
@@ -128,10 +129,11 @@
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
-        "codex/harness-absolute-entrypoint": "aee629a0f08592c04ea42fbebd5bda4149f0857e",
+        "codex/harness-absolute-entrypoint": "70ec94c2b634a62c7c50fbd96e162975bfec5739",
         "codex/oauth-subscriptions-gateway": "fb3367f6e4f7c79f7c99d6acf04be4b278071f55",
         "codex/oauth-subscriptions-python": "058e85eaf5e141728f7e75f08b348a2adbe91295",
-        "codex/oceanbase-ci-reliability": "b9b9bf9fec32f10aafb010616f3befda6615a8f3",
+        "codex/oceanbase-ci-reliability": "b7fc8bdb3f4529cee2eb287b0921e74db0deae56",
+        "codex/oceanbase-qps-optimization": "d47f4279645e3f9f2f12702f47e88f2028bff3bb",
         "codex/powercontext-ci-fix-upstream": "1d152b076ee316aa123958bfc56575d48e7eea92",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
@@ -143,7 +145,7 @@
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/scope-oceanbase-ci": "f93e570ffb03eb282afc1256064a9cbf0e5ae0dd",
+        "codex/scope-oceanbase-ci": "d339ec21deaac04dd0c2d4ebe7d68371f93e4ee6",
         "codex/subscription-inference": "8c83d2cac122e87899bcb9fba5cffe777ab690db",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
@@ -155,8 +157,9 @@
         "dependabot/github_actions/jdx/mise-action-5.2.7": "98492eb016e84835f6f146687dbb7838db100ba2",
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
+        "docs/readme-website-consistency": "8fc0c18811f4d752880c096d393ebeedb0b44554",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "2291237a7809410ea0dc8f19f2de149573af8378",
+        "master": "63f021d6103c782f325dc917ca5cb7c9a3f3fafd",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -709,6 +712,25 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "6afc71ae1c34",
+      "ts": "2026-11-09T23:19:07.373Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-diagnostic-20261105",
+      "sha": "f222109a7e275e74d7e66d4be9d43ee6b0ef0605",
+      "prevSha": "8a10868b2f222a9605dd9415afb7aa6becf8c54a",
+      "title": "oceanbase/seekdb 分支 codex/seek1243-diagnostic-20261105 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/8a10868b2f222a9605dd9415afb7aa6becf8c54a...f222109a7e275e74d7e66d4be9d43ee6b0ef0605",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -720,8 +742,9 @@
     "040f68d8969b",
     "3b2d3baa08f0",
     "b81aa838fffc",
-    "d08344012b30"
+    "d08344012b30",
+    "6afc71ae1c34"
   ],
-  "lastPublishAt": 1794232533689,
-  "lastPublishHash": "85c66a5fdaba"
+  "lastPublishAt": 1794266354881,
+  "lastPublishHash": "536832a18724"
 }
