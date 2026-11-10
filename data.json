@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794315832998,
-  "lastCheckAt": 1794315832998,
-  "nextCheckAt": 1794316732998,
+  "generatedAt": 1794342500904,
+  "lastCheckAt": 1794342500904,
+  "nextCheckAt": 1794343400904,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -43,7 +43,7 @@
         },
         {
           "name": "codex/seek1243-diagnostic-20261105",
-          "sha": "f222109a7e275e74d7e66d4be9d43ee6b0ef0605",
+          "sha": "94bb341c2a90c9b345ae3c2d2919ee2b39c62bde",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-diagnostic-20261105"
         },
         {
@@ -56,7 +56,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 69,
+      "branchCount": 70,
       "tagCount": 35,
       "branches": [
         {
@@ -68,6 +68,11 @@
           "name": "2026-competition-ecosystem",
           "sha": "d647275c308e09b7b623f322a26f5c4e85734fb0",
           "url": "https://github.com/oceanbase/powercontext/tree/2026-competition-ecosystem"
+        },
+        {
+          "name": "codex/docs-competition-judging",
+          "sha": "1a3f6cbec16073a26dab1380726ef7ad2fd06122",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/docs-competition-judging"
         },
         {
           "name": "demo-2026",
@@ -131,6 +136,30 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-10T20:28:13.403Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/docs-competition-judging",
+      "sha": "1a3f6cbec16073a26dab1380726ef7ad2fd06122",
+      "title": "oceanbase/powercontext 新分支 codex/docs-competition-judging",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/docs-competition-judging",
+      "strong": false,
+      "score": 3,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-10T20:28:12.753Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-diagnostic-20261105",
+      "sha": "94bb341c2a90c9b345ae3c2d2919ee2b39c62bde",
+      "title": "oceanbase/seekdb 分支 codex/seek1243-diagnostic-20261105 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/f222109a7e275e74d7e66d4be9d43ee6b0ef0605...94bb341c2a90c9b345ae3c2d2919ee2b39c62bde",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-10T13:03:48.987Z",
       "kind": "repo_new",
@@ -279,6 +308,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 12
+    "events": 14
   }
 }

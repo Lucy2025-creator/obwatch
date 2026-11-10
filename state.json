@@ -35,7 +35,7 @@
         "codex/seek589-sindi-buffer-experiment": "94c216d989f8d76e78f27aa01d2d93a5153a7a8c",
         "codex/seek589-stream-dump-diagnostic": "115f87a3c8be65aa54f8c355266b1168f979fe94",
         "codex/seek589-stream-rescan-4005": "a89a2c156089eebda8f01d311d69a1166d8f438a",
-        "codex/seek1243-diagnostic-20261105": "f222109a7e275e74d7e66d4be9d43ee6b0ef0605",
+        "codex/seek1243-diagnostic-20261105": "94bb341c2a90c9b345ae3c2d2919ee2b39c62bde",
         "codex/seek-635-sqlancer-regression": "19cdd3e042c8a5fc34b2bff038cc743d41129c9a",
         "codex/seek-683-window-dist-timeout": "b7e793b57bf2fd464f1c7b4df59bac40d5cbe44e",
         "codex/seek-755-having-order-pushdown": "1b2b3a8d5eaf1b859e4f3fd06788a88bfc82d618",
@@ -45,14 +45,14 @@
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
-        "codex/windows-mysqltest-milestone": "cdde9790a692406705fffcc8cdefbc3a0304ab39",
+        "codex/windows-mysqltest-milestone": "e6a6a1943c57b81dd5df933834d401a67a32e212",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
         "copilot/patch-820-release-1-3-0": "429c04175812283b9a5ac00add90d91de1eeedbf",
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
-        "feat/embedded-mode": "ffd843b2dfd0ba7bc6ed9dca07d6425da7fe36ab",
+        "feat/embedded-mode": "97af66c05c27c7fa668b29e4fa24353296c57913",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
         "feature/optimize-wasm": "bfdb5900d4f73792f45358885e752b2803a9cd02",
@@ -114,6 +114,7 @@
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
+        "codex/docs-competition-judging": "1a3f6cbec16073a26dab1380726ef7ad2fd06122",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/dsh-plugin-ui-handoff-rfc": "62bab8cdc12fae9e287694b016b39d8494c09882",
         "codex/dsh-plugin-ui-status": "fa5ecbe10f86683b72d82c9fa07b77a6e4fc6692",
@@ -148,7 +149,7 @@
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/scope-oceanbase-ci": "0eacec407e03ef109f16723faac9e6b7d42f1efd",
+        "codex/scope-oceanbase-ci": "a4e70f7709aa1c9fea043313cc113748deedeb8a",
         "codex/subscription-inference": "8c83d2cac122e87899bcb9fba5cffe777ab690db",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
@@ -163,7 +164,7 @@
         "docs/agents-gateway-rust-guidance": "e690fd06edf92d6c4adba2ff79b6006c05cbae56",
         "docs/readme-website-consistency": "8fc0c18811f4d752880c096d393ebeedb0b44554",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "cc752d8accb0bc4ffade2d4b84ef6e48206e122d",
+        "master": "1026e37d0945dade6c2adacb0bbcb8b3ed4506d5",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -773,6 +774,43 @@
         "hits": []
       },
       "readme": ""
+    },
+    {
+      "id": "cbbf76b852e8",
+      "ts": "2026-11-10T20:28:12.753Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-diagnostic-20261105",
+      "sha": "94bb341c2a90c9b345ae3c2d2919ee2b39c62bde",
+      "prevSha": "f222109a7e275e74d7e66d4be9d43ee6b0ef0605",
+      "title": "oceanbase/seekdb 分支 codex/seek1243-diagnostic-20261105 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/f222109a7e275e74d7e66d4be9d43ee6b0ef0605...94bb341c2a90c9b345ae3c2d2919ee2b39c62bde",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "4d8cafe63c67",
+      "ts": "2026-11-10T20:28:13.403Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/docs-competition-judging",
+      "sha": "1a3f6cbec16073a26dab1380726ef7ad2fd06122",
+      "title": "oceanbase/powercontext 新分支 codex/docs-competition-judging",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/docs-competition-judging",
+      "topic": {
+        "score": 3,
+        "strong": false,
+        "hits": [
+          "competition"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -787,8 +825,10 @@
     "d08344012b30",
     "6afc71ae1c34",
     "6142dd42b335",
-    "afb109ccde0c"
+    "afb109ccde0c",
+    "cbbf76b852e8",
+    "4d8cafe63c67"
   ],
-  "lastPublishAt": 1794315832998,
-  "lastPublishHash": "fd59ced22504"
+  "lastPublishAt": 1794342500905,
+  "lastPublishHash": "75f06ce40f54"
 }
