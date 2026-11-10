@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794285844898,
-  "lastCheckAt": 1794285844898,
-  "nextCheckAt": 1794286744898,
+  "generatedAt": 1794315832998,
+  "lastCheckAt": 1794315832998,
+  "nextCheckAt": 1794316732998,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 84,
+      "branchCount": 86,
       "tagCount": 8,
       "branches": [
         {
@@ -131,6 +131,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-10T13:03:48.987Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/formal-verification",
+      "branch": null,
+      "sha": null,
+      "title": "oceanbase 新建仓库 formal-verification",
+      "url": "https://github.com/oceanbase/formal-verification",
+      "strong": false,
+      "score": 0,
+      "clone": null
+    },
     {
       "ts": "2026-11-10T04:43:58.998Z",
       "kind": "branch_update",
@@ -267,6 +279,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 11
+    "events": 12
   }
 }

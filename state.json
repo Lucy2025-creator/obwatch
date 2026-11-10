@@ -45,6 +45,7 @@
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
+        "codex/windows-mysqltest-milestone": "cdde9790a692406705fffcc8cdefbc3a0304ab39",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
         "copilot/patch-820-release-1-3-0": "429c04175812283b9a5ac00add90d91de1eeedbf",
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
@@ -58,6 +59,7 @@
         "feature/plugin": "1af07fc24ef8a4ab04fde23b8d861a6902686d4f",
         "feature/rust": "8357e72516c8aa32468e91f1978ce73ca92d2069",
         "feature/webassembly": "25419a1dab57130da2fc53fcd500d89ea2b5db1a",
+        "fix/SEEK-1165-capture-index": "4e65b4abe3eb6289a6a24d672d11c4d5fc5c7ec0",
         "fix/SEEK-1176-ddl-sql-retention": "0a491cae288860b62f38dd13bbaa814934bace7b",
         "fix/SEEK-1176-explain-address": "b0e6f1a1acff6ecfea893592aa60820aa3a39e84",
         "fix_ob_deploy_version_master": "7cc2bbeaae46c69bf80bf9ff7e4d087d0c5c1a33",
@@ -85,7 +87,7 @@
         "seek1177/worker-clock-domain": "8c110db3c69bfcab08fe9b95ff48fd08da40682a",
         "seek-763-having-sqlancer-mismatch": "7ed3a295d5acfe3b6d9f04bb32ca6d0434ce0f25",
         "willlling/integer-column-range-warnings": "e0b76ea68ba89dfa5923805e275446c12d494912",
-        "windows-mysqltest-fix": "339a7ae912eeac156a075f01c361b7621616a993",
+        "windows-mysqltest-fix": "41545e2376f1d1adf60156882811615da6b93351",
         "windows-mysqltest-fix-merged": "cbc22e259da81e3976f35f38ae0720d769b6cfad",
         "windows-mysqltest-fix-merged-v1": "aa77b5859ca7301bf942ae90d8dc85b8398a4b52"
       },
@@ -130,10 +132,10 @@
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
         "codex/harness-absolute-entrypoint": "c440ea2882c13db1abfd39f154e306ae9a75d120",
-        "codex/oauth-subscriptions-gateway": "8b514f9764bd4d1bb6120e0090c632912d2ed3ba",
-        "codex/oauth-subscriptions-python": "c1e28680f1271ea1da22cc36b5c5d3307251c04a",
-        "codex/oceanbase-ci-reliability": "006703f6b7ff7ddfec08ce863b4d1428f84bd44c",
-        "codex/oceanbase-qps-optimization": "d47f4279645e3f9f2f12702f47e88f2028bff3bb",
+        "codex/oauth-subscriptions-gateway": "fae41513248cf343488f04e6b0f3208adde45f64",
+        "codex/oauth-subscriptions-python": "7e9e15b1c4633c036591b5232ff27e8c64884a20",
+        "codex/oceanbase-ci-reliability": "77b22dc5c8451ef98fdfdbf61de93a716c719cdd",
+        "codex/oceanbase-qps-optimization": "3562556fbc980913a31f5b9dc57789dd6c37acc8",
         "codex/powercontext-ci-fix-upstream": "1d152b076ee316aa123958bfc56575d48e7eea92",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
@@ -142,11 +144,11 @@
         "codex/pr-live-prompt-scope-cleanup": "019d5628faffc00a3cd44774320d5029d8d2b5ce",
         "codex/profile-default-prompt": "a228418bdb306e5afbb9d9ac59a30c2c39a2777e",
         "codex/profile-prompt-powermem-2166": "a1d6024a7a8def0bf2324b932ca2de6081b4631d",
-        "codex/rag-knowledge-base-rfc": "c59b6098833c0fe6809e23fdce980e90062e0dd3",
+        "codex/rag-knowledge-base-rfc": "ad8b16615ecb7e0c7720d000e8934263acb33039",
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/scope-oceanbase-ci": "fd404ee8f905084873cfd580908606ed600240b7",
+        "codex/scope-oceanbase-ci": "0eacec407e03ef109f16723faac9e6b7d42f1efd",
         "codex/subscription-inference": "8c83d2cac122e87899bcb9fba5cffe777ab690db",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
@@ -158,10 +160,10 @@
         "dependabot/github_actions/jdx/mise-action-5.2.7": "98492eb016e84835f6f146687dbb7838db100ba2",
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
-        "docs/agents-gateway-rust-guidance": "3d991a556bd20e36de9028fb328922b036082495",
+        "docs/agents-gateway-rust-guidance": "e690fd06edf92d6c4adba2ff79b6006c05cbae56",
         "docs/readme-website-consistency": "8fc0c18811f4d752880c096d393ebeedb0b44554",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "63f021d6103c782f325dc917ca5cb7c9a3f3fafd",
+        "master": "cc752d8accb0bc4ffade2d4b84ef6e48206e122d",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -502,7 +504,8 @@
       "obproxy",
       "obclient",
       "obconnector-c",
-      "seekdb-deps"
+      "seekdb-deps",
+      "formal-verification"
     ]
   },
   "userRepos": {
@@ -754,6 +757,22 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "afb109ccde0c",
+      "ts": "2026-11-10T13:03:48.987Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/formal-verification",
+      "title": "oceanbase 新建仓库 formal-verification",
+      "url": "https://github.com/oceanbase/formal-verification",
+      "created": "2026-11-10T09:58:17Z",
+      "desc": "formal verification",
+      "topic": {
+        "score": 0,
+        "strong": false,
+        "hits": []
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -767,8 +786,9 @@
     "b81aa838fffc",
     "d08344012b30",
     "6afc71ae1c34",
-    "6142dd42b335"
+    "6142dd42b335",
+    "afb109ccde0c"
   ],
-  "lastPublishAt": 1794285844899,
-  "lastPublishHash": "831879846edc"
+  "lastPublishAt": 1794315832998,
+  "lastPublishHash": "fd59ced22504"
 }
