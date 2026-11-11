@@ -15,6 +15,7 @@
         "agent/wentian-s-dev/03a6bf07e444": "f1b64143e0bbcec02fcf1de7aa15774f5dcecafa",
         "agent/zhang-fei/gh8-error-msg": "768f47020f6e9047112d94760e02bf92d628c75c",
         "android": "0d51eae34dd15714eda466fca0d3cc6d85154bac",
+        "codex/dify-vector-memory-compat": "ebb42e4304f82c6bd46486d28b4aa5c5cf0f3cc5",
         "codex/explain-date-pruning-272883": "f5f532b13b97166f3dd63b6885229dee987c1503",
         "codex/explain-decimal-pruning-272883": "f63021c601c925153f15c319293fcc58daca9fc1",
         "codex/explain-decimal-pruning-buildfix-272883": "f63021c601c925153f15c319293fcc58daca9fc1",
@@ -24,6 +25,7 @@
         "codex/gate-seekdb-ci": "2772fcdfc59b3ae3015c2c96fb504508e144d87e",
         "codex/gh-9-embed-sql-cli": "b5b323fc117e9e612dc9a4f71f99f2a68952a675",
         "codex/gh-9-seekdb-cli": "5a4e870af748bc76e92bd56d668acc1174528183",
+        "codex/mysql-session-state-tracker": "6e923ade2fe672b9cecd9cc10444b36713cce26c",
         "codex/namespace-single-process-phase01": "cbce10c0f344c948e0f7d88d0ba9ad253f9de970",
         "codex/namespace-worker-direct-v19": "34d3345086158060f472d88bccf74874143b4b6e",
         "codex/namespace-worker-proxy-v20": "0638e2ddcf34c4c247e4e6d3937738bf72ab45b0",
@@ -36,6 +38,7 @@
         "codex/seek589-stream-dump-diagnostic": "115f87a3c8be65aa54f8c355266b1168f979fe94",
         "codex/seek589-stream-rescan-4005": "a89a2c156089eebda8f01d311d69a1166d8f438a",
         "codex/seek1243-diagnostic-20261105": "94bb341c2a90c9b345ae3c2d2919ee2b39c62bde",
+        "codex/seek1243-rebased-provenance-20261111": "a960e28201e2b31952ddee525ba673f2922cf86a",
         "codex/seek-635-sqlancer-regression": "19cdd3e042c8a5fc34b2bff038cc743d41129c9a",
         "codex/seek-683-window-dist-timeout": "b7e793b57bf2fd464f1c7b4df59bac40d5cbe44e",
         "codex/seek-755-having-order-pushdown": "1b2b3a8d5eaf1b859e4f3fd06788a88bfc82d618",
@@ -45,14 +48,13 @@
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
-        "codex/windows-mysqltest-milestone": "e6a6a1943c57b81dd5df933834d401a67a32e212",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
         "copilot/patch-820-release-1-3-0": "429c04175812283b9a5ac00add90d91de1eeedbf",
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
-        "feat/embedded-mode": "97af66c05c27c7fa668b29e4fa24353296c57913",
+        "feat/embedded-mode": "311c5a04861bafbda5879d02703364d89e470872",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
         "feature/optimize-wasm": "bfdb5900d4f73792f45358885e752b2803a9cd02",
@@ -78,7 +80,7 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "a8b56bbc69e669dc2ac277c3ec885b8c6d8abfaa",
+        "master": "8b2e34801b6024f37717630aa6182dae9b2c82ce",
         "peg-parser-mvp": "b177a34d5c18f4708584d19ff66ebd9bbd595501",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
@@ -87,7 +89,7 @@
         "seek1177/worker-clock-domain": "8c110db3c69bfcab08fe9b95ff48fd08da40682a",
         "seek-763-having-sqlancer-mismatch": "7ed3a295d5acfe3b6d9f04bb32ca6d0434ce0f25",
         "willlling/integer-column-range-warnings": "e0b76ea68ba89dfa5923805e275446c12d494912",
-        "windows-mysqltest-fix": "41545e2376f1d1adf60156882811615da6b93351",
+        "windows-mysqltest-fix": "a9a24a3113e52e5c2be90f49ca7af8d0255b0b41",
         "windows-mysqltest-fix-merged": "cbc22e259da81e3976f35f38ae0720d769b6cfad",
         "windows-mysqltest-fix-merged-v1": "aa77b5859ca7301bf942ae90d8dc85b8398a4b52"
       },
@@ -108,16 +110,17 @@
         "2026-competition-ecosystem": "d647275c308e09b7b623f322a26f5c4e85734fb0",
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
-        "codex/desktop-local-server-2117": "68b91ce9f98f10eea94315081346f70c3a2a522d",
+        "codex/desktop-local-server-2117": "78951ba3b50601b79d394922e042fd8fc4ff3743",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
         "codex/desktop-product-resources": "abac4ba8df2ea0617b1362f24160e48d7fa498bb",
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
-        "codex/docs-competition-judging": "1a3f6cbec16073a26dab1380726ef7ad2fd06122",
+        "codex/docker-ubuntu-24-04": "70bb55ce72b3f76b9c5461dce2c22098bdcca19f",
+        "codex/docs-competition-judging": "35aa2630172fdf08669d177e6cc4fb2771db460f",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/dsh-plugin-ui-handoff-rfc": "62bab8cdc12fae9e287694b016b39d8494c09882",
-        "codex/dsh-plugin-ui-status": "fa5ecbe10f86683b72d82c9fa07b77a6e4fc6692",
+        "codex/dsh-plugin-ui-status": "a49de5149fdb1dc35faf401bab1e2123b81837df",
         "codex/fix-2160-check-arithmetic": "c4fc8ab7c3e8eb669c23dee6b4d0820583493620",
         "codex/fix-2323-quoted-stopword-recall": "2f2b871a7a71c5c196523f1f7b80d56f31ed0773",
         "codex/fix-2331-codex-memory-kind-guidance": "007f5f8bed86c1cda9fe55093e7beac6b2cee756",
@@ -132,10 +135,9 @@
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
-        "codex/harness-absolute-entrypoint": "c440ea2882c13db1abfd39f154e306ae9a75d120",
-        "codex/oauth-subscriptions-gateway": "fae41513248cf343488f04e6b0f3208adde45f64",
-        "codex/oauth-subscriptions-python": "7e9e15b1c4633c036591b5232ff27e8c64884a20",
-        "codex/oceanbase-ci-reliability": "77b22dc5c8451ef98fdfdbf61de93a716c719cdd",
+        "codex/harness-absolute-entrypoint": "965d2e17d9a2d503dbe6fb51c9757f5c54b9ea1c",
+        "codex/oauth-subscriptions-gateway": "eb7bdcb80e98a9f94b9adf515479ec04b914c8ad",
+        "codex/oauth-subscriptions-python": "083f17e33b629ad202a3628f33b459f4ab0dd083",
         "codex/oceanbase-qps-optimization": "3562556fbc980913a31f5b9dc57789dd6c37acc8",
         "codex/powercontext-ci-fix-upstream": "1d152b076ee316aa123958bfc56575d48e7eea92",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
@@ -145,11 +147,10 @@
         "codex/pr-live-prompt-scope-cleanup": "019d5628faffc00a3cd44774320d5029d8d2b5ce",
         "codex/profile-default-prompt": "a228418bdb306e5afbb9d9ac59a30c2c39a2777e",
         "codex/profile-prompt-powermem-2166": "a1d6024a7a8def0bf2324b932ca2de6081b4631d",
-        "codex/rag-knowledge-base-rfc": "ad8b16615ecb7e0c7720d000e8934263acb33039",
+        "codex/rag-knowledge-base-rfc": "e9a4ebf50478de3fb3bb11539a12c49dd6655942",
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/scope-oceanbase-ci": "a4e70f7709aa1c9fea043313cc113748deedeb8a",
         "codex/subscription-inference": "8c83d2cac122e87899bcb9fba5cffe777ab690db",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
@@ -164,7 +165,7 @@
         "docs/agents-gateway-rust-guidance": "e690fd06edf92d6c4adba2ff79b6006c05cbae56",
         "docs/readme-website-consistency": "8fc0c18811f4d752880c096d393ebeedb0b44554",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "1026e37d0945dade6c2adacb0bbcb8b3ed4506d5",
+        "master": "d64381bf6ae0bd6b531a6257dda769986b282e8c",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -218,7 +219,7 @@
         "3.1": "b0a9152274a1fbe67e8722b682bd8bf0ef7a3fed",
         "4.0": "7152da3374055a221d2eeb282f69fa53d7b2f313",
         "4.1": "0d246e51c330328aeb138bed0296b4d02314b150",
-        "4.2.x": "2bb95692fa8640583b0316ba08ce62461a669eb4",
+        "4.2.x": "7d634a0c0de1dbd7677f017556207e247c32329a",
         "4.2.0": "eef858ef5f705d8f53afec6222a77bc1de4ef3f5",
         "4.2.1": "5b28a8200d3ed78376df5eafbf39b796725b380a",
         "4.2.2": "63e1e105c07c0ca642273374d0166a0b876859a7",
@@ -228,7 +229,7 @@
         "4.3.1": "12516b2cb17a28066751a56f1258dd2c012e878f",
         "4.3.2": "6738383028eda16fb214a87ecd78ee853843236a",
         "4.3.3": "b3fc6289e40a997e616b89f6a92fac7238380c0e",
-        "4.3.5": "8ec76a0559698969f9d8b64fcf37ce8948de38d9",
+        "4.3.5": "6ec96e4568def4848cd05ef4ea0d1ba63cbe028a",
         "4.4.x": "9bdfa9e22b618cc4ad0a724010b1bb9567629399",
         "4.6.0": "7a1cad03905fa4c8155a3e240f972e05a3efcf53",
         "2024-final-competition": "d76c1fcad7de96739f12ceb412b0ee48753791d7",
@@ -811,6 +812,61 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "4aaae5cbdb2b",
+      "ts": "2026-11-11T07:33:25.165Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/mysql-session-state-tracker",
+      "sha": "6e923ade2fe672b9cecd9cc10444b36713cce26c",
+      "title": "oceanbase/seekdb 新分支 codex/mysql-session-state-tracker",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/mysql-session-state-tracker",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "(track|leaderboard)"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "1fc1cb5a7980",
+      "ts": "2026-11-11T07:33:25.166Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-rebased-provenance-20261111",
+      "sha": "a960e28201e2b31952ddee525ba673f2922cf86a",
+      "title": "oceanbase/seekdb 新分支 codex/seek1243-rebased-provenance-20261111",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-rebased-provenance-20261111",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "afd9ce0bf359",
+      "ts": "2026-11-11T07:33:25.662Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/docs-competition-judging",
+      "sha": "35aa2630172fdf08669d177e6cc4fb2771db460f",
+      "prevSha": "1a3f6cbec16073a26dab1380726ef7ad2fd06122",
+      "title": "oceanbase/powercontext 分支 codex/docs-competition-judging 更新",
+      "url": "https://github.com/oceanbase/powercontext/compare/1a3f6cbec16073a26dab1380726ef7ad2fd06122...35aa2630172fdf08669d177e6cc4fb2771db460f",
+      "topic": {
+        "score": 3,
+        "strong": false,
+        "hits": [
+          "competition"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -827,8 +883,11 @@
     "6142dd42b335",
     "afb109ccde0c",
     "cbbf76b852e8",
-    "4d8cafe63c67"
+    "4d8cafe63c67",
+    "4aaae5cbdb2b",
+    "1fc1cb5a7980",
+    "afd9ce0bf359"
   ],
-  "lastPublishAt": 1794358262489,
-  "lastPublishHash": "75f06ce40f54"
+  "lastPublishAt": 1794382411270,
+  "lastPublishHash": "2f93a7357fd6"
 }

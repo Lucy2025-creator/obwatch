@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794358262489,
-  "lastCheckAt": 1794358262489,
-  "nextCheckAt": 1794359162489,
+  "generatedAt": 1794382411270,
+  "lastCheckAt": 1794382411270,
+  "nextCheckAt": 1794383311270,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 86,
+      "branchCount": 88,
       "tagCount": 8,
       "branches": [
         {
@@ -42,9 +42,19 @@
           "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-round2"
         },
         {
+          "name": "codex/mysql-session-state-tracker",
+          "sha": "6e923ade2fe672b9cecd9cc10444b36713cce26c",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/mysql-session-state-tracker"
+        },
+        {
           "name": "codex/seek1243-diagnostic-20261105",
           "sha": "94bb341c2a90c9b345ae3c2d2919ee2b39c62bde",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-diagnostic-20261105"
+        },
+        {
+          "name": "codex/seek1243-rebased-provenance-20261111",
+          "sha": "a960e28201e2b31952ddee525ba673f2922cf86a",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-rebased-provenance-20261111"
         },
         {
           "name": "harness/issue/2026052000116213423",
@@ -56,7 +66,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 70,
+      "branchCount": 69,
       "tagCount": 35,
       "branches": [
         {
@@ -71,7 +81,7 @@
         },
         {
           "name": "codex/docs-competition-judging",
-          "sha": "1a3f6cbec16073a26dab1380726ef7ad2fd06122",
+          "sha": "35aa2630172fdf08669d177e6cc4fb2771db460f",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/docs-competition-judging"
         },
         {
@@ -136,6 +146,42 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-11T07:33:25.662Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/docs-competition-judging",
+      "sha": "35aa2630172fdf08669d177e6cc4fb2771db460f",
+      "title": "oceanbase/powercontext 分支 codex/docs-competition-judging 更新",
+      "url": "https://github.com/oceanbase/powercontext/compare/1a3f6cbec16073a26dab1380726ef7ad2fd06122...35aa2630172fdf08669d177e6cc4fb2771db460f",
+      "strong": false,
+      "score": 3,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-11T07:33:25.166Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-rebased-provenance-20261111",
+      "sha": "a960e28201e2b31952ddee525ba673f2922cf86a",
+      "title": "oceanbase/seekdb 新分支 codex/seek1243-rebased-provenance-20261111",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-rebased-provenance-20261111",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-11T07:33:25.165Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/mysql-session-state-tracker",
+      "sha": "6e923ade2fe672b9cecd9cc10444b36713cce26c",
+      "title": "oceanbase/seekdb 新分支 codex/mysql-session-state-tracker",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/mysql-session-state-tracker",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-10T20:28:13.403Z",
       "kind": "branch_new",
@@ -308,6 +354,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 14
+    "events": 17
   }
 }
