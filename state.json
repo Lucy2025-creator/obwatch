@@ -39,7 +39,7 @@
         "codex/seek589-sindi-buffer-experiment": "94c216d989f8d76e78f27aa01d2d93a5153a7a8c",
         "codex/seek589-stream-dump-diagnostic": "115f87a3c8be65aa54f8c355266b1168f979fe94",
         "codex/seek589-stream-rescan-4005": "a89a2c156089eebda8f01d311d69a1166d8f438a",
-        "codex/seek1243-diagnostic-20261105": "1ba4e35333d57b7753c8cf8088e5e58fa921fa3d",
+        "codex/seek1243-diagnostic-20261105": "b46445f0c18e2f9c39d4d3aa3405109b1b342fde",
         "codex/seek1243-rebased-provenance-20261111": "a960e28201e2b31952ddee525ba673f2922cf86a",
         "codex/seek1390-native-bazel-lock": "93248f317cd7bbdc6fb63136cc764ca43d6fb2e8",
         "codex/seek-635-sqlancer-regression": "19cdd3e042c8a5fc34b2bff038cc743d41129c9a",
@@ -50,6 +50,7 @@
         "codex/seek-1295-callback-diagnostic": "3047f84a207cc98cc814222ad4158ee4749ce48b",
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
+        "codex/seek-1381-833-inner-sql-timing": "ef2ea94ca9c3a125a16563a8ab4a1fa8895244d5",
         "codex/throttle-redo-enospc-logs": "3f4ed01a8c73acb2abcb2ec886148b0ea0b5b81d",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
@@ -169,9 +170,9 @@
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/agents-gateway-rust-guidance": "e690fd06edf92d6c4adba2ff79b6006c05cbae56",
         "docs/readme-website-consistency": "8fc0c18811f4d752880c096d393ebeedb0b44554",
-        "fix/install-latest-default": "5c2c73a528a765e814a9364d3f37deda12fc25bf",
+        "fix/install-latest-default": "464f95795a687ce153c7b2349981a205bdce4fc3",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "d64381bf6ae0bd6b531a6257dda769986b282e8c",
+        "master": "923e3d4cec8038d0799f6893b0ec8e746c870434",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -892,6 +893,25 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "58c18be4e5df",
+      "ts": "2026-11-11T22:17:09.961Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-diagnostic-20261105",
+      "sha": "b46445f0c18e2f9c39d4d3aa3405109b1b342fde",
+      "prevSha": "1ba4e35333d57b7753c8cf8088e5e58fa921fa3d",
+      "title": "oceanbase/seekdb 分支 codex/seek1243-diagnostic-20261105 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/1ba4e35333d57b7753c8cf8088e5e58fa921fa3d...b46445f0c18e2f9c39d4d3aa3405109b1b342fde",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -912,8 +932,9 @@
     "4aaae5cbdb2b",
     "1fc1cb5a7980",
     "afd9ce0bf359",
-    "94853745be43"
+    "94853745be43",
+    "58c18be4e5df"
   ],
-  "lastPublishAt": 1794411533200,
-  "lastPublishHash": "10192fea2b6c"
+  "lastPublishAt": 1794435437298,
+  "lastPublishHash": "fd7292d00393"
 }
