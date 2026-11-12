@@ -11,6 +11,7 @@
         "agent/seek-798-database-charset": "cc0e3ea9e6add6d57961def968ec59516bb14879",
         "agent/wangyunlai-dev-cursor/42e0dfb9": "f613d45acdfb244e5bb2ffa5e4683bf95d3dbf48",
         "agent/wangyunlai-dev-cursor/91241344": "642e5f5eaabd1bd116a513f83cc74cfe77c0e60f",
+        "agent/wentian-s-dev/b2dd39f5c014": "d63060e8f8bd2bacaf43b23620bf5ed999e0e436",
         "agent/wentian-s-dev/f26f543a6ab9": "07ef19fbaa7871302acbeeaf9c4e51dbfef54c69",
         "agent/wentian-s-dev/03a6bf07e444": "f1b64143e0bbcec02fcf1de7aa15774f5dcecafa",
         "agent/zhang-fei/gh8-error-msg": "768f47020f6e9047112d94760e02bf92d628c75c",
@@ -29,13 +30,9 @@
         "codex/gate-seekdb-ci": "2772fcdfc59b3ae3015c2c96fb504508e144d87e",
         "codex/gh-9-embed-sql-cli": "b5b323fc117e9e612dc9a4f71f99f2a68952a675",
         "codex/gh-9-seekdb-cli": "5a4e870af748bc76e92bd56d668acc1174528183",
-        "codex/json-array-binary-blob": "2556f6eb248e41fc7e8bef204d204ce0ebac7b75",
-        "codex/msi-restore-custom-install-root": "8d94d202679e63d058d8202d643442b7066892de",
-        "codex/mysql-session-state-tracker": "6e923ade2fe672b9cecd9cc10444b36713cce26c",
         "codex/namespace-single-process-phase01": "cbce10c0f344c948e0f7d88d0ba9ad253f9de970",
         "codex/namespace-worker-direct-v19": "34d3345086158060f472d88bccf74874143b4b6e",
         "codex/namespace-worker-proxy-v20": "0638e2ddcf34c4c247e4e6d3937738bf72ab45b0",
-        "codex/package-read-system-variables-as-utf8": "a179ae078370402079ee8a53aec59975a08a6303",
         "codex/package-reuse-20261112": "92c8e323314339157c3709314b790ec16a50bc74",
         "codex/package-run-20261112": "22f678b6e11ab278a19078ef0dc89d4450cc711f",
         "codex/package-time-20261112": "b7a919197b81386e1d9c97881b35117b59f68faa",
@@ -60,15 +57,13 @@
         "codex/seek-1295-callback-diagnostic": "3047f84a207cc98cc814222ad4158ee4749ce48b",
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
-        "codex/seek-1381-833-inner-sql-timing": "4f49453afd0bcfccfaa694995bd58c96e4f61ac1",
+        "codex/seek-1381-833-inner-sql-timing": "73ddb3e24745cf8ae9c19cdb2f0cf1440c1088eb",
         "codex/serialize-async-hnsw-updates": "5476a2c51c3ddabd7163b9c1bc53cd79c54a78af",
         "codex/throttle-redo-enospc-logs": "3f4ed01a8c73acb2abcb2ec886148b0ea0b5b81d",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
         "codex/windows-absolute-eof-fix": "ef9710ead0e7cf606986b5e4e3de238b39002c85",
-        "codex/windows-package-20261112": "a7fc953590120ae71cef2302813bb40c86c5100c",
-        "codex/windows-service-unicode-paths": "94f59a4f789e91f1fa11c98bd5842e9f0cec59b7",
-        "codex/windows-startup-io-probe-utf8": "9e7f413b64c8177f3eed63bd02d2909a73483240",
-        "codex/windows-warning-json-fixes": "c67de8b8b1c52378b1f99b1ee94aa536ebd01b41",
+        "codex/windows-package-20261112": "78bc6e991cc9f6d54c9efc5527b46cf07a94c23a",
+        "codex/windows-warning-json-fixes": "0f737f7055f7c50e43e16b78fe30e4680511e1be",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
         "copilot/patch-820-release-1-3-0": "429c04175812283b9a5ac00add90d91de1eeedbf",
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
@@ -92,6 +87,8 @@
         "fix/seek-762-binding-retry": "601e78298dbda040b4087bde9faed4ff816d5eef",
         "fix/seek-794-cascade-drop-schema-updates": "2ddd6e2b8d5aca99a0a7411cc5ef215942f55f1e",
         "fix/seek-825-sqlancer-eof": "f7e68cf410864bd75ee051800ae905f562c7eddf",
+        "fix/seek-1402-abort-eagain": "fb13c89598f59af20d2d9ee453595b1d09fb5fdd",
+        "fix/seek-1408-scalar-aggregate-master": "c916a3e8874bb00d83cd2720eced15a27fbf5787",
         "fix/st-area-geographic-boost-version": "d11d55b4d02f19bb5d4bcb4f640ba33f9c6504c3",
         "fix/win-aio-error-propagation": "949e5a9c066d6e3e6ef91ece68f5d1668ebcbb1e",
         "fix/win-mtr/SEEK-1178-purge-recyclebin-unknown-type": "b7e39896ac08b760f00c53b2d4be638024696b92",
@@ -101,13 +98,14 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "69946ef6c6f0bb693ca949d34898ad1e4367116a",
-        "peg-parser-mvp": "48e203d379f946d69f4c1e319c9e3870f5208857",
+        "master": "3a524d1d800686e62e416c6e565547b11a98a87b",
+        "peg-parser-mvp": "591a2d4111e1719b37704dea2c95efa2aa03bbe2",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
         "release/1.4.0": "bf450b4c8deb3c45d85efb1bd5f43e282d101914",
         "rust-refractor": "5ec408cec0df95d8ba3c6534336e48bc9f6dd378",
         "seek1177/worker-clock-domain": "8c110db3c69bfcab08fe9b95ff48fd08da40682a",
+        "seek1401-dcl-lock-context-fix": "f79e645a8f03df90cbc3a9f82f212c96312a01e8",
         "seek-763-having-sqlancer-mismatch": "7ed3a295d5acfe3b6d9f04bb32ca6d0434ce0f25",
         "willlling/integer-column-range-warnings": "e0b76ea68ba89dfa5923805e275446c12d494912",
         "windows-mysqltest-fix": "a9a24a3113e52e5c2be90f49ca7af8d0255b0b41",
@@ -144,6 +142,7 @@
         "codex/dsh-handoff-delivery": "1a6fb6b20d3a725d5d35e2a5e41d9007e6754748",
         "codex/dsh-handoff-host-wiring": "e128652f676a2d1d0f92fd5975fa05da6cabf503",
         "codex/dsh-handoff-preflight": "b7a0f3a37193783cf12de5c9d1e739a21056e322",
+        "codex/dsh-panel-updates": "e8e0502eb35255dca12cfb160a2c3b8aa04f2879",
         "codex/dsh-pet-memory-2606": "f53b2e35c350b831cbd37a3760723f2272df3ac2",
         "codex/dsh-plugin-ui-handoff-rfc": "62bab8cdc12fae9e287694b016b39d8494c09882",
         "codex/dsh-plugin-ui-status": "a9ae5671b462313494de87ee632089207d837947",
@@ -192,7 +191,7 @@
         "docs/readme-website-consistency": "8fc0c18811f4d752880c096d393ebeedb0b44554",
         "fix/install-latest-default": "ccf42ce1c333a7f03a2f56721048fdec196dff54",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "19f060cbf5e24a1de7733eccd7405ed8b1a4368f",
+        "master": "1cb0e75dbd56227bb13550d63f301b8f39feb931",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1042,6 +1041,35 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "8e67197f8e71",
+      "ts": "2026-11-12T19:10:08.251Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/windows-package-20261112",
+      "sha": "78bc6e991cc9f6d54c9efc5527b46cf07a94c23a",
+      "prevSha": "a7fc953590120ae71cef2302813bb40c86c5100c",
+      "title": "oceanbase/seekdb 分支 codex/windows-package-20261112 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/a7fc953590120ae71cef2302813bb40c86c5100c...78bc6e991cc9f6d54c9efc5527b46cf07a94c23a",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "082eb0f65a43",
+      "ts": "2026-11-12T19:10:08.252Z",
+      "kind": "branch_deleted",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/mysql-session-state-tracker",
+      "title": "oceanbase/seekdb 比赛相关分支被删除：codex/mysql-session-state-tracker",
+      "url": "https://github.com/oceanbase/seekdb/branches",
+      "readme": ""
     }
   ],
   "seen": [
@@ -1069,8 +1097,10 @@
     "bea559df5f67",
     "d07c0cdfb552",
     "68099ea48737",
-    "890ec60c9008"
+    "890ec60c9008",
+    "8e67197f8e71",
+    "082eb0f65a43"
   ],
-  "lastPublishAt": 1794483720019,
-  "lastPublishHash": "475002e78443"
+  "lastPublishAt": 1794510616218,
+  "lastPublishHash": "45bc308385d7"
 }

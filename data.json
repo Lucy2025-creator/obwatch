@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794483720018,
-  "lastCheckAt": 1794483720018,
-  "nextCheckAt": 1794484620018,
+  "generatedAt": 1794510616217,
+  "lastCheckAt": 1794510616217,
+  "nextCheckAt": 1794511516217,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 109,
+      "branchCount": 107,
       "tagCount": 8,
       "branches": [
         {
@@ -40,11 +40,6 @@
           "name": "2026-competition-round2",
           "sha": "f4d4e26653af823a7601668802f80e374ad6643c",
           "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-round2"
-        },
-        {
-          "name": "codex/mysql-session-state-tracker",
-          "sha": "6e923ade2fe672b9cecd9cc10444b36713cce26c",
-          "url": "https://github.com/oceanbase/seekdb/tree/codex/mysql-session-state-tracker"
         },
         {
           "name": "codex/package-reuse-20261112",
@@ -78,7 +73,7 @@
         },
         {
           "name": "codex/windows-package-20261112",
-          "sha": "a7fc953590120ae71cef2302813bb40c86c5100c",
+          "sha": "78bc6e991cc9f6d54c9efc5527b46cf07a94c23a",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/windows-package-20261112"
         },
         {
@@ -91,7 +86,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 76,
+      "branchCount": 77,
       "tagCount": 35,
       "branches": [
         {
@@ -171,6 +166,30 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-12T19:10:08.252Z",
+      "kind": "branch_deleted",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/mysql-session-state-tracker",
+      "sha": null,
+      "title": "oceanbase/seekdb 比赛相关分支被删除：codex/mysql-session-state-tracker",
+      "url": "https://github.com/oceanbase/seekdb/branches",
+      "strong": false,
+      "score": 0,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-12T19:10:08.251Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/windows-package-20261112",
+      "sha": "78bc6e991cc9f6d54c9efc5527b46cf07a94c23a",
+      "title": "oceanbase/seekdb 分支 codex/windows-package-20261112 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/a7fc953590120ae71cef2302813bb40c86c5100c...78bc6e991cc9f6d54c9efc5527b46cf07a94c23a",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-12T11:41:52.568Z",
       "kind": "branch_new",
@@ -475,6 +494,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 25
+    "events": 27
   }
 }
