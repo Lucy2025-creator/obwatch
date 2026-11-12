@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794453375042,
-  "lastCheckAt": 1794453375042,
-  "nextCheckAt": 1794454275042,
+  "generatedAt": 1794483720018,
+  "lastCheckAt": 1794483720018,
+  "nextCheckAt": 1794484620018,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 99,
+      "branchCount": 109,
       "tagCount": 8,
       "branches": [
         {
@@ -47,6 +47,26 @@
           "url": "https://github.com/oceanbase/seekdb/tree/codex/mysql-session-state-tracker"
         },
         {
+          "name": "codex/package-reuse-20261112",
+          "sha": "92c8e323314339157c3709314b790ec16a50bc74",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/package-reuse-20261112"
+        },
+        {
+          "name": "codex/package-run-20261112",
+          "sha": "22f678b6e11ab278a19078ef0dc89d4450cc711f",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/package-run-20261112"
+        },
+        {
+          "name": "codex/package-time-20261112",
+          "sha": "b7a919197b81386e1d9c97881b35117b59f68faa",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/package-time-20261112"
+        },
+        {
+          "name": "codex/rpm-repack-20261112",
+          "sha": "904617dd83ed550710b394481830383b8791cd8d",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/rpm-repack-20261112"
+        },
+        {
           "name": "codex/seek1243-diagnostic-20261105",
           "sha": "8444a73229f44418cd6bbf6dc4e4c06f79387a74",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-diagnostic-20261105"
@@ -55,6 +75,11 @@
           "name": "codex/seek1243-rebased-provenance-20261111",
           "sha": "a960e28201e2b31952ddee525ba673f2922cf86a",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-rebased-provenance-20261111"
+        },
+        {
+          "name": "codex/windows-package-20261112",
+          "sha": "a7fc953590120ae71cef2302813bb40c86c5100c",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/windows-package-20261112"
         },
         {
           "name": "harness/issue/2026052000116213423",
@@ -66,7 +91,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 71,
+      "branchCount": 76,
       "tagCount": 35,
       "branches": [
         {
@@ -146,6 +171,66 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-12T11:41:52.568Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/windows-package-20261112",
+      "sha": "a7fc953590120ae71cef2302813bb40c86c5100c",
+      "title": "oceanbase/seekdb 新分支 codex/windows-package-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/windows-package-20261112",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-12T11:41:52.568Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/rpm-repack-20261112",
+      "sha": "904617dd83ed550710b394481830383b8791cd8d",
+      "title": "oceanbase/seekdb 新分支 codex/rpm-repack-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/rpm-repack-20261112",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-12T11:41:52.568Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-time-20261112",
+      "sha": "b7a919197b81386e1d9c97881b35117b59f68faa",
+      "title": "oceanbase/seekdb 新分支 codex/package-time-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-time-20261112",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-12T11:41:52.568Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-run-20261112",
+      "sha": "22f678b6e11ab278a19078ef0dc89d4450cc711f",
+      "title": "oceanbase/seekdb 新分支 codex/package-run-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-run-20261112",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-12T11:41:52.567Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-reuse-20261112",
+      "sha": "92c8e323314339157c3709314b790ec16a50bc74",
+      "title": "oceanbase/seekdb 新分支 codex/package-reuse-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-reuse-20261112",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-12T03:16:08.424Z",
       "kind": "branch_update",
@@ -390,6 +475,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 20
+    "events": 25
   }
 }

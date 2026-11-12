@@ -13,9 +13,9 @@
         "agent/wangyunlai-dev-cursor/91241344": "642e5f5eaabd1bd116a513f83cc74cfe77c0e60f",
         "agent/wentian-s-dev/f26f543a6ab9": "07ef19fbaa7871302acbeeaf9c4e51dbfef54c69",
         "agent/wentian-s-dev/03a6bf07e444": "f1b64143e0bbcec02fcf1de7aa15774f5dcecafa",
-        "agent/wentian-s-dev/4caa815e81ea": "17792730b329f0d83c9ff9bd41083929d43c9b77",
         "agent/zhang-fei/gh8-error-msg": "768f47020f6e9047112d94760e02bf92d628c75c",
         "android": "0d51eae34dd15714eda466fca0d3cc6d85154bac",
+        "codex/accept-legacy-seekdb-backup-options": "ce32645939bfff75badc1863d454126a2956fa09",
         "codex/accept-legacy-zstd-ddl": "90ddd2d5734a98ff1bd1d0b08602f9fd6cfea3c9",
         "codex/dify-vector-memory-compat": "ebb42e4304f82c6bd46486d28b4aa5c5cf0f3cc5",
         "codex/explain-date-pruning-272883": "f5f532b13b97166f3dd63b6885229dee987c1503",
@@ -25,18 +25,24 @@
         "codex/explain-ifnull-param-272883": "4a38c71f94393e83c61981185e422f22135a345f",
         "codex/explain-simplify-guard-272883": "de03fcb1746a2e1a1b948cf4d52dbb0443f8661b",
         "codex/fix-memstore-view-end-of-scan": "a82b8e0e2c23a64de8ccea0822a3e6943a40a369",
+        "codex/forward-local-deadlock-state": "5a12d21181a123e78d7b01dcf63bf9445ed07682",
         "codex/gate-seekdb-ci": "2772fcdfc59b3ae3015c2c96fb504508e144d87e",
         "codex/gh-9-embed-sql-cli": "b5b323fc117e9e612dc9a4f71f99f2a68952a675",
         "codex/gh-9-seekdb-cli": "5a4e870af748bc76e92bd56d668acc1174528183",
         "codex/json-array-binary-blob": "2556f6eb248e41fc7e8bef204d204ce0ebac7b75",
+        "codex/msi-restore-custom-install-root": "8d94d202679e63d058d8202d643442b7066892de",
         "codex/mysql-session-state-tracker": "6e923ade2fe672b9cecd9cc10444b36713cce26c",
         "codex/namespace-single-process-phase01": "cbce10c0f344c948e0f7d88d0ba9ad253f9de970",
         "codex/namespace-worker-direct-v19": "34d3345086158060f472d88bccf74874143b4b6e",
         "codex/namespace-worker-proxy-v20": "0638e2ddcf34c4c247e4e6d3937738bf72ab45b0",
         "codex/package-read-system-variables-as-utf8": "a179ae078370402079ee8a53aec59975a08a6303",
+        "codex/package-reuse-20261112": "92c8e323314339157c3709314b790ec16a50bc74",
+        "codex/package-run-20261112": "22f678b6e11ab278a19078ef0dc89d4450cc711f",
+        "codex/package-time-20261112": "b7a919197b81386e1d9c97881b35117b59f68faa",
         "codex/palf-log-buffer-redesign": "c7545f7d1015c3f339e92a0b80c666a72254b023",
         "codex/px-provider-condition-lifetime": "ecf317de615eb159d755ae2bea2bd0f3cd8c0e17",
         "codex/remove-obd-mysqltest": "891cf39306fbe254949169c3bbc708d78152ee12",
+        "codex/rpm-repack-20261112": "904617dd83ed550710b394481830383b8791cd8d",
         "codex/seek589-product-kernel": "275a85972b9220391e12e54d8009eabb25c413a7",
         "codex/seek589-product-kernel-cms-v2": "60aa7d4c88de12f0b89a2bdc02f69a4affa6a193",
         "codex/seek589-sindi-buffer-experiment": "94c216d989f8d76e78f27aa01d2d93a5153a7a8c",
@@ -45,6 +51,7 @@
         "codex/seek1243-diagnostic-20261105": "8444a73229f44418cd6bbf6dc4e4c06f79387a74",
         "codex/seek1243-rebased-provenance-20261111": "a960e28201e2b31952ddee525ba673f2922cf86a",
         "codex/seek1390-native-bazel-lock": "93248f317cd7bbdc6fb63136cc764ca43d6fb2e8",
+        "codex/seek1406-clog-input-evidence": "6095e596b7a8a69353b552f9d22e0a537717ccfc",
         "codex/seek-635-sqlancer-regression": "19cdd3e042c8a5fc34b2bff038cc743d41129c9a",
         "codex/seek-683-window-dist-timeout": "b7e793b57bf2fd464f1c7b4df59bac40d5cbe44e",
         "codex/seek-755-having-order-pushdown": "1b2b3a8d5eaf1b859e4f3fd06788a88bfc82d618",
@@ -53,10 +60,13 @@
         "codex/seek-1295-callback-diagnostic": "3047f84a207cc98cc814222ad4158ee4749ce48b",
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
-        "codex/seek-1381-833-inner-sql-timing": "0980c3d65470944b16e2cb23ad13e6625ae1030e",
+        "codex/seek-1381-833-inner-sql-timing": "4f49453afd0bcfccfaa694995bd58c96e4f61ac1",
+        "codex/serialize-async-hnsw-updates": "5476a2c51c3ddabd7163b9c1bc53cd79c54a78af",
         "codex/throttle-redo-enospc-logs": "3f4ed01a8c73acb2abcb2ec886148b0ea0b5b81d",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
         "codex/windows-absolute-eof-fix": "ef9710ead0e7cf606986b5e4e3de238b39002c85",
+        "codex/windows-package-20261112": "a7fc953590120ae71cef2302813bb40c86c5100c",
+        "codex/windows-service-unicode-paths": "94f59a4f789e91f1fa11c98bd5842e9f0cec59b7",
         "codex/windows-startup-io-probe-utf8": "9e7f413b64c8177f3eed63bd02d2909a73483240",
         "codex/windows-warning-json-fixes": "c67de8b8b1c52378b1f99b1ee94aa536ebd01b41",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
@@ -65,7 +75,7 @@
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
-        "feat/embedded-mode": "b7c2cda1d1fc7e224da98ba4bb853504478c1957",
+        "feat/embedded-mode": "5c3ee8ba898e6a26c9af7ac017c9b1d6da7db3d6",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
         "feature/optimize-wasm": "bfdb5900d4f73792f45358885e752b2803a9cd02",
@@ -91,8 +101,8 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "8b2e34801b6024f37717630aa6182dae9b2c82ce",
-        "peg-parser-mvp": "11506315cf2c3d8d575723c535af9f50978981ba",
+        "master": "69946ef6c6f0bb693ca949d34898ad1e4367116a",
+        "peg-parser-mvp": "48e203d379f946d69f4c1e319c9e3870f5208857",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
         "release/1.4.0": "bf450b4c8deb3c45d85efb1bd5f43e282d101914",
@@ -131,6 +141,10 @@
         "codex/docs-competition-judging": "35aa2630172fdf08669d177e6cc4fb2771db460f",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/dsh-dashboard-embed": "deb7dacc35fd8fd920f1b261a22a32e6a62607c3",
+        "codex/dsh-handoff-delivery": "1a6fb6b20d3a725d5d35e2a5e41d9007e6754748",
+        "codex/dsh-handoff-host-wiring": "e128652f676a2d1d0f92fd5975fa05da6cabf503",
+        "codex/dsh-handoff-preflight": "b7a0f3a37193783cf12de5c9d1e739a21056e322",
+        "codex/dsh-pet-memory-2606": "f53b2e35c350b831cbd37a3760723f2272df3ac2",
         "codex/dsh-plugin-ui-handoff-rfc": "62bab8cdc12fae9e287694b016b39d8494c09882",
         "codex/dsh-plugin-ui-status": "a9ae5671b462313494de87ee632089207d837947",
         "codex/fix-2160-check-arithmetic": "c4fc8ab7c3e8eb669c23dee6b4d0820583493620",
@@ -143,14 +157,14 @@
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
         "codex/fix-atomic-scoring-test-run-sync": "dc6347b99a64fb8ddea88fb238cd9512494f735a",
         "codex/fix-memory-protocol-diagnostics": "4477db71970e0ba3e41a19b11b8b96d92b603ba4",
-        "codex/fix-seekdb-ci-diagnostics": "716ff07136962e17f6713e111d735c05968af525",
+        "codex/fix-seekdb-ci-diagnostics": "6c960c58ff22e3a345be81c04f54600e1240d261",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
         "codex/harness-absolute-entrypoint": "965d2e17d9a2d503dbe6fb51c9757f5c54b9ea1c",
-        "codex/oauth-subscriptions-gateway": "eb7bdcb80e98a9f94b9adf515479ec04b914c8ad",
-        "codex/oauth-subscriptions-python": "083f17e33b629ad202a3628f33b459f4ab0dd083",
-        "codex/oceanbase-qps-optimization": "3562556fbc980913a31f5b9dc57789dd6c37acc8",
+        "codex/oauth-subscriptions-gateway": "f4e197ba08248978e35e0dbd9c6a5a44140e7322",
+        "codex/oauth-subscriptions-python": "a674525f0a59b7e5064518aaa830c5182518f0ec",
+        "codex/oceanbase-qps-optimization": "0e8f646279b2c29b64ec3f1c0e5db14499566a6c",
         "codex/powercontext-ci-fix-upstream": "1d152b076ee316aa123958bfc56575d48e7eea92",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
@@ -176,15 +190,16 @@
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/agents-gateway-rust-guidance": "e690fd06edf92d6c4adba2ff79b6006c05cbae56",
         "docs/readme-website-consistency": "8fc0c18811f4d752880c096d393ebeedb0b44554",
-        "fix/install-latest-default": "464f95795a687ce153c7b2349981a205bdce4fc3",
+        "fix/install-latest-default": "ccf42ce1c333a7f03a2f56721048fdec196dff54",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "923e3d4cec8038d0799f6893b0ec8e746c870434",
+        "master": "19f060cbf5e24a1de7733eccd7405ed8b1a4368f",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
         "release/v1.1.5": "6a6b1bd06fa2888b3ce5e61a6b02ae32f144ad1c",
         "release/v1.1.6": "20dfe36d6266b29a2b6360b664d93c0dad5d685c",
         "release/v1.1.7": "5cafe35b106a1f418fcdc87979f19c2c6ad1b8c5",
+        "rfcs/scope-sharing-and-processing": "3adcfbd44f9c8fb7a7a4c7ce5ea7ca72e6938307",
         "video": "fe4002d37663213294ebffe4c080b6676b1c8014",
         "vldb_2026": "a8378e8ea325dd7ad6b139f4fe049f7a52671603",
         "workshop": "b6b6e64e32e02f565d26ffa4f47da5ac1ef333cd"
@@ -937,6 +952,96 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "218ababaea69",
+      "ts": "2026-11-12T11:41:52.567Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-reuse-20261112",
+      "sha": "92c8e323314339157c3709314b790ec16a50bc74",
+      "title": "oceanbase/seekdb 新分支 codex/package-reuse-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-reuse-20261112",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "bea559df5f67",
+      "ts": "2026-11-12T11:41:52.568Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-run-20261112",
+      "sha": "22f678b6e11ab278a19078ef0dc89d4450cc711f",
+      "title": "oceanbase/seekdb 新分支 codex/package-run-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-run-20261112",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "d07c0cdfb552",
+      "ts": "2026-11-12T11:41:52.568Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-time-20261112",
+      "sha": "b7a919197b81386e1d9c97881b35117b59f68faa",
+      "title": "oceanbase/seekdb 新分支 codex/package-time-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-time-20261112",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "68099ea48737",
+      "ts": "2026-11-12T11:41:52.568Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/rpm-repack-20261112",
+      "sha": "904617dd83ed550710b394481830383b8791cd8d",
+      "title": "oceanbase/seekdb 新分支 codex/rpm-repack-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/rpm-repack-20261112",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "890ec60c9008",
+      "ts": "2026-11-12T11:41:52.568Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/windows-package-20261112",
+      "sha": "a7fc953590120ae71cef2302813bb40c86c5100c",
+      "title": "oceanbase/seekdb 新分支 codex/windows-package-20261112",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/windows-package-20261112",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -959,8 +1064,13 @@
     "afd9ce0bf359",
     "94853745be43",
     "58c18be4e5df",
-    "6e30686ef049"
+    "6e30686ef049",
+    "218ababaea69",
+    "bea559df5f67",
+    "d07c0cdfb552",
+    "68099ea48737",
+    "890ec60c9008"
   ],
-  "lastPublishAt": 1794453375043,
-  "lastPublishHash": "beeb6186604a"
+  "lastPublishAt": 1794483720019,
+  "lastPublishHash": "475002e78443"
 }
