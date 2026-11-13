@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794553541416,
-  "lastCheckAt": 1794553541416,
-  "nextCheckAt": 1794554441416,
+  "generatedAt": 1794583494295,
+  "lastCheckAt": 1794583494295,
+  "nextCheckAt": 1794584394295,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 108,
+      "branchCount": 114,
       "tagCount": 8,
       "branches": [
         {
@@ -45,6 +45,11 @@
           "name": "codex/ios-package-20261113",
           "sha": "308afdb59e2c3e4bb9b56d7ff299ea9ed3456878",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/ios-package-20261113"
+        },
+        {
+          "name": "codex/package-distro-run-20261113",
+          "sha": "27f1b950acc2e3954a32171a31aeeddf7bf0deaa",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/package-distro-run-20261113"
         },
         {
           "name": "codex/package-reuse-20261112",
@@ -91,7 +96,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 78,
+      "branchCount": 80,
       "tagCount": 35,
       "branches": [
         {
@@ -171,6 +176,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-13T15:24:44.483Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-distro-run-20261113",
+      "sha": "27f1b950acc2e3954a32171a31aeeddf7bf0deaa",
+      "title": "oceanbase/seekdb 新分支 codex/package-distro-run-20261113",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-distro-run-20261113",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-13T07:05:33.968Z",
       "kind": "branch_new",
@@ -511,6 +528,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 28
+    "events": 29
   }
 }
