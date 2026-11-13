@@ -70,7 +70,7 @@
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
-        "diagnostic/seek-1402-abort-eagain": "19d55b2540267022fd7edf331e0cb56f88a9e1ff",
+        "diagnostic/seek-1402-abort-eagain": "7c78fa02969eb30308b5b716b85509d3e1360ab1",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
         "feat/embedded-mode": "5ed4ee7b989f8f6f1b3c985e6d2c4f676ccd49f6",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
@@ -90,6 +90,7 @@
         "fix/seek-794-cascade-drop-schema-updates": "2ddd6e2b8d5aca99a0a7411cc5ef215942f55f1e",
         "fix/seek-1402-abort-eagain": "fb13c89598f59af20d2d9ee453595b1d09fb5fdd",
         "fix/seek-1414-cold-stats-retry": "51015e61b42cf238fcbab02f5aa94d8b1667d183",
+        "fix/seek-1414-ddl-cancel": "36899ebe6e831fa0aa9fa699fdfb609dca41e498",
         "fix/seek-1414-drop-deadline": "f45a55f4e09cae412bd14f32720026bc846163f9",
         "fix/seek-1414-history-version-clock": "718f3920451b7bbfc8eefa094c68e6c622c0284b",
         "fix/seek-1414-json-time-sign": "55029bdaaa3685e59ee72f0c330fa4057ca7c1d3",
@@ -136,6 +137,7 @@
         "2026-competition-ecosystem": "d647275c308e09b7b623f322a26f5c4e85734fb0",
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
+        "ci/public-content-check": "8a0e2da4d5cf88984a70c55bb497b42ad58b13f9",
         "codex/desktop-local-server-2117": "e9dfcbd95e0a0304d5b09e2bc675b0983d58b148",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
         "codex/desktop-product-resources": "abac4ba8df2ea0617b1362f24160e48d7fa498bb",
@@ -1149,6 +1151,6 @@
     "13921672fd47",
     "61da98b74379"
   ],
-  "lastPublishAt": 1794583494296,
-  "lastPublishHash": "c08506da352c"
+  "lastPublishAt": 1794605412769,
+  "lastPublishHash": "6aaeefb51e65"
 }
