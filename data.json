@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794529578916,
-  "lastCheckAt": 1794529578916,
-  "nextCheckAt": 1794530478916,
+  "generatedAt": 1794553541416,
+  "lastCheckAt": 1794553541416,
+  "nextCheckAt": 1794554441416,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -40,6 +40,11 @@
           "name": "2026-competition-round2",
           "sha": "f4d4e26653af823a7601668802f80e374ad6643c",
           "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-round2"
+        },
+        {
+          "name": "codex/ios-package-20261113",
+          "sha": "308afdb59e2c3e4bb9b56d7ff299ea9ed3456878",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/ios-package-20261113"
         },
         {
           "name": "codex/package-reuse-20261112",
@@ -86,7 +91,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 77,
+      "branchCount": 78,
       "tagCount": 35,
       "branches": [
         {
@@ -166,6 +171,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-13T07:05:33.968Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/ios-package-20261113",
+      "sha": "308afdb59e2c3e4bb9b56d7ff299ea9ed3456878",
+      "title": "oceanbase/seekdb 新分支 codex/ios-package-20261113",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/ios-package-20261113",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-12T19:10:08.252Z",
       "kind": "branch_deleted",
@@ -494,6 +511,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 27
+    "events": 28
   }
 }
