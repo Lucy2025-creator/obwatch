@@ -70,7 +70,7 @@
         "copilot/patch-820-release-130": "33bd1f2638231d61d22910b7551381013e63eef5",
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
-        "diagnostic/seek-1402-abort-eagain": "7c78fa02969eb30308b5b716b85509d3e1360ab1",
+        "diagnostic/seek-1402-abort-eagain": "b922c7e4cb920e11c18b51e2bfe895a8e1637abb",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
         "feat/embedded-mode": "5ed4ee7b989f8f6f1b3c985e6d2c4f676ccd49f6",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
@@ -165,7 +165,7 @@
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
         "codex/fix-atomic-scoring-test-run-sync": "dc6347b99a64fb8ddea88fb238cd9512494f735a",
         "codex/fix-memory-protocol-diagnostics": "4477db71970e0ba3e41a19b11b8b96d92b603ba4",
-        "codex/fix-seekdb-ci-diagnostics": "6c960c58ff22e3a345be81c04f54600e1240d261",
+        "codex/fix-seekdb-ci-diagnostics": "611c2498254d40970520b9ae5772a02ea1df3fee",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
@@ -203,7 +203,7 @@
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "ccf42ce1c333a7f03a2f56721048fdec196dff54",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "9924bb48cbec6cc2e39b7d8aa814e70924491cc6",
+        "master": "65bcb97653ee6ff14816cbf5b764d5c8acd27259",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -258,9 +258,9 @@
         "3.1": "b0a9152274a1fbe67e8722b682bd8bf0ef7a3fed",
         "4.0": "7152da3374055a221d2eeb282f69fa53d7b2f313",
         "4.1": "0d246e51c330328aeb138bed0296b4d02314b150",
-        "4.2.x": "863a69a8c5e665a6088e01dbaa08c12141f9aa8e",
+        "4.2.x": "87e061fc8dbbc40e50f8f371a62e60efe87b9f5c",
         "4.2.0": "eef858ef5f705d8f53afec6222a77bc1de4ef3f5",
-        "4.2.1": "5b28a8200d3ed78376df5eafbf39b796725b380a",
+        "4.2.1": "5e4788df6eb6e82371f0c571c088b476c00776a7",
         "4.2.2": "63e1e105c07c0ca642273374d0166a0b876859a7",
         "4.2.3": "ebe1199df01b4152ec618bcd92cf14d7411b9d5c",
         "4.2.4": "0eddc99669ffb69daf37c81f8c9e7015237e95c0",
@@ -1151,6 +1151,6 @@
     "13921672fd47",
     "61da98b74379"
   ],
-  "lastPublishAt": 1794605412769,
-  "lastPublishHash": "6aaeefb51e65"
+  "lastPublishAt": 1794620541787,
+  "lastPublishHash": "16dd05e77f58"
 }
