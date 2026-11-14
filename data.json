@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794620541786,
-  "lastCheckAt": 1794620541786,
-  "nextCheckAt": 1794621441786,
+  "generatedAt": 1794643464843,
+  "lastCheckAt": 1794643464843,
+  "nextCheckAt": 1794644364843,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 115,
+      "branchCount": 117,
       "tagCount": 8,
       "branches": [
         {
@@ -45,6 +45,11 @@
           "name": "codex/ios-package-20261113",
           "sha": "308afdb59e2c3e4bb9b56d7ff299ea9ed3456878",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/ios-package-20261113"
+        },
+        {
+          "name": "codex/package-deb-targets-run-20261113",
+          "sha": "2fe940feb5d6eeb0bbe7feb127d9d1a4cf54ff71",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/package-deb-targets-run-20261113"
         },
         {
           "name": "codex/package-distro-run-20261113",
@@ -176,6 +181,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-14T08:04:17.794Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-deb-targets-run-20261113",
+      "sha": "2fe940feb5d6eeb0bbe7feb127d9d1a4cf54ff71",
+      "title": "oceanbase/seekdb 新分支 codex/package-deb-targets-run-20261113",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-deb-targets-run-20261113",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-13T15:24:44.483Z",
       "kind": "branch_new",
@@ -528,6 +545,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 29
+    "events": 30
   }
 }

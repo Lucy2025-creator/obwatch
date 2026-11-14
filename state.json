@@ -33,6 +33,7 @@
         "codex/namespace-single-process-phase01": "cbce10c0f344c948e0f7d88d0ba9ad253f9de970",
         "codex/namespace-worker-direct-v19": "34d3345086158060f472d88bccf74874143b4b6e",
         "codex/namespace-worker-proxy-v20": "0638e2ddcf34c4c247e4e6d3937738bf72ab45b0",
+        "codex/package-deb-targets-run-20261113": "2fe940feb5d6eeb0bbe7feb127d9d1a4cf54ff71",
         "codex/package-distro-run-20261113": "27f1b950acc2e3954a32171a31aeeddf7bf0deaa",
         "codex/package-reuse-20261112": "92c8e323314339157c3709314b790ec16a50bc74",
         "codex/package-run-20261112": "22f678b6e11ab278a19078ef0dc89d4450cc711f",
@@ -71,6 +72,7 @@
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
         "diagnostic/seek-1402-abort-eagain": "b922c7e4cb920e11c18b51e2bfe895a8e1637abb",
+        "diagnostic/seek-1402-fixed-abort-eagain": "7622cb25da9490cdfd7283b49dea200bc2260f8e",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
         "feat/embedded-mode": "5ed4ee7b989f8f6f1b3c985e6d2c4f676ccd49f6",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
@@ -137,7 +139,7 @@
         "2026-competition-ecosystem": "d647275c308e09b7b623f322a26f5c4e85734fb0",
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
-        "ci/public-content-check": "8a0e2da4d5cf88984a70c55bb497b42ad58b13f9",
+        "ci/public-content-check": "c18f3476b6eda2edf85c80e1d11e619b8fa2c46c",
         "codex/desktop-local-server-2117": "e9dfcbd95e0a0304d5b09e2bc675b0983d58b148",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
         "codex/desktop-product-resources": "abac4ba8df2ea0617b1362f24160e48d7fa498bb",
@@ -203,7 +205,7 @@
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "ccf42ce1c333a7f03a2f56721048fdec196dff54",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "65bcb97653ee6ff14816cbf5b764d5c8acd27259",
+        "master": "fda2ed25032b03a497d3c25ae0355172735e9f20",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1118,6 +1120,24 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "bab891ae44f8",
+      "ts": "2026-11-14T08:04:17.794Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-deb-targets-run-20261113",
+      "sha": "2fe940feb5d6eeb0bbe7feb127d9d1a4cf54ff71",
+      "title": "oceanbase/seekdb 新分支 codex/package-deb-targets-run-20261113",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-deb-targets-run-20261113",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -1149,8 +1169,9 @@
     "8e67197f8e71",
     "082eb0f65a43",
     "13921672fd47",
-    "61da98b74379"
+    "61da98b74379",
+    "bab891ae44f8"
   ],
-  "lastPublishAt": 1794620541787,
-  "lastPublishHash": "16dd05e77f58"
+  "lastPublishAt": 1794643464843,
+  "lastPublishHash": "f3719d88dfc2"
 }
