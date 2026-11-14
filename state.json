@@ -152,7 +152,7 @@
         "codex/dsh-dashboard-embed": "deb7dacc35fd8fd920f1b261a22a32e6a62607c3",
         "codex/dsh-handoff-delivery": "baaf317ae27aff6cab2f57a0f1f3e9f7cef33fb5",
         "codex/dsh-handoff-host-wiring": "51f3b8fdfcdc438e8128b42a5a791bd45d8886ff",
-        "codex/dsh-handoff-preflight": "ad5931756015cc025caf6c9b501dab6d44efadc4",
+        "codex/dsh-handoff-preflight": "b29bc8adcdf88854eb7ab8a868ccdf326c979cfc",
         "codex/dsh-panel-updates": "c5e4ec14e38051bd0c3c7a55421771294965cbbb",
         "codex/dsh-pet-memory-2606": "bc046e6623f9804d2acf5aadbac57fc1d8c3af75",
         "codex/dsh-plugin-ui-handoff-rfc": "62bab8cdc12fae9e287694b016b39d8494c09882",
@@ -187,7 +187,7 @@
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
-        "codex/runtime-hotspot-optimizations": "bef86938e4cbb9c57b864b77fcb9180dde36ddf8",
+        "codex/runtime-hotspot-optimizations": "673851d682448df772020b295e837af7b2db7dfc",
         "codex/subscription-inference": "8c83d2cac122e87899bcb9fba5cffe777ab690db",
         "codex/website-seo-llm-exports": "1f0b4b61027876e19d1b733a7104fef7af89f6a4",
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
@@ -205,7 +205,7 @@
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "ccf42ce1c333a7f03a2f56721048fdec196dff54",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "fda2ed25032b03a497d3c25ae0355172735e9f20",
+        "master": "3585149a678dd3dae7470b2653394137a951d9b6",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1172,6 +1172,6 @@
     "61da98b74379",
     "bab891ae44f8"
   ],
-  "lastPublishAt": 1794643464843,
-  "lastPublishHash": "f3719d88dfc2"
+  "lastPublishAt": 1794668757504,
+  "lastPublishHash": "6f2f2e953f2e"
 }
