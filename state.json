@@ -150,9 +150,14 @@
         "codex/docs-competition-judging": "35aa2630172fdf08669d177e6cc4fb2771db460f",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/dsh-dashboard-embed": "deb7dacc35fd8fd920f1b261a22a32e6a62607c3",
+        "codex/dsh-handoff-claude-cli": "a75a5c20f0dbb45bf975d72cc274dbe506fcca4f",
+        "codex/dsh-handoff-claude-desktop": "ff111fc389590cdfc0020dad5fa31d08990a1f3a",
+        "codex/dsh-handoff-codex-desktop": "54d0151119536f3c878874eabd497208e65345d9",
         "codex/dsh-handoff-delivery": "baaf317ae27aff6cab2f57a0f1f3e9f7cef33fb5",
         "codex/dsh-handoff-host-wiring": "51f3b8fdfcdc438e8128b42a5a791bd45d8886ff",
         "codex/dsh-handoff-preflight": "b29bc8adcdf88854eb7ab8a868ccdf326c979cfc",
+        "codex/dsh-handoff-receipts": "413acc3ad947f9a72a48163901b8df3f283bf25b",
+        "codex/dsh-handoff-workflow": "a0178de6fb37a213181a4c3ba7bee32d5019d615",
         "codex/dsh-panel-updates": "c5e4ec14e38051bd0c3c7a55421771294965cbbb",
         "codex/dsh-pet-memory-2606": "bc046e6623f9804d2acf5aadbac57fc1d8c3af75",
         "codex/dsh-plugin-ui-handoff-rfc": "62bab8cdc12fae9e287694b016b39d8494c09882",
@@ -1172,6 +1177,6 @@
     "61da98b74379",
     "bab891ae44f8"
   ],
-  "lastPublishAt": 1794668757504,
-  "lastPublishHash": "6f2f2e953f2e"
+  "lastPublishAt": 1794686189669,
+  "lastPublishHash": "d0191934d8ef"
 }
