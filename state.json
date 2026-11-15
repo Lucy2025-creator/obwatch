@@ -84,6 +84,7 @@
         "fix/SEEK-1165-capture-index": "4e65b4abe3eb6289a6a24d672d11c4d5fc5c7ec0",
         "fix/SEEK-1176-ddl-sql-retention": "0a491cae288860b62f38dd13bbaa814934bace7b",
         "fix/SEEK-1176-explain-address": "b0e6f1a1acff6ecfea893592aa60820aa3a39e84",
+        "fix/ddl-change-stream-replay-1116": "3a47d412eb1a29a5e2fb4b1bc25d33be93f8a794",
         "fix_ob_deploy_version_master": "7cc2bbeaae46c69bf80bf9ff7e4d087d0c5c1a33",
         "fix_ob_deploy_version": "e2bcec5953d9a4539dab655a0891610a81c427ab",
         "fix/seek634-multivalue-index-stats": "11758cc2568de1c139bf99ce75688bbc9514bc66",
@@ -140,6 +141,7 @@
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
         "ci/public-content-check": "c18f3476b6eda2edf85c80e1d11e619b8fa2c46c",
+        "codex/blog-cover-refresh": "0f544244bcc8a0236465fd6abe3b9d45a9ebb0d6",
         "codex/desktop-local-server-2117": "e9dfcbd95e0a0304d5b09e2bc675b0983d58b148",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
         "codex/desktop-product-resources": "abac4ba8df2ea0617b1362f24160e48d7fa498bb",
@@ -178,7 +180,7 @@
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
         "codex/harness-absolute-entrypoint": "965d2e17d9a2d503dbe6fb51c9757f5c54b9ea1c",
-        "codex/knowledge-base-plugin": "3079efca9579d349cbfa72b5068ea09318034750",
+        "codex/knowledge-base-plugin": "3adae70cc6709d0adfede83e837fd3462063d21a",
         "codex/oauth-subscriptions-gateway": "f4e197ba08248978e35e0dbd9c6a5a44140e7322",
         "codex/oauth-subscriptions-python": "9e9548d30a84df06c3922771e3b307281baf3a15",
         "codex/oceanbase-qps-optimization": "180eef6782e2fc11851af09c9188a18be43344f9",
@@ -190,7 +192,7 @@
         "codex/pr-live-prompt-scope-cleanup": "019d5628faffc00a3cd44774320d5029d8d2b5ce",
         "codex/profile-default-prompt": "a228418bdb306e5afbb9d9ac59a30c2c39a2777e",
         "codex/profile-prompt-powermem-2166": "a1d6024a7a8def0bf2324b932ca2de6081b4631d",
-        "codex/rag-knowledge-base-rfc": "e136e7d1622fc577dd690ae1cf48e17bbb36a835",
+        "codex/rag-knowledge-base-rfc": "b9a688a4174352a18f542adf237daede617f10cd",
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
@@ -212,7 +214,7 @@
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "ccf42ce1c333a7f03a2f56721048fdec196dff54",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "d0c46918e945f22976c4c55094a43c22fb4ac877",
+        "master": "303b32cc03e2152b2c18fa33f690d54dc1bcd9ec",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1179,6 +1181,6 @@
     "61da98b74379",
     "bab891ae44f8"
   ],
-  "lastPublishAt": 1794747280049,
-  "lastPublishHash": "a0673b3c7086"
+  "lastPublishAt": 1794770175083,
+  "lastPublishHash": "84dfcf63b47e"
 }
