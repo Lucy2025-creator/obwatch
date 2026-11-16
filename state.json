@@ -49,6 +49,7 @@
         "codex/seek589-stream-dump-diagnostic": "115f87a3c8be65aa54f8c355266b1168f979fe94",
         "codex/seek589-stream-rescan-4005": "a89a2c156089eebda8f01d311d69a1166d8f438a",
         "codex/seek1243-diagnostic-20261105": "8444a73229f44418cd6bbf6dc4e4c06f79387a74",
+        "codex/seek1243-pr2630-on8444-validation-20261116": "704945e7faaf244fe721b0789cdfbcea0bd1ebe7",
         "codex/seek1243-rebased-provenance-20261111": "a960e28201e2b31952ddee525ba673f2922cf86a",
         "codex/seek1390-native-bazel-lock": "93248f317cd7bbdc6fb63136cc764ca43d6fb2e8",
         "codex/seek1406-clog-input-evidence": "6095e596b7a8a69353b552f9d22e0a537717ccfc",
@@ -65,7 +66,7 @@
         "codex/throttle-redo-enospc-logs": "3f4ed01a8c73acb2abcb2ec886148b0ea0b5b81d",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
         "codex/windows-absolute-eof-fix": "ef9710ead0e7cf606986b5e4e3de238b39002c85",
-        "codex/windows-md-package-20261116": "0002a79e13353f9d54945e0cbc926055f3e730c5",
+        "codex/windows-md-package-20261116": "fcdcc85213a594c412ad5b3d83bfff6db69d378e",
         "codex/windows-package-20261112": "78bc6e991cc9f6d54c9efc5527b46cf07a94c23a",
         "config": "33732139814f6ec62bbe7ec606770b8bc9a8e31d",
         "copilot/patch-820-release-1-3-0": "429c04175812283b9a5ac00add90d91de1eeedbf",
@@ -73,6 +74,9 @@
         "cursor/rust-kvcache-evaluation-9803": "caac9a6e666073c424e70c5c89411ba64652c254",
         "cursor/seekdb-cloud-env-ef96": "88528bbc239711d718da198d9de93e0d2811f0d4",
         "diagnostic/seek-1402-abort-eagain": "b922c7e4cb920e11c18b51e2bfe895a8e1637abb",
+        "diagnostic/seek-1402-abort-only-capture": "d1bf76950c093704fc2c2d04b92ad1f3ad04fa77",
+        "diagnostic/seek-1402-append-observation": "eb3a881a09da27d6c648ba7fdd28e027fb35cec5",
+        "diagnostic/seek-1402-deferred-baseline": "4144a70a05bdda39a18d91326af1544bc6961b0f",
         "diagnostic/seek-1402-fixed-abort-eagain": "7622cb25da9490cdfd7283b49dea200bc2260f8e",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
         "feat/embedded-mode": "eb884fcdc1d5668f6dfe46072a2778889edd430c",
@@ -92,14 +96,15 @@
         "fix/seek-762-binding-retry": "601e78298dbda040b4087bde9faed4ff816d5eef",
         "fix/seek-794-cascade-drop-schema-updates": "2ddd6e2b8d5aca99a0a7411cc5ef215942f55f1e",
         "fix/seek-1402-abort-eagain": "fb13c89598f59af20d2d9ee453595b1d09fb5fdd",
-        "fix/seek-1414-cold-stats-retry": "51015e61b42cf238fcbab02f5aa94d8b1667d183",
-        "fix/seek-1414-ddl-cancel": "36899ebe6e831fa0aa9fa699fdfb609dca41e498",
-        "fix/seek-1414-drop-deadline": "f45a55f4e09cae412bd14f32720026bc846163f9",
-        "fix/seek-1414-history-version-clock": "718f3920451b7bbfc8eefa094c68e6c622c0284b",
-        "fix/seek-1414-json-time-sign": "55029bdaaa3685e59ee72f0c330fa4057ca7c1d3",
-        "fix/seek-1414-tablet-gc-progress": "7b50fe4b54bd94281cb3122332a5afebe3009a15",
-        "fix/seek-1414-thread-pool-stop": "76cb5d6cfd3f564468f3d987adb8cfda9ea1b564",
-        "fix/seek-1417-revoke-dropped-role": "1a2b8f377b860832d15f61615ae85b758a15cdf9",
+        "fix/seek-1414-cold-stats-retry": "edffd64e8dca724190feb70ba1d15ea314580d2e",
+        "fix/seek-1414-ddl-cancel": "268ec176660eda5675c0f793aa7a544a48be00e8",
+        "fix/seek-1414-drop-deadline": "c7bef127db74c39b9dfab57ca7775d0e08e0aae6",
+        "fix/seek-1414-history-nanoseconds": "8cad468d16e716a7f8084e53e203c6efc5c2d8c8",
+        "fix/seek-1414-history-version-clock": "c868bd4ef8bb176a5b455365a6df079cea9407d4",
+        "fix/seek-1414-json-time-sign": "e0a16f58fa0ce51dc13d03eeb06a1b72393c91de",
+        "fix/seek-1414-tablet-gc-progress": "4a12ebafba782f8ff151d277e0b7f4900b534dd1",
+        "fix/seek-1414-thread-pool-stop": "66de25b3e9db5e1fc09de03c8b6f079d3db852aa",
+        "fix/seek-1414-translation-ci": "cd838d63c5058457706a4fcd18f4f33102f9e060",
         "fix/st-area-geographic-boost-version": "d11d55b4d02f19bb5d4bcb4f640ba33f9c6504c3",
         "fix/win-aio-error-propagation": "949e5a9c066d6e3e6ef91ece68f5d1668ebcbb1e",
         "fix/win-mtr/SEEK-1178-purge-recyclebin-unknown-type": "b7e39896ac08b760f00c53b2d4be638024696b92",
@@ -109,7 +114,7 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "00f88ac89b472e4979c37c22036dc2cecdc25e2e",
+        "master": "6cd3401b418c1f8291a208ba49a6cfd767f5b19c",
         "peg-parser-mvp": "591a2d4111e1719b37704dea2c95efa2aa03bbe2",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
@@ -151,7 +156,7 @@
         "codex/docker-ubuntu-24-04": "70bb55ce72b3f76b9c5461dce2c22098bdcca19f",
         "codex/docs-competition-judging": "35aa2630172fdf08669d177e6cc4fb2771db460f",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
-        "codex/dsh-companion-memory": "fa80ab6b20f8c43363f927bd8c09a4f9491c26e3",
+        "codex/dsh-companion-memory": "a62abae5324541eda39284daff7beb8c139ec9de",
         "codex/dsh-dashboard-embed": "deb7dacc35fd8fd920f1b261a22a32e6a62607c3",
         "codex/dsh-handoff-claude-cli": "d87c0e700821cbaa86b49cac8c567b619695b25a",
         "codex/dsh-handoff-claude-desktop": "ff111fc389590cdfc0020dad5fa31d08990a1f3a",
@@ -175,12 +180,12 @@
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
         "codex/fix-atomic-scoring-test-run-sync": "dc6347b99a64fb8ddea88fb238cd9512494f735a",
         "codex/fix-memory-protocol-diagnostics": "4477db71970e0ba3e41a19b11b8b96d92b603ba4",
-        "codex/fix-seekdb-ci-diagnostics": "611c2498254d40970520b9ae5772a02ea1df3fee",
+        "codex/fix-seekdb-ci-diagnostics": "450f10b15898235d29696e7acf03f660da474e05",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/fix-website-ci-memory": "0ef5bf350ec629a554b644abd74cb3d447f0c8c0",
         "codex/gateway-protocol-correctness": "52b901b6fd485688fc81036bc9310c5a4ac19c21",
         "codex/harness-absolute-entrypoint": "965d2e17d9a2d503dbe6fb51c9757f5c54b9ea1c",
-        "codex/knowledge-base-plugin": "6a26f9a7f39337ad2d3fd41b536052e522f056dc",
+        "codex/knowledge-base-plugin": "231c20997abdcaabe6f7466e27d2e5e524a0a327",
         "codex/oauth-subscriptions-gateway": "f4e197ba08248978e35e0dbd9c6a5a44140e7322",
         "codex/oauth-subscriptions-python": "9141664eeff3c77a4252271d57aea3bfde267fbd",
         "codex/oceanbase-qps-optimization": "180eef6782e2fc11851af09c9188a18be43344f9",
@@ -206,22 +211,23 @@
         "dependabot/github_actions/actions/upload-artifact-7.0.2": "aee334c87dd65412e8b46cb357dffce068b229a5",
         "dependabot/github_actions/astral-sh/setup-uv-10.3.3": "0b805df5623f1f284f43898e7c395ea0b4098f4b",
         "dependabot/github_actions/jdx/mise-action-5.2.7": "98492eb016e84835f6f146687dbb7838db100ba2",
+        "dependabot/github_actions/jdx/mise-action-5.2.8": "878df776296663565838f75018b41a29a76bdeec",
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/agents-gateway-rust-guidance": "e690fd06edf92d6c4adba2ff79b6006c05cbae56",
         "docs/public-content-rules": "d131376e973d48d60ff5166c03b88e481f8cfcbe",
         "docs/readme-website-consistency": "8fc0c18811f4d752880c096d393ebeedb0b44554",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
-        "fix/install-latest-default": "ccf42ce1c333a7f03a2f56721048fdec196dff54",
+        "fix/install-latest-default": "162524f8fe09783e6915ee62ea16fe0ab94a1d57",
         "fix/2084-contract-and-docs": "a1bb8dc5d7501527e69d2e59499f24c3a0d0854e",
-        "master": "303b32cc03e2152b2c18fa33f690d54dc1bcd9ec",
+        "master": "ad0d02061eee0e9fee38c202b60f421216b06dd9",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
         "release/v1.1.5": "6a6b1bd06fa2888b3ce5e61a6b02ae32f144ad1c",
         "release/v1.1.6": "20dfe36d6266b29a2b6360b664d93c0dad5d685c",
         "release/v1.1.7": "5cafe35b106a1f418fcdc87979f19c2c6ad1b8c5",
-        "rfcs/scope-sharing-and-processing": "3adcfbd44f9c8fb7a7a4c7ce5ea7ca72e6938307",
+        "rfcs/scope-sharing-and-processing": "445954e833510a7c81b996226ed125cafe4af0ee",
         "video": "fe4002d37663213294ebffe4c080b6676b1c8014",
         "vldb_2026": "a8378e8ea325dd7ad6b139f4fe049f7a52671603",
         "workshop": "b6b6e64e32e02f565d26ffa4f47da5ac1ef333cd"
@@ -249,6 +255,7 @@
         "v0.1.0": "55616dca56eee0eced97ce0a6315be6bf8c4f95c",
         "v0.0.2": "17f0369aa720f92a95b8777bf272974c56234ea8",
         "v0.0.1": "ce14647fbb1c65dca5d1c290bfb9d6af9ef8053d",
+        "powercontext-v1.5.2": "ad0d02061eee0e9fee38c202b60f421216b06dd9",
         "powercontext-v1.5.1": "2291237a7809410ea0dc8f19f2de149573af8378",
         "powercontext-v1.5.0": "729dc4c5548f915785a06c318f8cb7ed6cbea45b",
         "powercontext-v1.4.1": "8ef4f645e66622e223cd49720d5f009f63ecff85",
@@ -557,7 +564,8 @@
       "obclient",
       "obconnector-c",
       "seekdb-deps",
-      "formal-verification"
+      "formal-verification",
+      "obmysqltcl"
     ]
   },
   "userRepos": {
@@ -1165,6 +1173,61 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "48e053277455",
+      "ts": "2026-11-16T10:58:59.949Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-pr2630-on8444-validation-20261116",
+      "sha": "704945e7faaf244fe721b0789cdfbcea0bd1ebe7",
+      "title": "oceanbase/seekdb 新分支 codex/seek1243-pr2630-on8444-validation-20261116",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-pr2630-on8444-validation-20261116",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "210acad7e9d4",
+      "ts": "2026-11-16T10:58:59.950Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/windows-md-package-20261116",
+      "sha": "fcdcc85213a594c412ad5b3d83bfff6db69d378e",
+      "prevSha": "0002a79e13353f9d54945e0cbc926055f3e730c5",
+      "title": "oceanbase/seekdb 分支 codex/windows-md-package-20261116 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/0002a79e13353f9d54945e0cbc926055f3e730c5...fcdcc85213a594c412ad5b3d83bfff6db69d378e",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "f84d9e0a60e2",
+      "ts": "2026-11-16T10:59:04.921Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/obmysqltcl",
+      "title": "oceanbase 新建仓库 obmysqltcl",
+      "url": "https://github.com/oceanbase/obmysqltcl",
+      "created": "2026-11-16T07:55:55Z",
+      "desc": "obmysqltcl",
+      "topic": {
+        "score": 2,
+        "strong": false,
+        "hits": [
+          "(final|qualifier)"
+        ]
+      },
+      "readme": "# obmysqltcl `obmysqltcl 0.1` is a Tcl 9 binding for OceanBase MySQL tenants. It links dynamically to an independently installed OceanBase Connector/C (`libobclnt`). Its commands follow mysqltcl's arguments and results, using `::obmysql::*`"
     }
   ],
   "seen": [
@@ -1198,8 +1261,11 @@
     "13921672fd47",
     "61da98b74379",
     "bab891ae44f8",
-    "bc14680f33aa"
+    "bc14680f33aa",
+    "48e053277455",
+    "210acad7e9d4",
+    "f84d9e0a60e2"
   ],
-  "lastPublishAt": 1794797993293,
-  "lastPublishHash": "08c42a665ae3"
+  "lastPublishAt": 1794826749893,
+  "lastPublishHash": "7b457d9f41de"
 }

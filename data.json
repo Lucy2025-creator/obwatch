@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794797993292,
-  "lastCheckAt": 1794797993292,
-  "nextCheckAt": 1794798893292,
+  "generatedAt": 1794826749893,
+  "lastCheckAt": 1794826749893,
+  "nextCheckAt": 1794827649893,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 118,
+      "branchCount": 123,
       "tagCount": 8,
       "branches": [
         {
@@ -82,13 +82,18 @@
           "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-diagnostic-20261105"
         },
         {
+          "name": "codex/seek1243-pr2630-on8444-validation-20261116",
+          "sha": "704945e7faaf244fe721b0789cdfbcea0bd1ebe7",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-pr2630-on8444-validation-20261116"
+        },
+        {
           "name": "codex/seek1243-rebased-provenance-20261111",
           "sha": "a960e28201e2b31952ddee525ba673f2922cf86a",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-rebased-provenance-20261111"
         },
         {
           "name": "codex/windows-md-package-20261116",
-          "sha": "0002a79e13353f9d54945e0cbc926055f3e730c5",
+          "sha": "fcdcc85213a594c412ad5b3d83bfff6db69d378e",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/windows-md-package-20261116"
         },
         {
@@ -106,8 +111,8 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 89,
-      "tagCount": 35,
+      "branchCount": 90,
+      "tagCount": 36,
       "branches": [
         {
           "name": "2026-competition",
@@ -186,6 +191,42 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-16T10:59:04.921Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/obmysqltcl",
+      "branch": null,
+      "sha": null,
+      "title": "oceanbase 新建仓库 obmysqltcl",
+      "url": "https://github.com/oceanbase/obmysqltcl",
+      "strong": false,
+      "score": 2,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-16T10:58:59.950Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/windows-md-package-20261116",
+      "sha": "fcdcc85213a594c412ad5b3d83bfff6db69d378e",
+      "title": "oceanbase/seekdb 分支 codex/windows-md-package-20261116 更新",
+      "url": "https://github.com/oceanbase/seekdb/compare/0002a79e13353f9d54945e0cbc926055f3e730c5...fcdcc85213a594c412ad5b3d83bfff6db69d378e",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-16T10:58:59.949Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/seek1243-pr2630-on8444-validation-20261116",
+      "sha": "704945e7faaf244fe721b0789cdfbcea0bd1ebe7",
+      "title": "oceanbase/seekdb 新分支 codex/seek1243-pr2630-on8444-validation-20261116",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-pr2630-on8444-validation-20261116",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-16T02:59:47.628Z",
       "kind": "branch_new",
@@ -562,6 +603,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 31
+    "events": 34
   }
 }
