@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794826749893,
-  "lastCheckAt": 1794826749893,
-  "nextCheckAt": 1794827649893,
+  "generatedAt": 1794862525484,
+  "lastCheckAt": 1794862525485,
+  "nextCheckAt": 1794863425485,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 123,
+      "branchCount": 124,
       "tagCount": 8,
       "branches": [
         {
@@ -111,7 +111,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 90,
+      "branchCount": 59,
       "tagCount": 36,
       "branches": [
         {
@@ -123,11 +123,6 @@
           "name": "2026-competition-ecosystem",
           "sha": "d647275c308e09b7b623f322a26f5c4e85734fb0",
           "url": "https://github.com/oceanbase/powercontext/tree/2026-competition-ecosystem"
-        },
-        {
-          "name": "codex/docs-competition-judging",
-          "sha": "35aa2630172fdf08669d177e6cc4fb2771db460f",
-          "url": "https://github.com/oceanbase/powercontext/tree/codex/docs-competition-judging"
         },
         {
           "name": "demo-2026",
@@ -191,6 +186,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-16T20:55:18.762Z",
+      "kind": "branch_deleted",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/docs-competition-judging",
+      "sha": null,
+      "title": "oceanbase/powercontext 比赛相关分支被删除：codex/docs-competition-judging",
+      "url": "https://github.com/oceanbase/powercontext/branches",
+      "strong": false,
+      "score": 0,
+      "clone": null
+    },
     {
       "ts": "2026-11-16T10:59:04.921Z",
       "kind": "repo_new",
@@ -603,6 +610,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 34
+    "events": 35
   }
 }
