@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794785325531,
-  "lastCheckAt": 1794785325531,
-  "nextCheckAt": 1794786225531,
+  "generatedAt": 1794797993292,
+  "lastCheckAt": 1794797993292,
+  "nextCheckAt": 1794798893292,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -85,6 +85,11 @@
           "name": "codex/seek1243-rebased-provenance-20261111",
           "sha": "a960e28201e2b31952ddee525ba673f2922cf86a",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-rebased-provenance-20261111"
+        },
+        {
+          "name": "codex/windows-md-package-20261116",
+          "sha": "0002a79e13353f9d54945e0cbc926055f3e730c5",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/windows-md-package-20261116"
         },
         {
           "name": "codex/windows-package-20261112",
@@ -181,6 +186,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-16T02:59:47.628Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/windows-md-package-20261116",
+      "sha": "0002a79e13353f9d54945e0cbc926055f3e730c5",
+      "title": "oceanbase/seekdb 新分支 codex/windows-md-package-20261116",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/windows-md-package-20261116",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-14T08:04:17.794Z",
       "kind": "branch_new",
@@ -545,6 +562,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 30
+    "events": 31
   }
 }
