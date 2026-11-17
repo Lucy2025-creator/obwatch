@@ -59,7 +59,7 @@
         "codex/seek-767-exists-false-internal": "910a1c1a4047f2cc76555abdcbcb7a3e63cb1615",
         "codex/seek-930-json-search-index": "ad59b218eb57acbce0368e51bfcf20cd5c236831",
         "codex/seek-1295-callback-diagnostic": "3047f84a207cc98cc814222ad4158ee4749ce48b",
-        "codex/seek-1295-mds-accounting-master": "568078f5f0c048b413fd1e34af88b94b4cc2fcfd",
+        "codex/seek-1295-mds-accounting-master": "79e7e6c3c4db5f0a0932a0e1263b7ed4e94e0a08",
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
         "codex/seek-1381-833-inner-sql-timing": "47b70e142b94b2b96b441c75bc55e7fbe351084b",
@@ -168,7 +168,7 @@
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
         "codex/fix-seekdb-ci-diagnostics": "450f10b15898235d29696e7acf03f660da474e05",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
-        "codex/knowledge-base-plugin": "70fcfea7367237584cd33ab6b7c6a24444e8c407",
+        "codex/knowledge-base-plugin": "cccd12b3cb29f4f1490dcfdb6af86e6c378e772c",
         "codex/oauth-subscriptions-python": "d4519023776e460cd5294941effdf60ca4887dec",
         "codex/oceanbase-qps-optimization": "180eef6782e2fc11851af09c9188a18be43344f9",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
@@ -189,7 +189,7 @@
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
-        "fix/install-latest-default": "162524f8fe09783e6915ee62ea16fe0ab94a1d57",
+        "fix/install-latest-default": "bf8414a943cf144c474253c285110892e57dbecb",
         "master": "fd1658386e093c98674736351a797171d9b1650d",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
@@ -256,7 +256,7 @@
         "4.3.1": "12516b2cb17a28066751a56f1258dd2c012e878f",
         "4.3.2": "6738383028eda16fb214a87ecd78ee853843236a",
         "4.3.3": "b3fc6289e40a997e616b89f6a92fac7238380c0e",
-        "4.3.5": "afecec4aec861ade1001e0ef684e63d810c4c433",
+        "4.3.5": "ad52a71d1ef7ebffc00a7702bfa9e4e1abc11698",
         "4.4.x": "a10e1523eff6387cfc30548b7752ef67bd68fabb",
         "4.6.0": "7a1cad03905fa4c8155a3e240f972e05a3efcf53",
         "2024-final-competition": "d76c1fcad7de96739f12ceb412b0ee48753791d7",
@@ -1247,6 +1247,6 @@
     "f84d9e0a60e2",
     "c144a122a16d"
   ],
-  "lastPublishAt": 1794862525485,
-  "lastPublishHash": "c06f2c540773"
+  "lastPublishAt": 1794886151216,
+  "lastPublishHash": "3fd63f5d1de9"
 }
