@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794918174890,
-  "lastCheckAt": 1794918174890,
-  "nextCheckAt": 1794919074890,
+  "generatedAt": 1794950058344,
+  "lastCheckAt": 1794950058344,
+  "nextCheckAt": 1794950958344,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 126,
+      "branchCount": 129,
       "tagCount": 8,
       "branches": [
         {
@@ -50,6 +50,11 @@
           "name": "codex/macos15-package-20261117",
           "sha": "c64d88ca1c2aedb6e19ef821fa55f41c8b37b526",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/macos15-package-20261117"
+        },
+        {
+          "name": "codex/macos-parallel-20261117",
+          "sha": "95e92248052c0539b2f5777b92dc8b8156e627d5",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/macos-parallel-20261117"
         },
         {
           "name": "codex/package-all-20261117",
@@ -201,6 +206,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-17T21:14:09.422Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/macos-parallel-20261117",
+      "sha": "95e92248052c0539b2f5777b92dc8b8156e627d5",
+      "title": "oceanbase/seekdb 新分支 codex/macos-parallel-20261117",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/macos-parallel-20261117",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-17T12:22:47.709Z",
       "kind": "branch_new",
@@ -661,6 +678,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 38
+    "events": 39
   }
 }
