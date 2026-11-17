@@ -30,9 +30,12 @@
         "codex/gh-9-embed-sql-cli": "b5b323fc117e9e612dc9a4f71f99f2a68952a675",
         "codex/gh-9-seekdb-cli": "5a4e870af748bc76e92bd56d668acc1174528183",
         "codex/ios-package-20261113": "308afdb59e2c3e4bb9b56d7ff299ea9ed3456878",
+        "codex/macos15-package-20261117": "c64d88ca1c2aedb6e19ef821fa55f41c8b37b526",
         "codex/namespace-single-process-phase01": "cbce10c0f344c948e0f7d88d0ba9ad253f9de970",
         "codex/namespace-worker-direct-v19": "34d3345086158060f472d88bccf74874143b4b6e",
         "codex/namespace-worker-proxy-v20": "0638e2ddcf34c4c247e4e6d3937738bf72ab45b0",
+        "codex/package-all-20261117": "a130897144ce3a6c0924f5f238f81521479546b5",
+        "codex/package-checks-20261117": "e59c3a5b032bbc3bf39090f769643f3b6a0b538a",
         "codex/package-deb-targets-run-20261113": "2fe940feb5d6eeb0bbe7feb127d9d1a4cf54ff71",
         "codex/package-distro-run-20261113": "27f1b950acc2e3954a32171a31aeeddf7bf0deaa",
         "codex/package-reuse-20261112": "92c8e323314339157c3709314b790ec16a50bc74",
@@ -59,7 +62,6 @@
         "codex/seek-767-exists-false-internal": "910a1c1a4047f2cc76555abdcbcb7a3e63cb1615",
         "codex/seek-930-json-search-index": "ad59b218eb57acbce0368e51bfcf20cd5c236831",
         "codex/seek-1295-callback-diagnostic": "3047f84a207cc98cc814222ad4158ee4749ce48b",
-        "codex/seek-1295-mds-accounting-master": "79e7e6c3c4db5f0a0932a0e1263b7ed4e94e0a08",
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
         "codex/seek-1381-833-inner-sql-timing": "47b70e142b94b2b96b441c75bc55e7fbe351084b",
@@ -104,8 +106,8 @@
         "fix/seek-1414-history-version-clock": "c868bd4ef8bb176a5b455365a6df079cea9407d4",
         "fix/seek-1414-json-time-sign": "e0a16f58fa0ce51dc13d03eeb06a1b72393c91de",
         "fix/seek-1414-tablet-gc-progress": "4a12ebafba782f8ff151d277e0b7f4900b534dd1",
-        "fix/seek-1414-thread-pool-stop": "66de25b3e9db5e1fc09de03c8b6f079d3db852aa",
         "fix/seek-1414-translation-ci": "cd838d63c5058457706a4fcd18f4f33102f9e060",
+        "fix/seek-1428-1468-rewrite": "f02810c1fd23308e3d6888146d01a95e8fbeaa16",
         "fix/st-area-geographic-boost-version": "d11d55b4d02f19bb5d4bcb4f640ba33f9c6504c3",
         "fix/win-aio-error-propagation": "949e5a9c066d6e3e6ef91ece68f5d1668ebcbb1e",
         "fix/win-mtr/SEEK-1178-purge-recyclebin-unknown-type": "b7e39896ac08b760f00c53b2d4be638024696b92",
@@ -115,12 +117,12 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "884f81ffea105a0f674c13210227bb46db0e6ee1",
+        "master": "40f7cb70f926a762c77c51c57ac9bc408363dca0",
         "peg-parser-mvp": "591a2d4111e1719b37704dea2c95efa2aa03bbe2",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
         "release/1.4.0": "bf450b4c8deb3c45d85efb1bd5f43e282d101914",
-        "rust-refractor": "5ec408cec0df95d8ba3c6534336e48bc9f6dd378",
+        "rust-refractor": "e3c3439850139c59069ac4a16f22d8e8eea395a2",
         "seek1177/worker-clock-domain": "8c110db3c69bfcab08fe9b95ff48fd08da40682a",
         "seek1401-dcl-lock-context-fix": "f79e645a8f03df90cbc3a9f82f212c96312a01e8",
         "seek-763-having-sqlancer-mismatch": "7ed3a295d5acfe3b6d9f04bb32ca6d0434ce0f25",
@@ -147,18 +149,19 @@
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
         "ci/public-content-check": "c18f3476b6eda2edf85c80e1d11e619b8fa2c46c",
+        "codex/ci-matrix-concurrency": "9b7218adecc61ccac6661dc91c69672be1c74216",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/dsh-companion-memory": "a62abae5324541eda39284daff7beb8c139ec9de",
-        "codex/dsh-handoff-claude-cli": "d87c0e700821cbaa86b49cac8c567b619695b25a",
+        "codex/dsh-handoff-claude-cli": "1a9813abd3361925e8b148bc0d09515c62cabecd",
         "codex/dsh-handoff-codex-desktop": "84363fda1e0cf8c4cc0f0b7d3850b69eec07716d",
         "codex/dsh-handoff-host-wiring": "51f3b8fdfcdc438e8128b42a5a791bd45d8886ff",
         "codex/dsh-handoff-preflight": "b29bc8adcdf88854eb7ab8a868ccdf326c979cfc",
         "codex/dsh-handoff-receipts": "294d857eb6b4a04b2e3958895c4aa995f7f9782b",
-        "codex/dsh-handoff-workflow": "0637441bf80e64534df8aa9680241844db51df3d",
+        "codex/dsh-handoff-workflow": "f3544d8e7fa61aa40ce7eef6d80848cd567f6474",
         "codex/dsh-panel-updates": "c5e4ec14e38051bd0c3c7a55421771294965cbbb",
         "codex/dsh-pet-memory-2606": "bc046e6623f9804d2acf5aadbac57fc1d8c3af75",
         "codex/fix-2340-redundant-memory-revisions": "38790cd89e38699259d4f110ccb54baf48de6dde",
@@ -166,15 +169,16 @@
         "codex/fix-2373-dsh-recall-query": "f0b814112ab91751c1783cbd57cd47ecd98ee207",
         "codex/fix-2374-dsh-profile-templates": "9623c4c968f20945f55ea99c4b2312ca3d09344d",
         "codex/fix-2375-dsh-bundle-selection": "62b50c709dda78c32cc3ce3eefc6c3137b57ec9a",
-        "codex/fix-seekdb-ci-diagnostics": "450f10b15898235d29696e7acf03f660da474e05",
+        "codex/fix-seekdb-ci-diagnostics": "b44d3e6b7b41dd83222bc267edd4e7537f7d16fe",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
-        "codex/knowledge-base-plugin": "cccd12b3cb29f4f1490dcfdb6af86e6c378e772c",
-        "codex/oauth-subscriptions-python": "d4519023776e460cd5294941effdf60ca4887dec",
+        "codex/knowledge-base-plugin": "12db320b14f4063b6273314be0a76b1501bca036",
+        "codex/oauth-subscriptions-python": "488af8c5f67dc426c08383e62f9eb4161c8b356a",
         "codex/oceanbase-qps-optimization": "180eef6782e2fc11851af09c9188a18be43344f9",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
         "codex/powercontext-linux-ci": "b6bc64f8e50925437b44423a14ee54649b8e27b8",
         "codex/pr-2342-temporal-evidence-retention": "cbfa966840b33783f28da1751ab45dd14f3d1df0",
+        "codex/pr-scoped-migration-names": "280f74e439008ca0f39f457e54381128286fb0b3",
         "codex/profile-default-prompt": "a228418bdb306e5afbb9d9ac59a30c2c39a2777e",
         "codex/rag-knowledge-base-rfc": "b9a688a4174352a18f542adf237daede617f10cd",
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
@@ -185,12 +189,11 @@
         "copilot/fix-acceptance-oceanbase-job": "270a5545feba02d05cb60505c1b280e6ab642648",
         "demo-2026": "0bac963f1e92e0ea570d4ee7a3b9d7dad4546bb2",
         "dependabot/github_actions/astral-sh/setup-uv-10.3.3": "0b805df5623f1f284f43898e7c395ea0b4098f4b",
-        "dependabot/github_actions/jdx/mise-action-5.2.8": "878df776296663565838f75018b41a29a76bdeec",
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
-        "fix/install-latest-default": "bf8414a943cf144c474253c285110892e57dbecb",
-        "master": "fd1658386e093c98674736351a797171d9b1650d",
+        "fix/install-latest-default": "4135674f1e4dd42b9c843e351549d237608d2873",
+        "master": "09e7dd9c30a541864a41258947584f4dfb31c541",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1208,6 +1211,60 @@
       "title": "oceanbase/powercontext 比赛相关分支被删除：codex/docs-competition-judging",
       "url": "https://github.com/oceanbase/powercontext/branches",
       "readme": ""
+    },
+    {
+      "id": "598e20ce8fc9",
+      "ts": "2026-11-17T12:22:47.708Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/macos15-package-20261117",
+      "sha": "c64d88ca1c2aedb6e19ef821fa55f41c8b37b526",
+      "title": "oceanbase/seekdb 新分支 codex/macos15-package-20261117",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/macos15-package-20261117",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "649ea161fa09",
+      "ts": "2026-11-17T12:22:47.709Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-all-20261117",
+      "sha": "a130897144ce3a6c0924f5f238f81521479546b5",
+      "title": "oceanbase/seekdb 新分支 codex/package-all-20261117",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-all-20261117",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "5109b68a93d5",
+      "ts": "2026-11-17T12:22:47.709Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-checks-20261117",
+      "sha": "e59c3a5b032bbc3bf39090f769643f3b6a0b538a",
+      "title": "oceanbase/seekdb 新分支 codex/package-checks-20261117",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-checks-20261117",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -1245,8 +1302,11 @@
     "48e053277455",
     "210acad7e9d4",
     "f84d9e0a60e2",
-    "c144a122a16d"
+    "c144a122a16d",
+    "598e20ce8fc9",
+    "649ea161fa09",
+    "5109b68a93d5"
   ],
-  "lastPublishAt": 1794886151216,
-  "lastPublishHash": "3fd63f5d1de9"
+  "lastPublishAt": 1794918174890,
+  "lastPublishHash": "45fcc2fb6216"
 }

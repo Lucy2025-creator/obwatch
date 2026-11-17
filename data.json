@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794886151216,
-  "lastCheckAt": 1794886151216,
-  "nextCheckAt": 1794887051216,
+  "generatedAt": 1794918174890,
+  "lastCheckAt": 1794918174890,
+  "nextCheckAt": 1794919074890,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 124,
+      "branchCount": 126,
       "tagCount": 8,
       "branches": [
         {
@@ -45,6 +45,21 @@
           "name": "codex/ios-package-20261113",
           "sha": "308afdb59e2c3e4bb9b56d7ff299ea9ed3456878",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/ios-package-20261113"
+        },
+        {
+          "name": "codex/macos15-package-20261117",
+          "sha": "c64d88ca1c2aedb6e19ef821fa55f41c8b37b526",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/macos15-package-20261117"
+        },
+        {
+          "name": "codex/package-all-20261117",
+          "sha": "a130897144ce3a6c0924f5f238f81521479546b5",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/package-all-20261117"
+        },
+        {
+          "name": "codex/package-checks-20261117",
+          "sha": "e59c3a5b032bbc3bf39090f769643f3b6a0b538a",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/package-checks-20261117"
         },
         {
           "name": "codex/package-deb-targets-run-20261113",
@@ -111,7 +126,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 59,
+      "branchCount": 60,
       "tagCount": 36,
       "branches": [
         {
@@ -186,6 +201,42 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-17T12:22:47.709Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-checks-20261117",
+      "sha": "e59c3a5b032bbc3bf39090f769643f3b6a0b538a",
+      "title": "oceanbase/seekdb 新分支 codex/package-checks-20261117",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-checks-20261117",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-17T12:22:47.709Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/package-all-20261117",
+      "sha": "a130897144ce3a6c0924f5f238f81521479546b5",
+      "title": "oceanbase/seekdb 新分支 codex/package-all-20261117",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/package-all-20261117",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-17T12:22:47.708Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/macos15-package-20261117",
+      "sha": "c64d88ca1c2aedb6e19ef821fa55f41c8b37b526",
+      "title": "oceanbase/seekdb 新分支 codex/macos15-package-20261117",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/macos15-package-20261117",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-16T20:55:18.762Z",
       "kind": "branch_deleted",
@@ -610,6 +661,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 35
+    "events": 38
   }
 }
