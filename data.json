@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1794970618181,
-  "lastCheckAt": 1794970618181,
-  "nextCheckAt": 1794971518181,
+  "generatedAt": 1795001165193,
+  "lastCheckAt": 1795001165193,
+  "nextCheckAt": 1795002065193,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 130,
+      "branchCount": 131,
       "tagCount": 8,
       "branches": [
         {
@@ -112,6 +112,11 @@
           "url": "https://github.com/oceanbase/seekdb/tree/codex/seek1243-rebased-provenance-20261111"
         },
         {
+          "name": "codex/symbol-reviews-20261118",
+          "sha": "4ed897d83205f06225038b0a0c8fe5d39558d544",
+          "url": "https://github.com/oceanbase/seekdb/tree/codex/symbol-reviews-20261118"
+        },
+        {
           "name": "codex/windows-md-package-20261116",
           "sha": "fcdcc85213a594c412ad5b3d83bfff6db69d378e",
           "url": "https://github.com/oceanbase/seekdb/tree/codex/windows-md-package-20261116"
@@ -131,7 +136,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 60,
+      "branchCount": 65,
       "tagCount": 36,
       "branches": [
         {
@@ -206,6 +211,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-18T11:25:57.137Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "codex/symbol-reviews-20261118",
+      "sha": "4ed897d83205f06225038b0a0c8fe5d39558d544",
+      "title": "oceanbase/seekdb 新分支 codex/symbol-reviews-20261118",
+      "url": "https://github.com/oceanbase/seekdb/tree/codex/symbol-reviews-20261118",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-17T21:14:09.422Z",
       "kind": "branch_new",
@@ -678,6 +695,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 39
+    "events": 40
   }
 }
