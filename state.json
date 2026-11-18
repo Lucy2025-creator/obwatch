@@ -154,7 +154,8 @@
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
         "ci/public-content-check": "c18f3476b6eda2edf85c80e1d11e619b8fa2c46c",
-        "codex/ci-dependency-cache-fix": "34af84f98805053f1b408d3114ed3b28ff07f30d",
+        "codex/ci-cache-acceptance-20261118": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
+        "codex/ci-dependency-cache-fix": "b8d3ea9d78773a8e67abbc235444de727a7b7315",
         "codex/ci-matrix-concurrency": "9b7218adecc61ccac6661dc91c69672be1c74216",
         "codex/cumulative-schema-migration": "5ce729afef6c7cd2f91549ad0a8357e6d63eb9f3",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
@@ -163,10 +164,10 @@
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/dsh-companion-memory": "a62abae5324541eda39284daff7beb8c139ec9de",
-        "codex/dsh-handoff-claude-cli": "a7d4eeb6d28e4da0f1c586afc0760d0f237bdc22",
+        "codex/dsh-handoff-claude-cli": "cc53dc1738e45956988afb76702d00dec8e37cc7",
         "codex/dsh-handoff-codex-desktop": "84363fda1e0cf8c4cc0f0b7d3850b69eec07716d",
         "codex/dsh-handoff-host-wiring": "51f3b8fdfcdc438e8128b42a5a791bd45d8886ff",
-        "codex/dsh-handoff-preflight": "3df7fe36eee1c041fd864504511d115bdbe50ddc",
+        "codex/dsh-handoff-preflight": "a3ce48391a0f42feb407b9235679e89c306d0950",
         "codex/dsh-handoff-receipts": "294d857eb6b4a04b2e3958895c4aa995f7f9782b",
         "codex/dsh-handoff-workflow": "f3544d8e7fa61aa40ce7eef6d80848cd567f6474",
         "codex/dsh-panel-updates": "c5e4ec14e38051bd0c3c7a55421771294965cbbb",
@@ -180,7 +181,7 @@
         "codex/fix-seekdb-ci-diagnostics": "c45c7147cf316fb1b7da646ff40179d89cef57ee",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
         "codex/knowledge-base-plugin": "4d385e82d6d31c16bd1e549932e85fa30005c39f",
-        "codex/oauth-subscriptions-python": "7af7088263c37feb9eab674232c9759ba0fa85f8",
+        "codex/oauth-subscriptions-python": "55281d6de86540cddceea5a3ff8b0ce2174c5d88",
         "codex/oceanbase-qps-optimization": "180eef6782e2fc11851af09c9188a18be43344f9",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
@@ -202,7 +203,7 @@
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "1ba6bd0bd48132b1853655a61ef009440cf4173b",
-        "master": "35f80a174049126dc335acc32c71cae8bd870fe6",
+        "master": "704c107949ee97f5862aec31f5660363277af871",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1311,6 +1312,24 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "79a1edc30f56",
+      "ts": "2026-11-18T19:30:04.821Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-cache-acceptance-20261118",
+      "sha": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
+      "title": "oceanbase/powercontext 新分支 codex/ci-cache-acceptance-20261118",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-cache-acceptance-20261118",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -1353,8 +1372,9 @@
     "649ea161fa09",
     "5109b68a93d5",
     "1ae92456134c",
-    "2c9b847b9c52"
+    "2c9b847b9c52",
+    "79a1edc30f56"
   ],
-  "lastPublishAt": 1795001165194,
-  "lastPublishHash": "a8d932d1ad42"
+  "lastPublishAt": 1795030216715,
+  "lastPublishHash": "ff2bddf5b4f8"
 }

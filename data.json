@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795001165193,
-  "lastCheckAt": 1795001165193,
-  "nextCheckAt": 1795002065193,
+  "generatedAt": 1795030216714,
+  "lastCheckAt": 1795030216714,
+  "nextCheckAt": 1795031116714,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -136,7 +136,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 65,
+      "branchCount": 66,
       "tagCount": 36,
       "branches": [
         {
@@ -148,6 +148,11 @@
           "name": "2026-competition-ecosystem",
           "sha": "d647275c308e09b7b623f322a26f5c4e85734fb0",
           "url": "https://github.com/oceanbase/powercontext/tree/2026-competition-ecosystem"
+        },
+        {
+          "name": "codex/ci-cache-acceptance-20261118",
+          "sha": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-cache-acceptance-20261118"
         },
         {
           "name": "demo-2026",
@@ -211,6 +216,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-18T19:30:04.821Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-cache-acceptance-20261118",
+      "sha": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
+      "title": "oceanbase/powercontext 新分支 codex/ci-cache-acceptance-20261118",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-cache-acceptance-20261118",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-18T11:25:57.137Z",
       "kind": "branch_new",
@@ -695,6 +712,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 40
+    "events": 41
   }
 }
