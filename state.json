@@ -66,7 +66,7 @@
         "codex/seek-1295-native-diagnostic": "afaa13168957925814a0a48cf15770bfb3d5b11e",
         "codex/seek-1296-array-diff-diagnostic": "047f593ffa0ee6f317ede70d7fbdac650f068358",
         "codex/seek-1381-833-inner-sql-timing": "47b70e142b94b2b96b441c75bc55e7fbe351084b",
-        "codex/seekdb-steady-clock": "d2db965edee6db4059fa25a8245259e35a4fb0ba",
+        "codex/seekdb-steady-clock": "2bfc1bd2dbb37ab1cc14cf7a9624804379c34192",
         "codex/serialize-async-hnsw-updates": "5476a2c51c3ddabd7163b9c1bc53cd79c54a78af",
         "codex/symbol-reviews-20261118": "4ed897d83205f06225038b0a0c8fe5d39558d544",
         "codex/throttle-redo-enospc-logs": "3f4ed01a8c73acb2abcb2ec886148b0ea0b5b81d",
@@ -260,7 +260,7 @@
         "3.1": "b0a9152274a1fbe67e8722b682bd8bf0ef7a3fed",
         "4.0": "7152da3374055a221d2eeb282f69fa53d7b2f313",
         "4.1": "0d246e51c330328aeb138bed0296b4d02314b150",
-        "4.2.x": "24a51341fc0756a5822af5c92b050c3f1c8d72ae",
+        "4.2.x": "8393ec8a1c4e4889fad71892f37d865708cdd4d2",
         "4.2.0": "eef858ef5f705d8f53afec6222a77bc1de4ef3f5",
         "4.2.1": "5e4788df6eb6e82371f0c571c088b476c00776a7",
         "4.2.2": "63e1e105c07c0ca642273374d0166a0b876859a7",
@@ -1375,6 +1375,6 @@
     "2c9b847b9c52",
     "79a1edc30f56"
   ],
-  "lastPublishAt": 1795030216715,
-  "lastPublishHash": "ff2bddf5b4f8"
+  "lastPublishAt": 1795051625788,
+  "lastPublishHash": "e90376404c59"
 }
