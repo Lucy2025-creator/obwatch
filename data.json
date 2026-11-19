@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795080029971,
-  "lastCheckAt": 1795080029971,
-  "nextCheckAt": 1795080929971,
+  "generatedAt": 1795113071411,
+  "lastCheckAt": 1795113071411,
+  "nextCheckAt": 1795113971411,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 132,
+      "branchCount": 130,
       "tagCount": 8,
       "branches": [
         {
@@ -136,7 +136,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 66,
+      "branchCount": 73,
       "tagCount": 36,
       "branches": [
         {
@@ -150,9 +150,29 @@
           "url": "https://github.com/oceanbase/powercontext/tree/2026-competition-ecosystem"
         },
         {
+          "name": "codex/ci-action-archive-acceptance-20261120",
+          "sha": "919589c40fe33f182e2ec23331de9f412e8a5b9c",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-action-archive-acceptance-20261120"
+        },
+        {
           "name": "codex/ci-cache-acceptance-20261118",
           "sha": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-cache-acceptance-20261118"
+        },
+        {
+          "name": "codex/ci-cache-coverage-acceptance-20261119",
+          "sha": "85ab9e20ad007856db1ad3d200fc864f84004bc2",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-cache-coverage-acceptance-20261119"
+        },
+        {
+          "name": "codex/ci-dsh-readiness-20261120",
+          "sha": "4c1edd481e74049ac27c12848082bcd9123aa4ba",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-dsh-readiness-20261120"
+        },
+        {
+          "name": "codex/ci-internal-cache-acceptance-20261119",
+          "sha": "6c16c347993eef6dd171e87ccc78a07b9011557d",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-internal-cache-acceptance-20261119"
         },
         {
           "name": "demo-2026",
@@ -216,6 +236,54 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-19T18:31:03.083Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-internal-cache-acceptance-20261119",
+      "sha": "6c16c347993eef6dd171e87ccc78a07b9011557d",
+      "title": "oceanbase/powercontext 新分支 codex/ci-internal-cache-acceptance-20261119",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-internal-cache-acceptance-20261119",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-19T18:31:03.083Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-dsh-readiness-20261120",
+      "sha": "4c1edd481e74049ac27c12848082bcd9123aa4ba",
+      "title": "oceanbase/powercontext 新分支 codex/ci-dsh-readiness-20261120",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-dsh-readiness-20261120",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-19T18:31:03.083Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-cache-coverage-acceptance-20261119",
+      "sha": "85ab9e20ad007856db1ad3d200fc864f84004bc2",
+      "title": "oceanbase/powercontext 新分支 codex/ci-cache-coverage-acceptance-20261119",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-cache-coverage-acceptance-20261119",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-19T18:31:03.083Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-action-archive-acceptance-20261120",
+      "sha": "919589c40fe33f182e2ec23331de9f412e8a5b9c",
+      "title": "oceanbase/powercontext 新分支 codex/ci-action-archive-acceptance-20261120",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-action-archive-acceptance-20261120",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-18T19:30:04.821Z",
       "kind": "branch_new",
@@ -712,6 +780,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 41
+    "events": 45
   }
 }
