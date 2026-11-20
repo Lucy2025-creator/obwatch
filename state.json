@@ -157,10 +157,12 @@
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
         "ci/public-content-check": "436631f7d514209010af21d65173aec9c92985e9",
+        "codex/artifact-upload-python-validation-20261121": "732f45038b6426a9337d88c6723c843388857f03",
+        "codex/artifact-upload-validation-20261121": "d2eeda8d34d340616da749703da87f8d58029d17",
         "codex/ci-2658-cache-stability-20261120": "368de4ad97e7665828e8d4faade254dd1bf710d4",
         "codex/ci-action-archive-acceptance-20261120": "919589c40fe33f182e2ec23331de9f412e8a5b9c",
         "codex/ci-cache-acceptance-20261118": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
-        "codex/ci-cache-coverage": "751d4cc71e9951f09867dab66c469613c5e05c6b",
+        "codex/ci-cache-coverage": "41e452c1f0006270ac3e2dd06988cd2f1943024a",
         "codex/ci-cache-coverage-acceptance-20261119": "85ab9e20ad007856db1ad3d200fc864f84004bc2",
         "codex/ci-dependency-cache-fix": "16ab67ae073d13e991f652faec5ad80b2a90bfc9",
         "codex/ci-dsh-readiness-20261120": "4c1edd481e74049ac27c12848082bcd9123aa4ba",
@@ -168,6 +170,8 @@
         "codex/ci-internal-cache-acceptance-20261119": "6c16c347993eef6dd171e87ccc78a07b9011557d",
         "codex/ci-local-actions-acceptance-20261120": "b4781e86c5bc62364576fdb065e30a3216a122b2",
         "codex/ci-matrix-concurrency": "9b7218adecc61ccac6661dc91c69672be1c74216",
+        "codex/ci-stability-validation-20261121-2": "41e452c1f0006270ac3e2dd06988cd2f1943024a",
+        "codex/ci-stability-validation-20261121": "c7bb839c4553cb4897121114f1842604b9994a23",
         "codex/dashboard-processing-status": "b28d863c444a5ee53bb2afddf35e5e0a1d8e476f",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
         "codex/desktop-qualification-2725": "4699522746e9e6b52ee6a6870301069d701968f7",
@@ -1490,6 +1494,78 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "e0150dcd2161",
+      "ts": "2026-11-20T23:02:02.256Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/artifact-upload-python-validation-20261121",
+      "sha": "732f45038b6426a9337d88c6723c843388857f03",
+      "title": "oceanbase/powercontext 新分支 codex/artifact-upload-python-validation-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/artifact-upload-python-validation-20261121",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "e6e495b36435",
+      "ts": "2026-11-20T23:02:02.257Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/artifact-upload-validation-20261121",
+      "sha": "d2eeda8d34d340616da749703da87f8d58029d17",
+      "title": "oceanbase/powercontext 新分支 codex/artifact-upload-validation-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/artifact-upload-validation-20261121",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "2c6a7d099948",
+      "ts": "2026-11-20T23:02:02.257Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-2",
+      "sha": "41e452c1f0006270ac3e2dd06988cd2f1943024a",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-2",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-2",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "52341079ea8f",
+      "ts": "2026-11-20T23:02:02.257Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121",
+      "sha": "c7bb839c4553cb4897121114f1842604b9994a23",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -1541,8 +1617,12 @@
     "cf8f2a178e94",
     "0067933ab72a",
     "0cae81cda85e",
-    "39929f8bdf0f"
+    "39929f8bdf0f",
+    "e0150dcd2161",
+    "e6e495b36435",
+    "2c6a7d099948",
+    "52341079ea8f"
   ],
-  "lastPublishAt": 1795194001658,
-  "lastPublishHash": "3250a3932abf"
+  "lastPublishAt": 1795215728933,
+  "lastPublishHash": "f56b027e570c"
 }

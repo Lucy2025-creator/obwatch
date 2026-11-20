@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795194001657,
-  "lastCheckAt": 1795194001657,
-  "nextCheckAt": 1795194901657,
+  "generatedAt": 1795215728932,
+  "lastCheckAt": 1795215728932,
+  "nextCheckAt": 1795216628932,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -141,7 +141,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 76,
+      "branchCount": 80,
       "tagCount": 36,
       "branches": [
         {
@@ -153,6 +153,16 @@
           "name": "2026-competition-ecosystem",
           "sha": "d647275c308e09b7b623f322a26f5c4e85734fb0",
           "url": "https://github.com/oceanbase/powercontext/tree/2026-competition-ecosystem"
+        },
+        {
+          "name": "codex/artifact-upload-python-validation-20261121",
+          "sha": "732f45038b6426a9337d88c6723c843388857f03",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/artifact-upload-python-validation-20261121"
+        },
+        {
+          "name": "codex/artifact-upload-validation-20261121",
+          "sha": "d2eeda8d34d340616da749703da87f8d58029d17",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/artifact-upload-validation-20261121"
         },
         {
           "name": "codex/ci-2658-cache-stability-20261120",
@@ -193,6 +203,16 @@
           "name": "codex/ci-local-actions-acceptance-20261120",
           "sha": "b4781e86c5bc62364576fdb065e30a3216a122b2",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-local-actions-acceptance-20261120"
+        },
+        {
+          "name": "codex/ci-stability-validation-20261121-2",
+          "sha": "41e452c1f0006270ac3e2dd06988cd2f1943024a",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-2"
+        },
+        {
+          "name": "codex/ci-stability-validation-20261121",
+          "sha": "c7bb839c4553cb4897121114f1842604b9994a23",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121"
         },
         {
           "name": "demo-2026",
@@ -256,6 +276,54 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-20T23:02:02.257Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121",
+      "sha": "c7bb839c4553cb4897121114f1842604b9994a23",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-20T23:02:02.257Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-2",
+      "sha": "41e452c1f0006270ac3e2dd06988cd2f1943024a",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-2",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-2",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-20T23:02:02.257Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/artifact-upload-validation-20261121",
+      "sha": "d2eeda8d34d340616da749703da87f8d58029d17",
+      "title": "oceanbase/powercontext 新分支 codex/artifact-upload-validation-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/artifact-upload-validation-20261121",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-20T23:02:02.256Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/artifact-upload-python-validation-20261121",
+      "sha": "732f45038b6426a9337d88c6723c843388857f03",
+      "title": "oceanbase/powercontext 新分支 codex/artifact-upload-python-validation-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/artifact-upload-python-validation-20261121",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-20T16:59:54.374Z",
       "kind": "branch_new",
@@ -848,6 +916,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 49
+    "events": 53
   }
 }
