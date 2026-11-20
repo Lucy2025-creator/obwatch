@@ -186,7 +186,7 @@
         "codex/fix-blog-covers-and-attribution": "7bbcd97dde916f1696c592ddc5466542a6bc443d",
         "codex/fix-seekdb-ci-diagnostics": "c45c7147cf316fb1b7da646ff40179d89cef57ee",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
-        "codex/knowledge-base-plugin": "307cfe28840435e6119e92242bca86d49ddb776d",
+        "codex/knowledge-base-plugin": "265fe0a62fd22dc58c2189b67b652382c09b073d",
         "codex/oauth-subscriptions-python": "ceb62d07908137a4f43e6a76458681820ceb03d8",
         "codex/oceanbase-qps-optimization": "180eef6782e2fc11851af09c9188a18be43344f9",
         "codex/powercontext-ci-image-smoke": "b027a0bb92e163c777b56287057e8599b600d0c9",
@@ -1457,6 +1457,6 @@
     "04bf00390f5a",
     "d07eaeef04d4"
   ],
-  "lastPublishAt": 1795113071411,
-  "lastPublishHash": "b8708c2e2957"
+  "lastPublishAt": 1795136151085,
+  "lastPublishHash": "ee8a34d0d575"
 }
