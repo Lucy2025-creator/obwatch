@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795136151083,
-  "lastCheckAt": 1795136151083,
-  "nextCheckAt": 1795137051083,
+  "generatedAt": 1795162369727,
+  "lastCheckAt": 1795162369727,
+  "nextCheckAt": 1795163269727,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 130,
+      "branchCount": 131,
       "tagCount": 8,
       "branches": [
         {
@@ -136,7 +136,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 73,
+      "branchCount": 74,
       "tagCount": 36,
       "branches": [
         {
@@ -148,6 +148,11 @@
           "name": "2026-competition-ecosystem",
           "sha": "d647275c308e09b7b623f322a26f5c4e85734fb0",
           "url": "https://github.com/oceanbase/powercontext/tree/2026-competition-ecosystem"
+        },
+        {
+          "name": "codex/ci-2658-cache-stability-20261120",
+          "sha": "368de4ad97e7665828e8d4faade254dd1bf710d4",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-2658-cache-stability-20261120"
         },
         {
           "name": "codex/ci-action-archive-acceptance-20261120",
@@ -236,6 +241,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-20T08:12:42.702Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-2658-cache-stability-20261120",
+      "sha": "368de4ad97e7665828e8d4faade254dd1bf710d4",
+      "title": "oceanbase/powercontext 新分支 codex/ci-2658-cache-stability-20261120",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-2658-cache-stability-20261120",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-19T18:31:03.083Z",
       "kind": "branch_new",
@@ -780,6 +797,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 45
+    "events": 46
   }
 }
