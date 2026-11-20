@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795162369727,
-  "lastCheckAt": 1795162369727,
-  "nextCheckAt": 1795163269727,
+  "generatedAt": 1795194001657,
+  "lastCheckAt": 1795194001657,
+  "nextCheckAt": 1795194901657,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 131,
+      "branchCount": 134,
       "tagCount": 8,
       "branches": [
         {
@@ -35,6 +35,11 @@
           "name": "2026-competition",
           "sha": "5bce9e06d1281347ad61344e4b01fab9158c58a2",
           "url": "https://github.com/oceanbase/seekdb/tree/2026-competition"
+        },
+        {
+          "name": "2026-competition-final",
+          "sha": "30a2eac120eb1cbd72fcde64eea02b088cac8e71",
+          "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-final"
         },
         {
           "name": "2026-competition-round2",
@@ -136,7 +141,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 74,
+      "branchCount": 76,
       "tagCount": 36,
       "branches": [
         {
@@ -175,9 +180,19 @@
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-dsh-readiness-20261120"
         },
         {
+          "name": "codex/ci-failure-analysis-20261120",
+          "sha": "07d9954c1262a0b052b913a4d3db0ec5e5423395",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-failure-analysis-20261120"
+        },
+        {
           "name": "codex/ci-internal-cache-acceptance-20261119",
           "sha": "6c16c347993eef6dd171e87ccc78a07b9011557d",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-internal-cache-acceptance-20261119"
+        },
+        {
+          "name": "codex/ci-local-actions-acceptance-20261120",
+          "sha": "b4781e86c5bc62364576fdb065e30a3216a122b2",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-local-actions-acceptance-20261120"
         },
         {
           "name": "demo-2026",
@@ -241,6 +256,42 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-20T16:59:54.374Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-local-actions-acceptance-20261120",
+      "sha": "b4781e86c5bc62364576fdb065e30a3216a122b2",
+      "title": "oceanbase/powercontext 新分支 codex/ci-local-actions-acceptance-20261120",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-local-actions-acceptance-20261120",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-20T16:59:54.374Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-failure-analysis-20261120",
+      "sha": "07d9954c1262a0b052b913a4d3db0ec5e5423395",
+      "title": "oceanbase/powercontext 新分支 codex/ci-failure-analysis-20261120",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-failure-analysis-20261120",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-20T16:59:53.260Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "2026-competition-final",
+      "sha": "30a2eac120eb1cbd72fcde64eea02b088cac8e71",
+      "title": "oceanbase/seekdb 新分支 2026-competition-final",
+      "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-final",
+      "strong": true,
+      "score": 12,
+      "clone": null
+    },
     {
       "ts": "2026-11-20T08:12:42.702Z",
       "kind": "branch_new",
@@ -797,6 +848,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 46
+    "events": 49
   }
 }

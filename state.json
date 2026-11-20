@@ -6,11 +6,13 @@
       "branches": {
         "2025-final-competition": "12cd8fd431b11759f485bf8cd4e9477c548cbcb1",
         "2026-competition": "5bce9e06d1281347ad61344e4b01fab9158c58a2",
+        "2026-competition-final": "30a2eac120eb1cbd72fcde64eea02b088cac8e71",
         "2026-competition-round2": "f4d4e26653af823a7601668802f80e374ad6643c",
         "SEEK-1176-CUT-rebased": "e0ac5e7ae6cf4bc5f5fbd2a541272bcc4ac2ee1b",
         "agent/seek-798-database-charset": "cc0e3ea9e6add6d57961def968ec59516bb14879",
         "agent/wangyunlai-dev-cursor/42e0dfb9": "f613d45acdfb244e5bb2ffa5e4683bf95d3dbf48",
         "agent/wangyunlai-dev-cursor/91241344": "642e5f5eaabd1bd116a513f83cc74cfe77c0e60f",
+        "agent/wentian-s-deepseek/67dcace40463": "76ef60f035534f1085e2e25f8580ed5ba3db74fa",
         "agent/wentian-s-dev/b2dd39f5c014": "d63060e8f8bd2bacaf43b23620bf5ed999e0e436",
         "agent/wentian-s-dev/f26f543a6ab9": "07ef19fbaa7871302acbeeaf9c4e51dbfef54c69",
         "agent/wentian-s-dev/03a6bf07e444": "f1b64143e0bbcec02fcf1de7aa15774f5dcecafa",
@@ -69,7 +71,7 @@
         "codex/serialize-async-hnsw-updates": "5476a2c51c3ddabd7163b9c1bc53cd79c54a78af",
         "codex/symbol-reviews-20261118": "4ed897d83205f06225038b0a0c8fe5d39558d544",
         "codex/throttle-redo-enospc-logs": "3f4ed01a8c73acb2abcb2ec886148b0ea0b5b81d",
-        "codex/use-windows-rust-ci-image": "358e05d1dde2fac79455898639d952ee53239d0b",
+        "codex/use-windows-rust-ci-image": "9b78de0d73fb1673c32d1e4ec9eb8c7156d54db2",
         "codex/vector-transactional-delta": "22d5980a6bf819a617fc1399f63fa386cce4b412",
         "codex/windows-absolute-eof-fix": "ef9710ead0e7cf606986b5e4e3de238b39002c85",
         "codex/windows-md-package-20261116": "fcdcc85213a594c412ad5b3d83bfff6db69d378e",
@@ -87,6 +89,7 @@
         "diagnostic/seek-1402-fixed-abort-eagain": "7622cb25da9490cdfd7283b49dea200bc2260f8e",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
         "enhancement/ai-function": "e78d73e191eb06324413106eea5ac6a99d811862",
+        "enhancement-ai": "5edcc9176c6ffa18fdb533f7a763e0fb7b779ceb",
         "feat/embedded-mode": "599b5ff793ca26fb860c1ae6110bbf5602ca55a2",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
@@ -109,9 +112,9 @@
         "fix/seek-1414-drop-deadline": "c7bef127db74c39b9dfab57ca7775d0e08e0aae6",
         "fix/seek-1414-history-nanoseconds": "8cad468d16e716a7f8084e53e203c6efc5c2d8c8",
         "fix/seek-1414-history-version-clock": "c868bd4ef8bb176a5b455365a6df079cea9407d4",
-        "fix/seek-1414-immediate-package-install": "3798ce9797491ca9db3174cc2911ac218c3930a6",
         "fix/seek-1414-tablet-gc-progress": "4a12ebafba782f8ff151d277e0b7f4900b534dd1",
         "fix/seek-1414-translation-ci": "cd838d63c5058457706a4fcd18f4f33102f9e060",
+        "fix/seek-1498-odku-repeated-source": "e0e9ac607078516a2710139d97d92d5cccd4bb52",
         "fix/st-area-geographic-boost-version": "d11d55b4d02f19bb5d4bcb4f640ba33f9c6504c3",
         "fix/win-aio-error-propagation": "949e5a9c066d6e3e6ef91ece68f5d1668ebcbb1e",
         "fix/win-mtr/SEEK-1178-purge-recyclebin-unknown-type": "b7e39896ac08b760f00c53b2d4be638024696b92",
@@ -121,7 +124,7 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "30a2eac120eb1cbd72fcde64eea02b088cac8e71",
+        "master": "c127db4ae670b37a7ff278b171ec416aac1b5e2b",
         "peg-parser-mvp": "591a2d4111e1719b37704dea2c95efa2aa03bbe2",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
@@ -157,11 +160,13 @@
         "codex/ci-2658-cache-stability-20261120": "368de4ad97e7665828e8d4faade254dd1bf710d4",
         "codex/ci-action-archive-acceptance-20261120": "919589c40fe33f182e2ec23331de9f412e8a5b9c",
         "codex/ci-cache-acceptance-20261118": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
-        "codex/ci-cache-coverage": "235ad34d8884d60f9d8e549ff7225f9ed1735859",
+        "codex/ci-cache-coverage": "751d4cc71e9951f09867dab66c469613c5e05c6b",
         "codex/ci-cache-coverage-acceptance-20261119": "85ab9e20ad007856db1ad3d200fc864f84004bc2",
         "codex/ci-dependency-cache-fix": "16ab67ae073d13e991f652faec5ad80b2a90bfc9",
         "codex/ci-dsh-readiness-20261120": "4c1edd481e74049ac27c12848082bcd9123aa4ba",
+        "codex/ci-failure-analysis-20261120": "07d9954c1262a0b052b913a4d3db0ec5e5423395",
         "codex/ci-internal-cache-acceptance-20261119": "6c16c347993eef6dd171e87ccc78a07b9011557d",
+        "codex/ci-local-actions-acceptance-20261120": "b4781e86c5bc62364576fdb065e30a3216a122b2",
         "codex/ci-matrix-concurrency": "9b7218adecc61ccac6661dc91c69672be1c74216",
         "codex/dashboard-processing-status": "b28d863c444a5ee53bb2afddf35e5e0a1d8e476f",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
@@ -211,7 +216,7 @@
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "1ba6bd0bd48132b1853655a61ef009440cf4173b",
-        "master": "6763b07661846c19934044184995adf9183c28cc",
+        "master": "2f4997d9a57b08324e94c1bab722db87a32c7cbe",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1428,6 +1433,63 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "0067933ab72a",
+      "ts": "2026-11-20T16:59:53.260Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "2026-competition-final",
+      "sha": "30a2eac120eb1cbd72fcde64eea02b088cac8e71",
+      "title": "oceanbase/seekdb 新分支 2026-competition-final",
+      "url": "https://github.com/oceanbase/seekdb/tree/2026-competition-final",
+      "topic": {
+        "score": 12,
+        "strong": true,
+        "hits": [
+          "competition",
+          "2026",
+          "(final|qualifier)",
+          "分支名含赛事词"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "0cae81cda85e",
+      "ts": "2026-11-20T16:59:54.374Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-failure-analysis-20261120",
+      "sha": "07d9954c1262a0b052b913a4d3db0ec5e5423395",
+      "title": "oceanbase/powercontext 新分支 codex/ci-failure-analysis-20261120",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-failure-analysis-20261120",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "39929f8bdf0f",
+      "ts": "2026-11-20T16:59:54.374Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-local-actions-acceptance-20261120",
+      "sha": "b4781e86c5bc62364576fdb065e30a3216a122b2",
+      "title": "oceanbase/powercontext 新分支 codex/ci-local-actions-acceptance-20261120",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-local-actions-acceptance-20261120",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -1476,8 +1538,11 @@
     "6d0495efaf5d",
     "04bf00390f5a",
     "d07eaeef04d4",
-    "cf8f2a178e94"
+    "cf8f2a178e94",
+    "0067933ab72a",
+    "0cae81cda85e",
+    "39929f8bdf0f"
   ],
-  "lastPublishAt": 1795162369728,
-  "lastPublishHash": "c707271cc820"
+  "lastPublishAt": 1795194001658,
+  "lastPublishHash": "3250a3932abf"
 }
