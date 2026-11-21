@@ -118,6 +118,7 @@
         "fix/st-area-geographic-boost-version": "d11d55b4d02f19bb5d4bcb4f640ba33f9c6504c3",
         "fix/win-aio-error-propagation": "949e5a9c066d6e3e6ef91ece68f5d1668ebcbb1e",
         "fix/win-mtr/SEEK-1178-purge-recyclebin-unknown-type": "b7e39896ac08b760f00c53b2d4be638024696b92",
+        "fix/windows-sqlsmith-regressions-1121": "93e536403149b65e8a015a7dbdb513dd199f97b3",
         "fix-seek-712-subquery-formalize": "1a5a377c68a0df4bcfd3cd1e67ecb75d38bda1f2",
         "fix-seek-809-queryctx-array-allocator": "e7eb32f1ee1ab546d709ef9e832f5db663827554",
         "gh9-seekdb-cli": "acb0502cc32f105ad0afa6f8c05e6351c808f596",
@@ -156,14 +157,14 @@
         "2026-competition-ecosystem": "d647275c308e09b7b623f322a26f5c4e85734fb0",
         "archive/powercontext-main": "8d68e1a3e2c0f8e829886e49184bec6c15fd9ef9",
         "archive/powermem": "9d1b48449345b1ec7af1144aa1b81bb776478851",
-        "ci/public-content-check": "70e59693c1331dfe17351e273dfc0024684e6419",
+        "ci/public-content-check": "3650539c128966470c87bedd1ae9c287dd20f13f",
         "codex/artifact-upload-python-validation-20261121": "732f45038b6426a9337d88c6723c843388857f03",
         "codex/artifact-upload-validation-20261121": "d2eeda8d34d340616da749703da87f8d58029d17",
         "codex/cache-post-validation-20261121": "ac6c56615527dc134cb4c56dea2feea5da98ef21",
         "codex/ci-2658-cache-stability-20261120": "368de4ad97e7665828e8d4faade254dd1bf710d4",
         "codex/ci-action-archive-acceptance-20261120": "919589c40fe33f182e2ec23331de9f412e8a5b9c",
         "codex/ci-cache-acceptance-20261118": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
-        "codex/ci-cache-coverage": "035602f1889f78540c19e637bfc5d49d11f34e63",
+        "codex/ci-cache-coverage": "cd985dee58a1f5f20e58e17a6d33676f906e5dfc",
         "codex/ci-cache-coverage-acceptance-20261119": "85ab9e20ad007856db1ad3d200fc864f84004bc2",
         "codex/ci-dependency-cache-fix": "16ab67ae073d13e991f652faec5ad80b2a90bfc9",
         "codex/ci-dsh-readiness-20261120": "4c1edd481e74049ac27c12848082bcd9123aa4ba",
@@ -174,7 +175,8 @@
         "codex/ci-stability-validation-20261121-2": "44f93be0f4c43a161651a089160d5f5054782cb1",
         "codex/ci-stability-validation-20261121-3": "160d872ebd911fe080f56d58619021515a9de744",
         "codex/ci-stability-validation-20261121-4": "0c242a0f28c5aa113bb54c19722dcc0e4e061d68",
-        "codex/ci-stability-validation-20261121-5": "035602f1889f78540c19e637bfc5d49d11f34e63",
+        "codex/ci-stability-validation-20261121-5": "fbd83f114b2038dcdfb61bf86f1f519fb7697b37",
+        "codex/ci-stability-validation-20261121-6": "cd985dee58a1f5f20e58e17a6d33676f906e5dfc",
         "codex/ci-stability-validation-20261121": "c7bb839c4553cb4897121114f1842604b9994a23",
         "codex/dashboard-processing-status": "b28d863c444a5ee53bb2afddf35e5e0a1d8e476f",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
@@ -227,7 +229,7 @@
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "1ba6bd0bd48132b1853655a61ef009440cf4173b",
-        "master": "2f4997d9a57b08324e94c1bab722db87a32c7cbe",
+        "master": "c1a1bc42e4f52ffa31fc845425930d94832c00a9",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1718,6 +1720,43 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "2dd218d78a76",
+      "ts": "2026-11-21T12:27:54.799Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-5",
+      "sha": "fbd83f114b2038dcdfb61bf86f1f519fb7697b37",
+      "prevSha": "035602f1889f78540c19e637bfc5d49d11f34e63",
+      "title": "oceanbase/powercontext 分支 codex/ci-stability-validation-20261121-5 更新",
+      "url": "https://github.com/oceanbase/powercontext/compare/035602f1889f78540c19e637bfc5d49d11f34e63...fbd83f114b2038dcdfb61bf86f1f519fb7697b37",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "5fee2a5072d1",
+      "ts": "2026-11-21T12:27:54.800Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-6",
+      "sha": "cd985dee58a1f5f20e58e17a6d33676f906e5dfc",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-6",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-6",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -1781,8 +1820,10 @@
     "d21457ad6f9f",
     "b7db4a7821c6",
     "c7fa7a2a1d1b",
-    "005b6d5def8e"
+    "005b6d5def8e",
+    "2dd218d78a76",
+    "5fee2a5072d1"
   ],
-  "lastPublishAt": 1795233538042,
-  "lastPublishHash": "2b62f56cddaf"
+  "lastPublishAt": 1795264081106,
+  "lastPublishHash": "8d9facf7fe93"
 }

@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795233538041,
-  "lastCheckAt": 1795233538041,
-  "nextCheckAt": 1795234438041,
+  "generatedAt": 1795264081105,
+  "lastCheckAt": 1795264081105,
+  "nextCheckAt": 1795264981105,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 134,
+      "branchCount": 135,
       "tagCount": 8,
       "branches": [
         {
@@ -141,7 +141,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 87,
+      "branchCount": 88,
       "tagCount": 36,
       "branches": [
         {
@@ -226,8 +226,13 @@
         },
         {
           "name": "codex/ci-stability-validation-20261121-5",
-          "sha": "035602f1889f78540c19e637bfc5d49d11f34e63",
+          "sha": "fbd83f114b2038dcdfb61bf86f1f519fb7697b37",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-5"
+        },
+        {
+          "name": "codex/ci-stability-validation-20261121-6",
+          "sha": "cd985dee58a1f5f20e58e17a6d33676f906e5dfc",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-6"
         },
         {
           "name": "codex/ci-stability-validation-20261121",
@@ -311,6 +316,30 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-21T12:27:54.800Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-6",
+      "sha": "cd985dee58a1f5f20e58e17a6d33676f906e5dfc",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-6",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-6",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-21T12:27:54.799Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-5",
+      "sha": "fbd83f114b2038dcdfb61bf86f1f519fb7697b37",
+      "title": "oceanbase/powercontext 分支 codex/ci-stability-validation-20261121-5 更新",
+      "url": "https://github.com/oceanbase/powercontext/compare/035602f1889f78540c19e637bfc5d49d11f34e63...fbd83f114b2038dcdfb61bf86f1f519fb7697b37",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-21T03:58:53.313Z",
       "kind": "branch_new",
@@ -1047,6 +1076,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 61
+    "events": 63
   }
 }
