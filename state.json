@@ -164,7 +164,7 @@
         "codex/ci-2658-cache-stability-20261120": "368de4ad97e7665828e8d4faade254dd1bf710d4",
         "codex/ci-action-archive-acceptance-20261120": "919589c40fe33f182e2ec23331de9f412e8a5b9c",
         "codex/ci-cache-acceptance-20261118": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
-        "codex/ci-cache-coverage": "cd985dee58a1f5f20e58e17a6d33676f906e5dfc",
+        "codex/ci-cache-coverage": "53875d3b939973ac9e6fa0ec2283271cf4ae58e8",
         "codex/ci-cache-coverage-acceptance-20261119": "85ab9e20ad007856db1ad3d200fc864f84004bc2",
         "codex/ci-dependency-cache-fix": "16ab67ae073d13e991f652faec5ad80b2a90bfc9",
         "codex/ci-dsh-readiness-20261120": "4c1edd481e74049ac27c12848082bcd9123aa4ba",
@@ -176,7 +176,7 @@
         "codex/ci-stability-validation-20261121-3": "160d872ebd911fe080f56d58619021515a9de744",
         "codex/ci-stability-validation-20261121-4": "0c242a0f28c5aa113bb54c19722dcc0e4e061d68",
         "codex/ci-stability-validation-20261121-5": "fbd83f114b2038dcdfb61bf86f1f519fb7697b37",
-        "codex/ci-stability-validation-20261121-6": "cd985dee58a1f5f20e58e17a6d33676f906e5dfc",
+        "codex/ci-stability-validation-20261121-6": "53875d3b939973ac9e6fa0ec2283271cf4ae58e8",
         "codex/ci-stability-validation-20261121": "c7bb839c4553cb4897121114f1842604b9994a23",
         "codex/dashboard-processing-status": "b28d863c444a5ee53bb2afddf35e5e0a1d8e476f",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
@@ -202,7 +202,6 @@
         "codex/fix-blog-covers-and-attribution": "7bbcd97dde916f1696c592ddc5466542a6bc443d",
         "codex/fix-seekdb-ci-diagnostics": "c45c7147cf316fb1b7da646ff40179d89cef57ee",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
-        "codex/knowledge-base-plugin": "6d4ca1250cdc4e58734b7c8ed0126db41e8632f0",
         "codex/oauth-subscriptions-python": "ceb62d07908137a4f43e6a76458681820ceb03d8",
         "codex/ob-startup-probe-20261121": "8994649031bbdde27a7aafce72c699d221769b96",
         "codex/oceanbase-qps-optimization": "180eef6782e2fc11851af09c9188a18be43344f9",
@@ -229,7 +228,7 @@
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "1ba6bd0bd48132b1853655a61ef009440cf4173b",
-        "master": "c1a1bc42e4f52ffa31fc845425930d94832c00a9",
+        "master": "630cde948835212946b3a8b3f233d97c9716ace7",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -1757,6 +1756,25 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "936902c7c366",
+      "ts": "2026-11-21T19:42:02.577Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-6",
+      "sha": "53875d3b939973ac9e6fa0ec2283271cf4ae58e8",
+      "prevSha": "cd985dee58a1f5f20e58e17a6d33676f906e5dfc",
+      "title": "oceanbase/powercontext 分支 codex/ci-stability-validation-20261121-6 更新",
+      "url": "https://github.com/oceanbase/powercontext/compare/cd985dee58a1f5f20e58e17a6d33676f906e5dfc...53875d3b939973ac9e6fa0ec2283271cf4ae58e8",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -1822,8 +1840,9 @@
     "c7fa7a2a1d1b",
     "005b6d5def8e",
     "2dd218d78a76",
-    "5fee2a5072d1"
+    "5fee2a5072d1",
+    "936902c7c366"
   ],
-  "lastPublishAt": 1795264081106,
-  "lastPublishHash": "8d9facf7fe93"
+  "lastPublishAt": 1795290128443,
+  "lastPublishHash": "f0d3be49647a"
 }
