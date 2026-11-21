@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795215728932,
-  "lastCheckAt": 1795215728932,
-  "nextCheckAt": 1795216628932,
+  "generatedAt": 1795233538041,
+  "lastCheckAt": 1795233538041,
+  "nextCheckAt": 1795234438041,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -141,7 +141,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 80,
+      "branchCount": 87,
       "tagCount": 36,
       "branches": [
         {
@@ -163,6 +163,11 @@
           "name": "codex/artifact-upload-validation-20261121",
           "sha": "d2eeda8d34d340616da749703da87f8d58029d17",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/artifact-upload-validation-20261121"
+        },
+        {
+          "name": "codex/cache-post-validation-20261121",
+          "sha": "ac6c56615527dc134cb4c56dea2feea5da98ef21",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/cache-post-validation-20261121"
         },
         {
           "name": "codex/ci-2658-cache-stability-20261120",
@@ -206,13 +211,43 @@
         },
         {
           "name": "codex/ci-stability-validation-20261121-2",
-          "sha": "41e452c1f0006270ac3e2dd06988cd2f1943024a",
+          "sha": "44f93be0f4c43a161651a089160d5f5054782cb1",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-2"
+        },
+        {
+          "name": "codex/ci-stability-validation-20261121-3",
+          "sha": "160d872ebd911fe080f56d58619021515a9de744",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-3"
+        },
+        {
+          "name": "codex/ci-stability-validation-20261121-4",
+          "sha": "0c242a0f28c5aa113bb54c19722dcc0e4e061d68",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-4"
+        },
+        {
+          "name": "codex/ci-stability-validation-20261121-5",
+          "sha": "035602f1889f78540c19e637bfc5d49d11f34e63",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-5"
         },
         {
           "name": "codex/ci-stability-validation-20261121",
           "sha": "c7bb839c4553cb4897121114f1842604b9994a23",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121"
+        },
+        {
+          "name": "codex/ob-startup-probe-20261121",
+          "sha": "8994649031bbdde27a7aafce72c699d221769b96",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ob-startup-probe-20261121"
+        },
+        {
+          "name": "codex/windows-log-probe-20261121",
+          "sha": "e623d1a9756fec2504a95897846fcad5f98f8998",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/windows-log-probe-20261121"
+        },
+        {
+          "name": "codex/zcode-connection-diagnosis-20261121",
+          "sha": "a82bbb42413b24dd74ad0c8f3b2b3e792fda87f5",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/zcode-connection-diagnosis-20261121"
         },
         {
           "name": "demo-2026",
@@ -276,6 +311,102 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-21T03:58:53.313Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/zcode-connection-diagnosis-20261121",
+      "sha": "a82bbb42413b24dd74ad0c8f3b2b3e792fda87f5",
+      "title": "oceanbase/powercontext 新分支 codex/zcode-connection-diagnosis-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/zcode-connection-diagnosis-20261121",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-21T03:58:53.313Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/windows-log-probe-20261121",
+      "sha": "e623d1a9756fec2504a95897846fcad5f98f8998",
+      "title": "oceanbase/powercontext 新分支 codex/windows-log-probe-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/windows-log-probe-20261121",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-21T03:58:53.313Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ob-startup-probe-20261121",
+      "sha": "8994649031bbdde27a7aafce72c699d221769b96",
+      "title": "oceanbase/powercontext 新分支 codex/ob-startup-probe-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ob-startup-probe-20261121",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-21T03:58:53.313Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-5",
+      "sha": "035602f1889f78540c19e637bfc5d49d11f34e63",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-5",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-5",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-21T03:58:53.313Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-4",
+      "sha": "0c242a0f28c5aa113bb54c19722dcc0e4e061d68",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-4",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-4",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-21T03:58:53.313Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-3",
+      "sha": "160d872ebd911fe080f56d58619021515a9de744",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-3",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-3",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-21T03:58:53.313Z",
+      "kind": "branch_update",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-2",
+      "sha": "44f93be0f4c43a161651a089160d5f5054782cb1",
+      "title": "oceanbase/powercontext 分支 codex/ci-stability-validation-20261121-2 更新",
+      "url": "https://github.com/oceanbase/powercontext/compare/41e452c1f0006270ac3e2dd06988cd2f1943024a...44f93be0f4c43a161651a089160d5f5054782cb1",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-21T03:58:53.312Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/cache-post-validation-20261121",
+      "sha": "ac6c56615527dc134cb4c56dea2feea5da98ef21",
+      "title": "oceanbase/powercontext 新分支 codex/cache-post-validation-20261121",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/cache-post-validation-20261121",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-20T23:02:02.257Z",
       "kind": "branch_new",
@@ -916,6 +1047,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 53
+    "events": 61
   }
 }
