@@ -115,6 +115,7 @@
         "fix/seek-1414-tablet-gc-progress": "4a12ebafba782f8ff151d277e0b7f4900b534dd1",
         "fix/seek-1414-translation-ci": "cd838d63c5058457706a4fcd18f4f33102f9e060",
         "fix/seek-1498-odku-repeated-source": "e0e9ac607078516a2710139d97d92d5cccd4bb52",
+        "fix/sql-regression-runtime-1123": "a8104d91836f6e920203fa884bb6868a7c7db280",
         "fix/st-area-geographic-boost-version": "d11d55b4d02f19bb5d4bcb4f640ba33f9c6504c3",
         "fix/win-aio-error-propagation": "949e5a9c066d6e3e6ef91ece68f5d1668ebcbb1e",
         "fix/win-mtr/SEEK-1178-purge-recyclebin-unknown-type": "b7e39896ac08b760f00c53b2d4be638024696b92",
@@ -173,7 +174,9 @@
         "codex/ci-internal-cache-acceptance-20261119": "6c16c347993eef6dd171e87ccc78a07b9011557d",
         "codex/ci-local-actions-acceptance-20261120": "b4781e86c5bc62364576fdb065e30a3216a122b2",
         "codex/ci-matrix-concurrency": "9b7218adecc61ccac6661dc91c69672be1c74216",
-        "codex/ci-python-aliyun-mirror": "29783ea31c16ac4ae0a5a391ff9f499098334692",
+        "codex/ci-npm-mirror": "03763682265c8337f776f89f27c09a4c34bc186a",
+        "codex/ci-playwright-artifacts": "7d0bee84e3b929dc7aaa35eae70bea749c33f279",
+        "codex/ci-python-aliyun-mirror": "aeb554b5616f96a721f7e04e8be19d8bac486e09",
         "codex/ci-python-aliyun-validation": "91bd2cda1eaadebf8b9af6da3ac785c50c9ca0d9",
         "codex/ci-stability-validation-20261121-2": "44f93be0f4c43a161651a089160d5f5054782cb1",
         "codex/ci-stability-validation-20261121-3": "160d872ebd911fe080f56d58619021515a9de744",
@@ -239,7 +242,7 @@
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "1ba6bd0bd48132b1853655a61ef009440cf4173b",
-        "master": "b5177d87e8a2a13a4a1b6b020bf8ba5bafa3ec32",
+        "master": "b25388be5480f6fc03da833ab0f2c83b5066cabb",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -2006,6 +2009,6 @@
     "0e8c9d7bf42f",
     "7ed304943c07"
   ],
-  "lastPublishAt": 1795358864159,
-  "lastPublishHash": "1b5e0caebacc"
+  "lastPublishAt": 1795381014010,
+  "lastPublishHash": "0fe610bae1dd"
 }
