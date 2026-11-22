@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795305440792,
-  "lastCheckAt": 1795305440792,
-  "nextCheckAt": 1795306340792,
+  "generatedAt": 1795328634994,
+  "lastCheckAt": 1795328634994,
+  "nextCheckAt": 1795329534994,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -141,7 +141,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 91,
+      "branchCount": 95,
       "tagCount": 36,
       "branches": [
         {
@@ -255,9 +255,29 @@
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-10"
         },
         {
+          "name": "codex/ci-stability-validation-20261121-11",
+          "sha": "6df75a7a9333b6b958f0bc99ac9b24f0a7b33b0f",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-11"
+        },
+        {
+          "name": "codex/ci-stability-validation-20261121-12",
+          "sha": "973ff35c0ed49faea98269a227fdacb45ac7445e",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-12"
+        },
+        {
           "name": "codex/ci-stability-validation-20261121",
           "sha": "c7bb839c4553cb4897121114f1842604b9994a23",
           "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121"
+        },
+        {
+          "name": "codex/managed-ops-intel-candidate-20261122",
+          "sha": "57bee628184dc3ae96ad22209405b137d80a80ed",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/managed-ops-intel-candidate-20261122"
+        },
+        {
+          "name": "codex/managed-ops-intel-diagnostic-20261122",
+          "sha": "a1b30f0d092d91c11fee6c811ad9571ed7e139f1",
+          "url": "https://github.com/oceanbase/powercontext/tree/codex/managed-ops-intel-diagnostic-20261122"
         },
         {
           "name": "codex/ob-startup-probe-20261121",
@@ -336,6 +356,54 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-22T06:23:50.042Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/managed-ops-intel-diagnostic-20261122",
+      "sha": "a1b30f0d092d91c11fee6c811ad9571ed7e139f1",
+      "title": "oceanbase/powercontext 新分支 codex/managed-ops-intel-diagnostic-20261122",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/managed-ops-intel-diagnostic-20261122",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-22T06:23:50.042Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/managed-ops-intel-candidate-20261122",
+      "sha": "57bee628184dc3ae96ad22209405b137d80a80ed",
+      "title": "oceanbase/powercontext 新分支 codex/managed-ops-intel-candidate-20261122",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/managed-ops-intel-candidate-20261122",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-22T06:23:50.042Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-12",
+      "sha": "973ff35c0ed49faea98269a227fdacb45ac7445e",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-12",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-12",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
+    {
+      "ts": "2026-11-22T06:23:50.042Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-11",
+      "sha": "6df75a7a9333b6b958f0bc99ac9b24f0a7b33b0f",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-11",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-11",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-21T23:57:15.876Z",
       "kind": "branch_new",
@@ -1156,6 +1224,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 68
+    "events": 72
   }
 }

@@ -164,7 +164,7 @@
         "codex/ci-2658-cache-stability-20261120": "368de4ad97e7665828e8d4faade254dd1bf710d4",
         "codex/ci-action-archive-acceptance-20261120": "919589c40fe33f182e2ec23331de9f412e8a5b9c",
         "codex/ci-cache-acceptance-20261118": "f38455f3a6e62ad4860df5c7081d7e13ce6c548e",
-        "codex/ci-cache-coverage": "aa8435fda29c0b0f58512e71a1cf52ae881e137e",
+        "codex/ci-cache-coverage": "973ff35c0ed49faea98269a227fdacb45ac7445e",
         "codex/ci-cache-coverage-acceptance-20261119": "85ab9e20ad007856db1ad3d200fc864f84004bc2",
         "codex/ci-dependency-cache-fix": "16ab67ae073d13e991f652faec5ad80b2a90bfc9",
         "codex/ci-dsh-readiness-20261120": "4c1edd481e74049ac27c12848082bcd9123aa4ba",
@@ -181,6 +181,8 @@
         "codex/ci-stability-validation-20261121-8": "8df5ef90c348d5af1cb347afec6765c3ea51650d",
         "codex/ci-stability-validation-20261121-9": "09ac611ff2a962808cffbebcfac3a0cec36591ef",
         "codex/ci-stability-validation-20261121-10": "aa8435fda29c0b0f58512e71a1cf52ae881e137e",
+        "codex/ci-stability-validation-20261121-11": "6df75a7a9333b6b958f0bc99ac9b24f0a7b33b0f",
+        "codex/ci-stability-validation-20261121-12": "973ff35c0ed49faea98269a227fdacb45ac7445e",
         "codex/ci-stability-validation-20261121": "c7bb839c4553cb4897121114f1842604b9994a23",
         "codex/dashboard-processing-status": "b28d863c444a5ee53bb2afddf35e5e0a1d8e476f",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
@@ -206,6 +208,8 @@
         "codex/fix-blog-covers-and-attribution": "7bbcd97dde916f1696c592ddc5466542a6bc443d",
         "codex/fix-seekdb-ci-diagnostics": "c45c7147cf316fb1b7da646ff40179d89cef57ee",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
+        "codex/managed-ops-intel-candidate-20261122": "57bee628184dc3ae96ad22209405b137d80a80ed",
+        "codex/managed-ops-intel-diagnostic-20261122": "a1b30f0d092d91c11fee6c811ad9571ed7e139f1",
         "codex/oauth-subscriptions-python": "ceb62d07908137a4f43e6a76458681820ceb03d8",
         "codex/ob-startup-probe-20261121": "8994649031bbdde27a7aafce72c699d221769b96",
         "codex/oceanbase-qps-optimization": "180eef6782e2fc11851af09c9188a18be43344f9",
@@ -1851,6 +1855,78 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "bf9a37070239",
+      "ts": "2026-11-22T06:23:50.042Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-11",
+      "sha": "6df75a7a9333b6b958f0bc99ac9b24f0a7b33b0f",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-11",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-11",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "f56d3297f04e",
+      "ts": "2026-11-22T06:23:50.042Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/ci-stability-validation-20261121-12",
+      "sha": "973ff35c0ed49faea98269a227fdacb45ac7445e",
+      "title": "oceanbase/powercontext 新分支 codex/ci-stability-validation-20261121-12",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/ci-stability-validation-20261121-12",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "0e8c9d7bf42f",
+      "ts": "2026-11-22T06:23:50.042Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/managed-ops-intel-candidate-20261122",
+      "sha": "57bee628184dc3ae96ad22209405b137d80a80ed",
+      "title": "oceanbase/powercontext 新分支 codex/managed-ops-intel-candidate-20261122",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/managed-ops-intel-candidate-20261122",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
+    },
+    {
+      "id": "7ed304943c07",
+      "ts": "2026-11-22T06:23:50.042Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/powercontext",
+      "branch": "codex/managed-ops-intel-diagnostic-20261122",
+      "sha": "a1b30f0d092d91c11fee6c811ad9571ed7e139f1",
+      "title": "oceanbase/powercontext 新分支 codex/managed-ops-intel-diagnostic-20261122",
+      "url": "https://github.com/oceanbase/powercontext/tree/codex/managed-ops-intel-diagnostic-20261122",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -1921,8 +1997,12 @@
     "17fe5995d6b2",
     "99cb9a05dfd2",
     "eb7787e7fde9",
-    "56bb3d46d90c"
+    "56bb3d46d90c",
+    "bf9a37070239",
+    "f56d3297f04e",
+    "0e8c9d7bf42f",
+    "7ed304943c07"
   ],
-  "lastPublishAt": 1795305440793,
-  "lastPublishHash": "f94ff871bc9a"
+  "lastPublishAt": 1795328634995,
+  "lastPublishHash": "9eff965dd9e5"
 }
