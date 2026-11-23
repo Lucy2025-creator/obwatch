@@ -115,7 +115,6 @@
         "fix/seek-1414-tablet-gc-progress": "4a12ebafba782f8ff151d277e0b7f4900b534dd1",
         "fix/seek-1414-translation-ci": "cd838d63c5058457706a4fcd18f4f33102f9e060",
         "fix/seek-1498-odku-repeated-source": "e0e9ac607078516a2710139d97d92d5cccd4bb52",
-        "fix/sql-regression-runtime-1123": "a8104d91836f6e920203fa884bb6868a7c7db280",
         "fix/st-area-geographic-boost-version": "d11d55b4d02f19bb5d4bcb4f640ba33f9c6504c3",
         "fix/win-aio-error-propagation": "949e5a9c066d6e3e6ef91ece68f5d1668ebcbb1e",
         "fix/win-mtr/SEEK-1178-purge-recyclebin-unknown-type": "b7e39896ac08b760f00c53b2d4be638024696b92",
@@ -126,7 +125,7 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "c127db4ae670b37a7ff278b171ec416aac1b5e2b",
+        "master": "712652979e7980e812b73f0d57561585f922297e",
         "palf-rust-single-stream": "a68bc7058ebb3c2c201982284c9aa24e28d5d029",
         "peg-parser-mvp": "591a2d4111e1719b37704dea2c95efa2aa03bbe2",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
@@ -190,9 +189,9 @@
         "codex/ci-stability-validation-20261121-11": "6df75a7a9333b6b958f0bc99ac9b24f0a7b33b0f",
         "codex/ci-stability-validation-20261121-12": "973ff35c0ed49faea98269a227fdacb45ac7445e",
         "codex/ci-stability-validation-20261121": "c7bb839c4553cb4897121114f1842604b9994a23",
-        "codex/dashboard-processing-status": "b28d863c444a5ee53bb2afddf35e5e0a1d8e476f",
+        "codex/dashboard-processing-status": "2c2f41419f4fbde749a7150641284eac911eec32",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
-        "codex/desktop-qualification-2725": "4699522746e9e6b52ee6a6870301069d701968f7",
+        "codex/desktop-qualification-2725": "edeaaad2967526daf48779d9e7c78706616ce144",
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
@@ -237,12 +236,15 @@
         "codex/2084-native-service-verification": "35ed35cb2fbf2dc7ce6ae856b24f8c7718f18f1f",
         "copilot/fix-acceptance-oceanbase-job": "270a5545feba02d05cb60505c1b280e6ab642648",
         "demo-2026": "0bac963f1e92e0ea570d4ee7a3b9d7dad4546bb2",
+        "dependabot/github_actions/actions/setup-node-7.1.0": "7432ad3986df2a0471efb38aa03d16f32ad80689",
         "dependabot/github_actions/astral-sh/setup-uv-10.3.3": "0b805df5623f1f284f43898e7c395ea0b4098f4b",
+        "dependabot/github_actions/astral-sh/setup-uv-10.4.0": "83d7b404b22df3dd445c3141550a5b565dc9d955",
+        "dependabot/github_actions/jdx/mise-action-5.2.10": "553373acbc6b27e538c035dcb79655d72c0ee169",
         "dev_1.2.0": "d023991c4112238d0be80414a7e61015a4be46ba",
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "1ba6bd0bd48132b1853655a61ef009440cf4173b",
-        "master": "d053c094b1e0930e2b8e639e81001219f8392e61",
+        "master": "95bc5733ca53ea34ca60599f2dc03d2e476acd60",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -588,7 +590,8 @@
       "obconnector-c",
       "seekdb-deps",
       "formal-verification",
-      "obmysqltcl"
+      "obmysqltcl",
+      "oceanseek"
     ]
   },
   "userRepos": {
@@ -1933,6 +1936,24 @@
         ]
       },
       "readme": ""
+    },
+    {
+      "id": "4e676f26b5db",
+      "ts": "2026-11-23T09:42:12.790Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/oceanseek",
+      "title": "oceanbase 新建仓库 oceanseek",
+      "url": "https://github.com/oceanbase/oceanseek",
+      "created": "2026-11-09T11:01:44Z",
+      "desc": "OceanSeek is the open-source distribution of the OceanBase AI database.",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "submission"
+        ]
+      },
+      "readme": "<p align=\"center\"> <a href=\"https://github.com/oceanbase/oceanseek\"> <img alt=\"OceanBase Logo\" src=\"images/logo.svg\" width=\"50%\" /> </a> </p> <p align=\"center\"> <a href=\"https://www.oceanbase.com/docs/oceanseek\"> <img alt=\"Chinese doc\" src="
     }
   ],
   "seen": [
@@ -2007,8 +2028,9 @@
     "bf9a37070239",
     "f56d3297f04e",
     "0e8c9d7bf42f",
-    "7ed304943c07"
+    "7ed304943c07",
+    "4e676f26b5db"
   ],
-  "lastPublishAt": 1795397355085,
-  "lastPublishHash": "8da6d7bce856"
+  "lastPublishAt": 1795426938090,
+  "lastPublishHash": "c2e1b8a3354e"
 }

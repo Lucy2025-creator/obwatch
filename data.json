@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795397355083,
-  "lastCheckAt": 1795397355083,
-  "nextCheckAt": 1795398255083,
+  "generatedAt": 1795426938090,
+  "lastCheckAt": 1795426938090,
+  "nextCheckAt": 1795427838090,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 137,
+      "branchCount": 136,
       "tagCount": 8,
       "branches": [
         {
@@ -141,7 +141,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 99,
+      "branchCount": 102,
       "tagCount": 36,
       "branches": [
         {
@@ -356,6 +356,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-23T09:42:12.790Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/oceanseek",
+      "branch": null,
+      "sha": null,
+      "title": "oceanbase 新建仓库 oceanseek",
+      "url": "https://github.com/oceanbase/oceanseek",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-22T06:23:50.042Z",
       "kind": "branch_new",
@@ -1224,6 +1236,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 72
+    "events": 73
   }
 }
