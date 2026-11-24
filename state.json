@@ -89,7 +89,7 @@
         "diagnostic/seek-1402-fixed-abort-eagain": "7622cb25da9490cdfd7283b49dea200bc2260f8e",
         "enable-seekdb-ci-workflow-dispatch": "1ad7dfd96b362d8ee72eda87c8b8cff0d0906ccf",
         "enhancement/ai-function": "e78d73e191eb06324413106eea5ac6a99d811862",
-        "enhancement-ai": "5cbf6bff6cf3c3d1c0c5229b26a0c7db4d96985d",
+        "enhancement-ai": "81e242f26f60920969f475268006ddd2bf248207",
         "feat/embedded-mode": "599b5ff793ca26fb860c1ae6110bbf5602ca55a2",
         "feat/embedded-mode-1.3.0": "11bfd66be20ced65af8ea61d546aa43c750d07ee",
         "feat/table-functions-schema-free": "59592357b113d3469844595626624a0197374764",
@@ -128,6 +128,7 @@
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
         "master": "712652979e7980e812b73f0d57561585f922297e",
         "palf-rust-single-stream": "a68bc7058ebb3c2c201982284c9aa24e28d5d029",
+        "peg-mysqltest-dc35afd29": "dc35afd29fe13ebbd1605dd50806ca88d5106ceb",
         "peg-parser-mvp": "591a2d4111e1719b37704dea2c95efa2aa03bbe2",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
@@ -179,6 +180,7 @@
         "codex/ci-playwright-artifacts": "7d0bee84e3b929dc7aaa35eae70bea749c33f279",
         "codex/ci-python-aliyun-mirror": "aeb554b5616f96a721f7e04e8be19d8bac486e09",
         "codex/ci-python-aliyun-validation": "91bd2cda1eaadebf8b9af6da3ac785c50c9ca0d9",
+        "codex/ci-runner-guidance": "eda1dd5a4674e9cd2e02712f5804f009f40f603c",
         "codex/ci-stability-validation-20261121-2": "44f93be0f4c43a161651a089160d5f5054782cb1",
         "codex/ci-stability-validation-20261121-3": "160d872ebd911fe080f56d58619021515a9de744",
         "codex/ci-stability-validation-20261121-4": "0c242a0f28c5aa113bb54c19722dcc0e4e061d68",
@@ -191,18 +193,19 @@
         "codex/ci-stability-validation-20261121-11": "6df75a7a9333b6b958f0bc99ac9b24f0a7b33b0f",
         "codex/ci-stability-validation-20261121-12": "973ff35c0ed49faea98269a227fdacb45ac7445e",
         "codex/ci-stability-validation-20261121": "c7bb839c4553cb4897121114f1842604b9994a23",
-        "codex/dashboard-processing-status": "d284335fe7a5d84dea9473c2d5036b6e4c1770d9",
+        "codex/dashboard-processing-status": "df7486d9a30dcd224daa7d206cd22109fc634d35",
         "codex/desktop-overview-first-use": "abb8309b94092bed91d1b2b932a8e19c7a3de294",
+        "codex/desktop-qualification-2725-last-failure": "c062f24141f8062fac904c728d9270c9dfcc3c9c",
         "codex/desktop-qualification-2725": "342e09b551e7f2f9eaf45efa9d1f603951812c7b",
         "codex/desktop-release-candidate-2112": "97fe797676a0d04ba89eeabdcf82c36a710108ed",
         "codex/desktop-release-publication-2112": "f302dfd4f8c421a1dafc0071c0fe073f4dd6e304",
         "codex/desktop-runtime-2105": "0577b34c6a120f2bb33d8ffa9a87a0bbbd00dc66",
         "codex/docs-harbor-evaluation-harness": "ed06913d5953ce176da6e376f866e8a7bc047873",
         "codex/dsh-companion-memory": "a62abae5324541eda39284daff7beb8c139ec9de",
-        "codex/dsh-handoff-claude-cli": "23fd8a325d89e66db632c3ffc55c50f9012e108c",
+        "codex/dsh-handoff-claude-cli": "b83aa44b8a56c3e53e9fefa6d6ed4b018ba688c1",
         "codex/dsh-handoff-codex-desktop": "84363fda1e0cf8c4cc0f0b7d3850b69eec07716d",
         "codex/dsh-handoff-host-wiring": "51f3b8fdfcdc438e8128b42a5a791bd45d8886ff",
-        "codex/dsh-handoff-preflight": "c3ee1ee0214750c023f064424aa7ca3a9a0eebbd",
+        "codex/dsh-handoff-preflight": "4e1706ec10adcaf6418055505271993c6ca710d7",
         "codex/dsh-handoff-receipts": "294d857eb6b4a04b2e3958895c4aa995f7f9782b",
         "codex/dsh-handoff-workflow": "f3544d8e7fa61aa40ce7eef6d80848cd567f6474",
         "codex/dsh-panel-updates": "c5e4ec14e38051bd0c3c7a55421771294965cbbb",
@@ -228,6 +231,7 @@
         "codex/profile-default-prompt": "a228418bdb306e5afbb9d9ac59a30c2c39a2777e",
         "codex/rag-knowledge-base-rfc": "b9a688a4174352a18f542adf237daede617f10cd",
         "codex/readme-feishu-community-qr": "1a9cf4a7d81d0d6b68a62764673f41f2b479b972",
+        "codex/release-1.6.0-candidate-gate": "e6020b564073ed1114ccb3dc6770bb159fb648b7",
         "codex/release-v1.5.0": "ecff5fcfc0af1e510149c06956c1abd4cab392d2",
         "codex/remove-redundant-tests": "ddb117230c96bc90096199267726de2963ef4b4b",
         "codex/rfc-text-material-import": "ed3886ac6dea10a32dd8dc133adfbb44bd53565e",
@@ -282,6 +286,7 @@
         "v0.1.0": "55616dca56eee0eced97ce0a6315be6bf8c4f95c",
         "v0.0.2": "17f0369aa720f92a95b8777bf272974c56234ea8",
         "v0.0.1": "ce14647fbb1c65dca5d1c290bfb9d6af9ef8053d",
+        "powercontext-v1.6.0": "5eb3f92fccbf91ed652692ce63256fb305b1ef48",
         "powercontext-v1.5.2": "ad0d02061eee0e9fee38c202b60f421216b06dd9",
         "powercontext-v1.5.1": "2291237a7809410ea0dc8f19f2de149573af8378",
         "powercontext-v1.5.0": "729dc4c5548f915785a06c318f8cb7ed6cbea45b",
@@ -593,7 +598,8 @@
       "seekdb-deps",
       "formal-verification",
       "obmysqltcl",
-      "oceanseek"
+      "oceanseek",
+      "oceanseek-doc"
     ]
   },
   "userRepos": {
@@ -1956,6 +1962,22 @@
         ]
       },
       "readme": "<p align=\"center\"> <a href=\"https://github.com/oceanbase/oceanseek\"> <img alt=\"OceanBase Logo\" src=\"images/logo.svg\" width=\"50%\" /> </a> </p> <p align=\"center\"> <a href=\"https://www.oceanbase.com/docs/oceanseek\"> <img alt=\"Chinese doc\" src="
+    },
+    {
+      "id": "c83f0d82458b",
+      "ts": "2026-11-24T05:36:07.847Z",
+      "kind": "repo_new",
+      "repo": "oceanbase/oceanseek-doc",
+      "title": "oceanbase 新建仓库 oceanseek-doc",
+      "url": "https://github.com/oceanbase/oceanseek-doc",
+      "created": "2026-11-23T10:35:09Z",
+      "desc": "oceanseek docs",
+      "topic": {
+        "score": 0,
+        "strong": false,
+        "hits": []
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -2031,8 +2053,9 @@
     "f56d3297f04e",
     "0e8c9d7bf42f",
     "7ed304943c07",
-    "4e676f26b5db"
+    "4e676f26b5db",
+    "c83f0d82458b"
   ],
-  "lastPublishAt": 1795470141865,
-  "lastPublishHash": "07f6dcfbdbac"
+  "lastPublishAt": 1795498571182,
+  "lastPublishHash": "123d7a7fb1d0"
 }
