@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795599892937,
-  "lastCheckAt": 1795599892937,
-  "nextCheckAt": 1795600792937,
+  "generatedAt": 1795635440613,
+  "lastCheckAt": 1795635440613,
+  "nextCheckAt": 1795636340613,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -24,7 +24,7 @@
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
       "branchCount": 142,
-      "tagCount": 8,
+      "tagCount": 9,
       "branches": [
         {
           "name": "2025-final-competition",
@@ -141,7 +141,7 @@
     {
       "name": "oceanbase/powercontext",
       "url": "https://github.com/oceanbase/powercontext",
-      "branchCount": 105,
+      "branchCount": 106,
       "tagCount": 37,
       "branches": [
         {
