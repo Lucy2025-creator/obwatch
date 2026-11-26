@@ -128,8 +128,7 @@
         "gh-17-delete-unused-wait-event": "be4fdffc23d96b010ca76703042aa1594a1c970e",
         "harness/issue/2026052000116213423": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
         "master.bak": "b4c1b0655e70aa50f59f59a691dee602d6665954",
-        "master": "9b4d40413e97578b773b64f260b98c78e8ff2969",
-        "palf-rust-single-stream": "4d0f36d902f7f0b5df81f6460babde7d1cbd8348",
+        "master": "3b9557c1dc7925f7c6e2ccc1e4f91fd4ca2ae21e",
         "palf-rust-single-stream-macos-test": "0a65ce65cff3864b94134bba5a11b80d1f79cd30",
         "peg-mysqltest-dc35afd29": "dc35afd29fe13ebbd1605dd50806ca88d5106ceb",
         "peg-parser-mvp": "505993dd5bcf54762cdd0304701d88bcedfb0f1d",
@@ -223,7 +222,7 @@
         "codex/fix-blog-covers-and-attribution": "7bbcd97dde916f1696c592ddc5466542a6bc443d",
         "codex/fix-seekdb-ci-diagnostics": "c45c7147cf316fb1b7da646ff40179d89cef57ee",
         "codex/fix-twine-metadata-check": "c1f70324720605c8471ab458a776c11e6f06d32c",
-        "codex/harbor-shared-download-cache": "64b8afb9c20cac9223be6ff756015749c2573372",
+        "codex/harbor-shared-download-cache": "4532187bcf70becc06a1d02b3fd4a8988391aef3",
         "codex/managed-ops-intel-candidate-20261122": "57bee628184dc3ae96ad22209405b137d80a80ed",
         "codex/managed-ops-intel-diagnostic-20261122": "a1b30f0d092d91c11fee6c811ad9571ed7e139f1",
         "codex/oauth-subscriptions-python": "70cd1539eb911e25180eb46e2fd5f4be19b8257a",
@@ -233,6 +232,7 @@
         "codex/powercontext-ci-runner-smoke": "567117aec1bc66fcc5dee99c4c0e4686428234cb",
         "codex/powercontext-linux-ci": "b6bc64f8e50925437b44423a14ee54649b8e27b8",
         "codex/pr2735-native-validation-b1b77d62": "b1b77d62e90aba1c4e000e90f295706a7908ae97",
+        "codex/pr2811-harbor-cache": "a157e9ad28b63878cf15c539b035a8e221805fb0",
         "codex/pr-2342-temporal-evidence-retention": "cbfa966840b33783f28da1751ab45dd14f3d1df0",
         "codex/pr-scoped-migration-names": "280f74e439008ca0f39f457e54381128286fb0b3",
         "codex/profile-default-prompt": "a228418bdb306e5afbb9d9ac59a30c2c39a2777e",
@@ -255,7 +255,7 @@
         "dev_1.2.0_0420": "0719b52272a8d2b0b1b1e23cf458294252ae1d7a",
         "docs/rfc-1614-remove-internal-requirement-link": "d9264c911f36079f3da048d38295b83af5893e6c",
         "fix/install-latest-default": "1ba6bd0bd48132b1853655a61ef009440cf4173b",
-        "master": "c6e7cffd0d212fb448348ecc84bf5fcbec43bb7c",
+        "master": "eb0924a2b458497902177a62be144c0f2590a90a",
         "powermem_v1.0.0": "e080b2c6b72170dd71701c4dd1a061b570c7aff0",
         "refactor/shared-agent-resources": "710c32993ab111516cb50c600773a434427dbd44",
         "release/v1.1.1": "82b05b6f9a1622e8edeaf4a1263f774d93666f59",
@@ -2061,6 +2061,6 @@
     "4e676f26b5db",
     "c83f0d82458b"
   ],
-  "lastPublishAt": 1795635440614,
-  "lastPublishHash": "41ad69af4720"
+  "lastPublishAt": 1795660154364,
+  "lastPublishHash": "c720abd6129a"
 }
