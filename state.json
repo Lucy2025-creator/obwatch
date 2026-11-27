@@ -132,7 +132,7 @@
         "master": "48cfcf587ef4aae7b951b23e42f339e96f6a9eac",
         "palf-rust-single-stream-macos-test": "0a65ce65cff3864b94134bba5a11b80d1f79cd30",
         "peg-mysqltest-dc35afd29": "dc35afd29fe13ebbd1605dd50806ca88d5106ceb",
-        "peg-parser-mvp": "505993dd5bcf54762cdd0304701d88bcedfb0f1d",
+        "peg-parser-mvp": "79c3abbc8f876bfbfc341fc2b9ffd6468fec62a3",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
         "release/1.4.0": "bf450b4c8deb3c45d85efb1bd5f43e282d101914",
@@ -314,7 +314,7 @@
         "3.1": "b0a9152274a1fbe67e8722b682bd8bf0ef7a3fed",
         "4.0": "7152da3374055a221d2eeb282f69fa53d7b2f313",
         "4.1": "0d246e51c330328aeb138bed0296b4d02314b150",
-        "4.2.x": "052ef5b63bac1efdbe231cd4e75caedc7196134b",
+        "4.2.x": "739c730229cc89ee44e73c1a4c7ee2647736cdf0",
         "4.2.0": "eef858ef5f705d8f53afec6222a77bc1de4ef3f5",
         "4.2.1": "5e4788df6eb6e82371f0c571c088b476c00776a7",
         "4.2.2": "63e1e105c07c0ca642273374d0166a0b876859a7",
@@ -2062,6 +2062,6 @@
     "4e676f26b5db",
     "c83f0d82458b"
   ],
-  "lastPublishAt": 1795724840511,
-  "lastPublishHash": "72e55f85345a"
+  "lastPublishAt": 1795748955548,
+  "lastPublishHash": "c4d164ef9f55"
 }
