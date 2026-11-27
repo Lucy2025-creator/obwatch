@@ -35,6 +35,7 @@
         "codex/ios-package-20261113": "308afdb59e2c3e4bb9b56d7ff299ea9ed3456878",
         "codex/macos15-package-20261117": "c64d88ca1c2aedb6e19ef821fa55f41c8b37b526",
         "codex/macos-parallel-20261117": "95e92248052c0539b2f5777b92dc8b8156e627d5",
+        "codex/micro-block-rust": "33ea00521afaf6df5ed2785c0d0f328158104e4f",
         "codex/namespace-single-process-phase01": "cbce10c0f344c948e0f7d88d0ba9ad253f9de970",
         "codex/namespace-worker-direct-v19": "34d3345086158060f472d88bccf74874143b4b6e",
         "codex/namespace-worker-proxy-v20": "0638e2ddcf34c4c247e4e6d3937738bf72ab45b0",
@@ -133,6 +134,7 @@
         "palf-rust-single-stream-macos-test": "0a65ce65cff3864b94134bba5a11b80d1f79cd30",
         "peg-mysqltest-dc35afd29": "dc35afd29fe13ebbd1605dd50806ca88d5106ceb",
         "peg-parser-mvp": "79c3abbc8f876bfbfc341fc2b9ffd6468fec62a3",
+        "peg-parser-rebase-20261127": "4ebcaae4c1ce0190c926cbe4117213db0cbacec1",
         "release/1.2.0": "099c95dab1e999baa1ce3c087b3abd75a3991e1a",
         "release/1.3.0": "aeadfb274c414ccb78ac502c4268b289372fac77",
         "release/1.4.0": "bf450b4c8deb3c45d85efb1bd5f43e282d101914",
@@ -1984,6 +1986,24 @@
         "hits": []
       },
       "readme": ""
+    },
+    {
+      "id": "a63773eb8185",
+      "ts": "2026-11-27T12:22:51.438Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "peg-parser-rebase-20261127",
+      "sha": "4ebcaae4c1ce0190c926cbe4117213db0cbacec1",
+      "title": "oceanbase/seekdb 新分支 peg-parser-rebase-20261127",
+      "url": "https://github.com/oceanbase/seekdb/tree/peg-parser-rebase-20261127",
+      "topic": {
+        "score": 1,
+        "strong": false,
+        "hits": [
+          "2026"
+        ]
+      },
+      "readme": ""
     }
   ],
   "seen": [
@@ -2060,8 +2080,9 @@
     "0e8c9d7bf42f",
     "7ed304943c07",
     "4e676f26b5db",
-    "c83f0d82458b"
+    "c83f0d82458b",
+    "a63773eb8185"
   ],
-  "lastPublishAt": 1795748955548,
-  "lastPublishHash": "c4d164ef9f55"
+  "lastPublishAt": 1795782179061,
+  "lastPublishHash": "fe235b6308e0"
 }

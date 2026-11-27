@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": 1795748955547,
-  "lastCheckAt": 1795748955547,
-  "nextCheckAt": 1795749855547,
+  "generatedAt": 1795782179061,
+  "lastCheckAt": 1795782179061,
+  "nextCheckAt": 1795783079061,
   "watch": {
     "repos": [
       "oceanbase/seekdb",
@@ -23,7 +23,7 @@
     {
       "name": "oceanbase/seekdb",
       "url": "https://github.com/oceanbase/seekdb",
-      "branchCount": 142,
+      "branchCount": 144,
       "tagCount": 9,
       "branches": [
         {
@@ -135,6 +135,11 @@
           "name": "harness/issue/2026052000116213423",
           "sha": "fe5df4468b5b0a92fc955295d429806ff3b718e8",
           "url": "https://github.com/oceanbase/seekdb/tree/harness/issue/2026052000116213423"
+        },
+        {
+          "name": "peg-parser-rebase-20261127",
+          "sha": "4ebcaae4c1ce0190c926cbe4117213db0cbacec1",
+          "url": "https://github.com/oceanbase/seekdb/tree/peg-parser-rebase-20261127"
         }
       ]
     },
@@ -356,6 +361,18 @@
     }
   ],
   "events": [
+    {
+      "ts": "2026-11-27T12:22:51.438Z",
+      "kind": "branch_new",
+      "repo": "oceanbase/seekdb",
+      "branch": "peg-parser-rebase-20261127",
+      "sha": "4ebcaae4c1ce0190c926cbe4117213db0cbacec1",
+      "title": "oceanbase/seekdb 新分支 peg-parser-rebase-20261127",
+      "url": "https://github.com/oceanbase/seekdb/tree/peg-parser-rebase-20261127",
+      "strong": false,
+      "score": 1,
+      "clone": null
+    },
     {
       "ts": "2026-11-24T05:36:07.847Z",
       "kind": "repo_new",
@@ -1248,6 +1265,6 @@
   "clones": [],
   "stats": {
     "repos": 5,
-    "events": 74
+    "events": 75
   }
 }
